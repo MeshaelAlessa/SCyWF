@@ -1,0 +1,1044 @@
+incident_id,entity_code,entity_name,vulnerability_title,severity,reported_date,status
+INC-2025-00001,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,High,2025-01-01,Closed
+INC-2025-00002,RTL-001,Souq Al-Nakheel E-commerce,Weak or default passwords on network devices,Critical,2025-01-01,Closed
+INC-2025-00003,RTL-001,Souq Al-Nakheel E-commerce,Missing MFA on VPN / remote access,Critical,2025-01-06,Closed
+INC-2025-00004,ENR-003,Nawras Gas Distribution Co.,Zero-day exploitation with no threat intelligence coverage,High,2025-01-09,Closed
+INC-2025-00005,EDU-001,Qimam University,Cross-site scripting (XSS) in customer portal,Medium,2025-01-09,Closed
+INC-2025-00006,EDU-002,Manar Technical College,Personal data breach not reported on time (PDPL),Medium,2025-01-09,Closed
+INC-2025-00007,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2025-01-10,Closed
+INC-2025-00008,TRN-002,Sikka Rail Operations,Phishing email led to credential compromise,Medium,2025-01-11,Closed
+INC-2025-00009,GOV-003,Sadeem Public Procurement Office,Open management ports / permissive firewall rules,High,2025-01-12,Open
+INC-2025-00010,HLT-003,Nabd Medical Laboratories,Account takeover via credential stuffing,Medium,2025-01-12,Contained
+INC-2025-00011,HLT-004,Afiya Primary Care Network,Advanced persistent threat (APT) lateral movement,Critical,2025-01-12,Contained
+INC-2025-00012,ENR-002,Shuaa Solar Power Plant Operator,Advanced persistent threat (APT) lateral movement,Critical,2025-01-12,Contained
+INC-2025-00013,ENR-003,Nawras Gas Distribution Co.,Missing MFA on VPN / remote access,High,2025-01-12,Closed
+INC-2025-00014,HLT-002,Rahma Specialist Hospital Group,Unpatched internet-facing server (critical CVE exploited),Critical,2025-01-13,Closed
+INC-2025-00015,HLT-002,Rahma Specialist Hospital Group,SQL injection in public web application,Medium,2025-01-13,Open
+INC-2025-00016,ENR-001,Dana Petrochemical Processing Co.,Missing MFA on VPN / remote access,High,2025-01-13,Contained
+INC-2025-00017,UTL-002,Barq Electricity Distribution Co.,Non-compliance with NCA ECC controls (audit finding),Medium,2025-01-13,Contained
+INC-2025-00018,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),Critical,2025-01-14,Closed
+INC-2025-00019,EDU-001,Qimam University,Third-party vendor breach affected entity systems,Medium,2025-01-14,Closed
+INC-2025-00020,FIN-004,Waqar Takaful Insurance,Delayed detection due to missing log monitoring,Medium,2025-01-15,Open
+INC-2025-00021,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,Critical,2025-01-15,Open
+INC-2025-00022,RTL-002,Zad Food Distribution Group,Advanced persistent threat (APT) lateral movement,Critical,2025-01-15,Closed
+INC-2025-00023,GOV-004,Ufuq Housing Support Program,Misconfigured cloud storage exposed data publicly,Critical,2025-01-17,Closed
+INC-2025-00024,FIN-004,Waqar Takaful Insurance,Unpatched internet-facing server (critical CVE exploited),Critical,2025-01-17,Closed
+INC-2025-00025,GOV-003,Sadeem Public Procurement Office,Open management ports / permissive firewall rules,Medium,2025-01-19,Closed
+INC-2025-00026,GOV-004,Ufuq Housing Support Program,DDoS attack disrupted public e-services,High,2025-01-20,Closed
+INC-2025-00027,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,High,2025-01-20,Closed
+INC-2025-00028,GOV-002,Najmah Civil Registry Agency,Weak or default passwords on network devices,High,2025-01-21,Closed
+INC-2025-00029,HLT-001,Shifa Northern Health Cluster,Lost or stolen unencrypted laptop,Medium,2025-01-21,Open
+INC-2025-00030,TEL-001,Sahab Telecom Services,Missing or untested incident response plan,High,2025-01-21,Contained
+INC-2025-00031,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,High,2025-01-23,Contained
+INC-2025-00032,RTL-001,Souq Al-Nakheel E-commerce,Website defacement,High,2025-01-23,Closed
+INC-2025-00033,GOV-002,Najmah Civil Registry Agency,Phishing email led to credential compromise,Medium,2025-01-24,Closed
+INC-2025-00034,GOV-005,Masar Licensing and Permits Center,Insecure default configuration on servers,Low,2025-01-24,Open
+INC-2025-00035,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2025-01-24,Contained
+INC-2025-00036,TEL-001,Sahab Telecom Services,Website defacement,Medium,2025-01-25,Contained
+INC-2025-00037,GOV-001,Rawdah Municipal Services Authority,Cross-site scripting (XSS) in customer portal,Medium,2025-01-26,Closed
+INC-2025-00038,FIN-003,Dirham Payments Gateway,Unpatched internet-facing server (critical CVE exploited),Critical,2025-01-26,Contained
+INC-2025-00039,RTL-002,Zad Food Distribution Group,Open management ports / permissive firewall rules,High,2025-01-26,Contained
+INC-2025-00040,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2025-01-28,Contained
+INC-2025-00041,GOV-002,Najmah Civil Registry Agency,DDoS attack disrupted public e-services,High,2025-01-30,Closed
+INC-2025-00042,GOV-004,Ufuq Housing Support Program,Unmanaged / shadow IT assets discovered,Low,2025-01-30,Closed
+INC-2025-00043,GOV-005,Masar Licensing and Permits Center,Insecure default configuration on servers,High,2025-01-30,Closed
+INC-2025-00044,ENR-003,Nawras Gas Distribution Co.,Flat network between IT and OT environments,High,2025-01-30,Contained
+INC-2025-00045,EDU-003,Nukhba International Schools,Missing MFA on VPN / remote access,High,2025-01-30,Open
+INC-2025-00046,RTL-003,Rihla Travel and Booking,Phishing email led to credential compromise,Medium,2025-01-30,Contained
+INC-2025-00047,HLT-002,Rahma Specialist Hospital Group,SQL injection in public web application,High,2025-01-31,Closed
+INC-2025-00048,ENR-001,Dana Petrochemical Processing Co.,Cross-site scripting (XSS) in customer portal,Low,2025-02-01,Closed
+INC-2025-00049,EDU-004,Ilm E-Learning Platform,Insecure container / Kubernetes configuration,Medium,2025-02-01,Open
+INC-2025-00050,GOV-001,Rawdah Municipal Services Authority,Unpatched internet-facing server (critical CVE exploited),Critical,2025-02-03,Closed
+INC-2025-00051,RTL-002,Zad Food Distribution Group,Open management ports / permissive firewall rules,High,2025-02-03,Closed
+INC-2025-00052,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-02-04,Open
+INC-2025-00053,ENR-001,Dana Petrochemical Processing Co.,Weak TLS configuration / expired certificates,Medium,2025-02-06,Closed
+INC-2025-00054,UTL-003,Ain Desalination Operations,Unmanaged / shadow IT assets discovered,Low,2025-02-06,Closed
+INC-2025-00055,TRN-001,Wasl Logistics and Freight,Exposed API with broken access control,High,2025-02-06,Contained
+INC-2025-00056,RTL-002,Zad Food Distribution Group,Personal data breach not reported on time (PDPL),High,2025-02-06,Closed
+INC-2025-00057,GOV-004,Ufuq Housing Support Program,End-of-life operating systems still in production,Medium,2025-02-07,Closed
+INC-2025-00058,GOV-005,Masar Licensing and Permits Center,Zero-day exploitation with no threat intelligence coverage,Critical,2025-02-07,Closed
+INC-2025-00059,ENR-001,Dana Petrochemical Processing Co.,Account takeover via credential stuffing,Low,2025-02-07,Open
+INC-2025-00060,EDU-001,Qimam University,Unmanaged / shadow IT assets discovered,Low,2025-02-07,Closed
+INC-2025-00061,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),High,2025-02-08,Open
+INC-2025-00062,TRN-001,Wasl Logistics and Freight,Unmanaged / shadow IT assets discovered,Low,2025-02-10,Closed
+INC-2025-00063,RTL-001,Souq Al-Nakheel E-commerce,Personal data breach not reported on time (PDPL),High,2025-02-12,Closed
+INC-2025-00064,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,Medium,2025-02-13,Contained
+INC-2025-00065,FIN-003,Dirham Payments Gateway,Insecure container / Kubernetes configuration,Medium,2025-02-14,Closed
+INC-2025-00066,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Critical,2025-02-15,Closed
+INC-2025-00067,HLT-002,Rahma Specialist Hospital Group,Unpatched internet-facing server (critical CVE exploited),Critical,2025-02-15,Open
+INC-2025-00068,TEL-001,Sahab Telecom Services,Lost or stolen unencrypted laptop,Medium,2025-02-16,Closed
+INC-2025-00069,HLT-002,Rahma Specialist Hospital Group,Exposed API with broken access control,High,2025-02-17,Closed
+INC-2025-00070,EDU-003,Nukhba International Schools,Unmanaged / shadow IT assets discovered,Medium,2025-02-17,Contained
+INC-2025-00071,GOV-006,Bayan Statistics and Planning Unit,Unpatched internet-facing server (critical CVE exploited),Critical,2025-02-18,Open
+INC-2025-00072,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,High,2025-02-18,Closed
+INC-2025-00073,HLT-002,Rahma Specialist Hospital Group,End-of-life operating systems still in production,Medium,2025-02-19,Closed
+INC-2025-00074,UTL-002,Barq Electricity Distribution Co.,Exposed API with broken access control,High,2025-02-20,Closed
+INC-2025-00075,ENR-003,Nawras Gas Distribution Co.,Advanced persistent threat (APT) lateral movement,Critical,2025-02-21,Closed
+INC-2025-00076,TRN-002,Sikka Rail Operations,Personal data breach not reported on time (PDPL),High,2025-02-21,Closed
+INC-2025-00077,HLT-002,Rahma Specialist Hospital Group,Account takeover via credential stuffing,Medium,2025-02-22,Contained
+INC-2025-00078,HLT-002,Rahma Specialist Hospital Group,Missing or untested incident response plan,High,2025-02-22,Contained
+INC-2025-00079,EDU-004,Ilm E-Learning Platform,Delayed detection due to missing log monitoring,High,2025-02-22,Contained
+INC-2025-00080,RTL-001,Souq Al-Nakheel E-commerce,DDoS attack disrupted public e-services,Medium,2025-02-22,Closed
+INC-2025-00081,UTL-002,Barq Electricity Distribution Co.,Unmanaged / shadow IT assets discovered,Low,2025-02-23,Open
+INC-2025-00082,TEL-001,Sahab Telecom Services,Zero-day exploitation with no threat intelligence coverage,Critical,2025-02-23,Contained
+INC-2025-00083,EDU-001,Qimam University,Ransomware encrypted file servers,Critical,2025-02-23,Closed
+INC-2025-00084,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Medium,2025-02-24,Contained
+INC-2025-00085,GOV-004,Ufuq Housing Support Program,Excessive privileges / privileged account misuse,High,2025-02-24,Closed
+INC-2025-00086,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,High,2025-02-25,Closed
+INC-2025-00087,GOV-005,Masar Licensing and Permits Center,SQL injection in public web application,High,2025-02-25,Closed
+INC-2025-00088,ENR-001,Dana Petrochemical Processing Co.,Default credentials on PLC / HMI devices,Critical,2025-02-27,Closed
+INC-2025-00089,RTL-002,Zad Food Distribution Group,Lost or stolen unencrypted laptop,Low,2025-02-27,Closed
+INC-2025-00090,UTL-002,Barq Electricity Distribution Co.,Misconfigured cloud storage exposed data publicly,Critical,2025-03-01,Closed
+INC-2025-00091,UTL-002,Barq Electricity Distribution Co.,Unpatched internet-facing server (critical CVE exploited),Critical,2025-03-01,Closed
+INC-2025-00092,EDU-001,Qimam University,Excessive privileges / privileged account misuse,High,2025-03-01,Closed
+INC-2025-00093,GOV-003,Sadeem Public Procurement Office,End-of-life operating systems still in production,Medium,2025-03-03,Open
+INC-2025-00094,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,Critical,2025-03-03,Closed
+INC-2025-00095,UTL-001,Ghadeer Regional Water Utility,Open management ports / permissive firewall rules,Medium,2025-03-03,Contained
+INC-2025-00096,EDU-004,Ilm E-Learning Platform,Weak or default passwords on network devices,Critical,2025-03-04,Contained
+INC-2025-00097,GOV-005,Masar Licensing and Permits Center,Insecure container / Kubernetes configuration,Medium,2025-03-06,Closed
+INC-2025-00098,HLT-002,Rahma Specialist Hospital Group,Misconfigured cloud storage exposed data publicly,Critical,2025-03-06,Closed
+INC-2025-00099,RTL-001,Souq Al-Nakheel E-commerce,Lost or stolen unencrypted laptop,Medium,2025-03-06,Closed
+INC-2025-00100,UTL-001,Ghadeer Regional Water Utility,Unpatched internet-facing server (critical CVE exploited),Critical,2025-03-07,Closed
+INC-2025-00101,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,High,2025-03-07,Contained
+INC-2025-00102,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2025-03-08,Open
+INC-2025-00103,TEL-001,Sahab Telecom Services,Unpatched internet-facing server (critical CVE exploited),High,2025-03-08,Closed
+INC-2025-00104,GOV-005,Masar Licensing and Permits Center,Personal data breach not reported on time (PDPL),Medium,2025-03-09,Contained
+INC-2025-00105,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-03-11,Closed
+INC-2025-00106,FIN-004,Waqar Takaful Insurance,SQL injection in public web application,Critical,2025-03-11,Closed
+INC-2025-00107,GOV-005,Masar Licensing and Permits Center,Insecure default configuration on servers,Medium,2025-03-12,Closed
+INC-2025-00108,RTL-002,Zad Food Distribution Group,Missing MFA on VPN / remote access,Medium,2025-03-12,Closed
+INC-2025-00109,EDU-004,Ilm E-Learning Platform,Malware introduced via removable media (USB),Medium,2025-03-13,Contained
+INC-2025-00110,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,Medium,2025-03-14,Contained
+INC-2025-00111,HLT-002,Rahma Specialist Hospital Group,End-of-life operating systems still in production,Medium,2025-03-14,Contained
+INC-2025-00112,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,High,2025-03-14,Closed
+INC-2025-00113,UTL-002,Barq Electricity Distribution Co.,Flat network between IT and OT environments,Critical,2025-03-14,Contained
+INC-2025-00114,RTL-003,Rihla Travel and Booking,Cross-site scripting (XSS) in customer portal,Low,2025-03-14,Open
+INC-2025-00115,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,Critical,2025-03-15,Open
+INC-2025-00116,GOV-005,Masar Licensing and Permits Center,Business email compromise (invoice / payment fraud),Medium,2025-03-15,Open
+INC-2025-00117,GOV-003,Sadeem Public Procurement Office,Malware introduced via removable media (USB),Low,2025-03-16,Closed
+INC-2025-00118,UTL-003,Ain Desalination Operations,Lost or stolen unencrypted laptop,Medium,2025-03-16,Contained
+INC-2025-00119,RTL-001,Souq Al-Nakheel E-commerce,Cross-site scripting (XSS) in customer portal,Medium,2025-03-16,Open
+INC-2025-00120,GOV-006,Bayan Statistics and Planning Unit,Malware introduced via removable media (USB),High,2025-03-18,Contained
+INC-2025-00121,GOV-004,Ufuq Housing Support Program,End-of-life operating systems still in production,Low,2025-03-19,Closed
+INC-2025-00122,GOV-005,Masar Licensing and Permits Center,Insecure container / Kubernetes configuration,Medium,2025-03-19,Closed
+INC-2025-00123,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,High,2025-03-19,Closed
+INC-2025-00124,UTL-003,Ain Desalination Operations,Open management ports / permissive firewall rules,High,2025-03-19,Contained
+INC-2025-00125,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,High,2025-03-21,Contained
+INC-2025-00126,HLT-002,Rahma Specialist Hospital Group,Weak or default passwords on network devices,High,2025-03-23,Closed
+INC-2025-00127,HLT-004,Afiya Primary Care Network,Malware introduced via removable media (USB),Medium,2025-03-23,Closed
+INC-2025-00128,GOV-004,Ufuq Housing Support Program,Insider data exfiltration,High,2025-03-24,Closed
+INC-2025-00129,TEL-001,Sahab Telecom Services,Phishing email led to credential compromise,High,2025-03-24,Closed
+INC-2025-00130,TRN-002,Sikka Rail Operations,Default credentials on PLC / HMI devices,High,2025-03-24,Closed
+INC-2025-00131,HLT-003,Nabd Medical Laboratories,Weak or default passwords on network devices,Critical,2025-03-25,Open
+INC-2025-00132,FIN-004,Waqar Takaful Insurance,Weak or default passwords on network devices,Critical,2025-03-25,Closed
+INC-2025-00133,FIN-004,Waqar Takaful Insurance,Third-party vendor breach affected entity systems,Medium,2025-03-26,Contained
+INC-2025-00134,GOV-003,Sadeem Public Procurement Office,Insecure container / Kubernetes configuration,Medium,2025-03-28,Closed
+INC-2025-00135,FIN-003,Dirham Payments Gateway,Non-compliance with NCA ECC controls (audit finding),Medium,2025-03-28,Open
+INC-2025-00136,TRN-001,Wasl Logistics and Freight,Weak or default passwords on network devices,High,2025-03-28,Open
+INC-2025-00137,UTL-001,Ghadeer Regional Water Utility,Flat network between IT and OT environments,High,2025-03-29,Open
+INC-2025-00138,UTL-002,Barq Electricity Distribution Co.,Missing or untested incident response plan,Medium,2025-03-29,Open
+INC-2025-00139,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Low,2025-03-30,Closed
+INC-2025-00140,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,Critical,2025-03-30,Contained
+INC-2025-00141,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Medium,2025-03-30,Closed
+INC-2025-00142,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2025-03-31,Closed
+INC-2025-00143,FIN-001,Rimal Digital Bank,Phishing email led to credential compromise,High,2025-03-31,Closed
+INC-2025-00144,UTL-003,Ain Desalination Operations,Unmanaged / shadow IT assets discovered,Medium,2025-03-31,Closed
+INC-2025-00145,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,High,2025-04-02,Closed
+INC-2025-00146,ENR-001,Dana Petrochemical Processing Co.,Personal data breach not reported on time (PDPL),High,2025-04-02,Contained
+INC-2025-00147,UTL-002,Barq Electricity Distribution Co.,DDoS attack disrupted public e-services,High,2025-04-03,Closed
+INC-2025-00148,GOV-004,Ufuq Housing Support Program,Non-compliance with NCA ECC controls (audit finding),Low,2025-04-04,Closed
+INC-2025-00149,HLT-004,Afiya Primary Care Network,Insider data exfiltration,High,2025-04-04,Contained
+INC-2025-00150,RTL-001,Souq Al-Nakheel E-commerce,Unmanaged / shadow IT assets discovered,Low,2025-04-04,Closed
+INC-2025-00151,UTL-002,Barq Electricity Distribution Co.,Misconfigured cloud storage exposed data publicly,Critical,2025-04-05,Closed
+INC-2025-00152,GOV-002,Najmah Civil Registry Agency,Insider data exfiltration,High,2025-04-07,Contained
+INC-2025-00153,EDU-002,Manar Technical College,Personal data breach not reported on time (PDPL),High,2025-04-07,Closed
+INC-2025-00154,TRN-001,Wasl Logistics and Freight,Unpatched internet-facing server (critical CVE exploited),Critical,2025-04-08,Contained
+INC-2025-00155,ENR-003,Nawras Gas Distribution Co.,Third-party vendor breach affected entity systems,Medium,2025-04-10,Closed
+INC-2025-00156,GOV-005,Masar Licensing and Permits Center,Business email compromise (invoice / payment fraud),High,2025-04-11,Open
+INC-2025-00157,FIN-004,Waqar Takaful Insurance,SQL injection in public web application,Medium,2025-04-11,Closed
+INC-2025-00158,ENR-001,Dana Petrochemical Processing Co.,Insider data exfiltration,High,2025-04-11,Closed
+INC-2025-00159,GOV-005,Masar Licensing and Permits Center,Unpatched internet-facing server (critical CVE exploited),Critical,2025-04-12,Open
+INC-2025-00160,ENR-001,Dana Petrochemical Processing Co.,Weak TLS configuration / expired certificates,Low,2025-04-12,Closed
+INC-2025-00161,UTL-002,Barq Electricity Distribution Co.,Non-compliance with NCA ECC controls (audit finding),Medium,2025-04-12,Closed
+INC-2025-00162,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,High,2025-04-13,Closed
+INC-2025-00163,ENR-002,Shuaa Solar Power Plant Operator,Unpatched internet-facing server (critical CVE exploited),Critical,2025-04-13,Contained
+INC-2025-00164,HLT-001,Shifa Northern Health Cluster,Ransomware encrypted file servers,Critical,2025-04-14,Closed
+INC-2025-00165,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),Critical,2025-04-14,Open
+INC-2025-00166,GOV-005,Masar Licensing and Permits Center,Non-compliance with NCA ECC controls (audit finding),Medium,2025-04-16,Contained
+INC-2025-00167,GOV-006,Bayan Statistics and Planning Unit,Non-compliance with NCA ECC controls (audit finding),High,2025-04-16,Closed
+INC-2025-00168,GOV-003,Sadeem Public Procurement Office,Insecure container / Kubernetes configuration,High,2025-04-18,Closed
+INC-2025-00169,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),High,2025-04-18,Open
+INC-2025-00170,ENR-003,Nawras Gas Distribution Co.,Unpatched internet-facing server (critical CVE exploited),Critical,2025-04-18,Closed
+INC-2025-00171,GOV-004,Ufuq Housing Support Program,Cross-site scripting (XSS) in customer portal,Medium,2025-04-19,Contained
+INC-2025-00172,FIN-003,Dirham Payments Gateway,Weak or default passwords on network devices,High,2025-04-19,Closed
+INC-2025-00173,UTL-003,Ain Desalination Operations,Flat network between IT and OT environments,Medium,2025-04-19,Contained
+INC-2025-00174,TRN-002,Sikka Rail Operations,End-of-life operating systems still in production,Medium,2025-04-19,Contained
+INC-2025-00175,UTL-002,Barq Electricity Distribution Co.,Open management ports / permissive firewall rules,High,2025-04-20,Contained
+INC-2025-00176,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Critical,2025-04-21,Contained
+INC-2025-00177,GOV-005,Masar Licensing and Permits Center,Cross-site scripting (XSS) in customer portal,Low,2025-04-22,Closed
+INC-2025-00178,HLT-002,Rahma Specialist Hospital Group,Exposed API with broken access control,High,2025-04-22,Closed
+INC-2025-00179,EDU-004,Ilm E-Learning Platform,Phishing email led to credential compromise,High,2025-04-22,Closed
+INC-2025-00180,TRN-003,Marsa Port Services,Ransomware encrypted file servers,High,2025-04-22,Closed
+INC-2025-00181,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,Critical,2025-04-23,Closed
+INC-2025-00182,TEL-001,Sahab Telecom Services,Flat network between IT and OT environments,Medium,2025-04-23,Contained
+INC-2025-00183,HLT-003,Nabd Medical Laboratories,Insider data exfiltration,Critical,2025-04-24,Closed
+INC-2025-00184,FIN-003,Dirham Payments Gateway,Missing MFA on VPN / remote access,Medium,2025-04-24,Contained
+INC-2025-00185,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,Critical,2025-04-24,Contained
+INC-2025-00186,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Medium,2025-04-24,Contained
+INC-2025-00187,GOV-002,Najmah Civil Registry Agency,Cross-site scripting (XSS) in customer portal,Medium,2025-04-26,Closed
+INC-2025-00188,GOV-004,Ufuq Housing Support Program,Hard-coded secrets in source code repository,High,2025-04-26,Closed
+INC-2025-00189,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),High,2025-04-27,Closed
+INC-2025-00190,RTL-002,Zad Food Distribution Group,Cross-site scripting (XSS) in customer portal,Low,2025-04-29,Contained
+INC-2025-00191,GOV-001,Rawdah Municipal Services Authority,Personal data breach not reported on time (PDPL),High,2025-04-30,Closed
+INC-2025-00192,GOV-005,Masar Licensing and Permits Center,Cross-site scripting (XSS) in customer portal,High,2025-04-30,Closed
+INC-2025-00193,GOV-005,Masar Licensing and Permits Center,Malware introduced via removable media (USB),Medium,2025-04-30,Contained
+INC-2025-00194,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-04-30,Contained
+INC-2025-00195,ENR-001,Dana Petrochemical Processing Co.,Default credentials on PLC / HMI devices,Critical,2025-05-01,Closed
+INC-2025-00196,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),High,2025-05-02,Closed
+INC-2025-00197,GOV-006,Bayan Statistics and Planning Unit,Business email compromise (invoice / payment fraud),High,2025-05-03,Closed
+INC-2025-00198,GOV-006,Bayan Statistics and Planning Unit,Zero-day exploitation with no threat intelligence coverage,Critical,2025-05-03,Contained
+INC-2025-00199,HLT-001,Shifa Northern Health Cluster,Ransomware encrypted file servers,Critical,2025-05-03,Closed
+INC-2025-00200,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Low,2025-05-03,Closed
+INC-2025-00201,TRN-001,Wasl Logistics and Freight,Weak TLS configuration / expired certificates,Low,2025-05-03,Closed
+INC-2025-00202,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Medium,2025-05-04,Contained
+INC-2025-00203,GOV-001,Rawdah Municipal Services Authority,Personal data breach not reported on time (PDPL),High,2025-05-05,Contained
+INC-2025-00204,ENR-003,Nawras Gas Distribution Co.,Lost or stolen unencrypted laptop,Low,2025-05-05,Closed
+INC-2025-00205,GOV-002,Najmah Civil Registry Agency,Insecure default configuration on servers,Medium,2025-05-06,Closed
+INC-2025-00206,FIN-004,Waqar Takaful Insurance,Cross-site scripting (XSS) in customer portal,Low,2025-05-06,Open
+INC-2025-00207,ENR-003,Nawras Gas Distribution Co.,Ransomware encrypted file servers,Critical,2025-05-06,Closed
+INC-2025-00208,ENR-001,Dana Petrochemical Processing Co.,Unmanaged / shadow IT assets discovered,Medium,2025-05-07,Contained
+INC-2025-00209,TEL-003,Raqmi Cloud Solutions,Website defacement,Low,2025-05-07,Closed
+INC-2025-00210,EDU-004,Ilm E-Learning Platform,Website defacement,Low,2025-05-07,Closed
+INC-2025-00211,RTL-002,Zad Food Distribution Group,Weak or default passwords on network devices,High,2025-05-08,Closed
+INC-2025-00212,GOV-002,Najmah Civil Registry Agency,Excessive privileges / privileged account misuse,Medium,2025-05-09,Closed
+INC-2025-00213,EDU-004,Ilm E-Learning Platform,Excessive privileges / privileged account misuse,High,2025-05-09,Open
+INC-2025-00214,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,High,2025-05-10,Closed
+INC-2025-00215,TEL-003,Raqmi Cloud Solutions,Third-party vendor breach affected entity systems,Medium,2025-05-10,Open
+INC-2025-00216,HLT-002,Rahma Specialist Hospital Group,Misconfigured cloud storage exposed data publicly,Critical,2025-05-11,Contained
+INC-2025-00217,TEL-002,Majal Data Center Hosting,Misconfigured cloud storage exposed data publicly,High,2025-05-11,Contained
+INC-2025-00218,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,Medium,2025-05-11,Open
+INC-2025-00219,HLT-001,Shifa Northern Health Cluster,Hard-coded secrets in source code repository,Medium,2025-05-12,Closed
+INC-2025-00220,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),High,2025-05-12,Contained
+INC-2025-00221,ENR-001,Dana Petrochemical Processing Co.,Advanced persistent threat (APT) lateral movement,Critical,2025-05-12,Contained
+INC-2025-00222,UTL-003,Ain Desalination Operations,End-of-life operating systems still in production,Low,2025-05-12,Contained
+INC-2025-00223,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Medium,2025-05-12,Closed
+INC-2025-00224,HLT-002,Rahma Specialist Hospital Group,Delayed detection due to missing log monitoring,Critical,2025-05-14,Closed
+INC-2025-00225,GOV-005,Masar Licensing and Permits Center,Cross-site scripting (XSS) in customer portal,High,2025-05-15,Closed
+INC-2025-00226,UTL-002,Barq Electricity Distribution Co.,Flat network between IT and OT environments,High,2025-05-15,Contained
+INC-2025-00227,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Low,2025-05-15,Closed
+INC-2025-00228,GOV-002,Najmah Civil Registry Agency,Insecure container / Kubernetes configuration,Medium,2025-05-16,Closed
+INC-2025-00229,EDU-003,Nukhba International Schools,Account takeover via credential stuffing,High,2025-05-16,Closed
+INC-2025-00230,TRN-001,Wasl Logistics and Freight,Phishing email led to credential compromise,High,2025-05-16,Closed
+INC-2025-00231,HLT-001,Shifa Northern Health Cluster,Personal data breach not reported on time (PDPL),High,2025-05-18,Contained
+INC-2025-00232,UTL-003,Ain Desalination Operations,DDoS attack disrupted public e-services,Medium,2025-05-18,Contained
+INC-2025-00233,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Low,2025-05-18,Closed
+INC-2025-00234,GOV-001,Rawdah Municipal Services Authority,Insecure default configuration on servers,Low,2025-05-19,Contained
+INC-2025-00235,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Low,2025-05-20,Open
+INC-2025-00236,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),High,2025-05-20,Closed
+INC-2025-00237,FIN-001,Rimal Digital Bank,SQL injection in public web application,High,2025-05-20,Closed
+INC-2025-00238,UTL-003,Ain Desalination Operations,Insecure default configuration on servers,Medium,2025-05-20,Closed
+INC-2025-00239,TEL-003,Raqmi Cloud Solutions,Business email compromise (invoice / payment fraud),Medium,2025-05-20,Closed
+INC-2025-00240,GOV-006,Bayan Statistics and Planning Unit,Insecure default configuration on servers,Medium,2025-05-21,Closed
+INC-2025-00241,HLT-003,Nabd Medical Laboratories,Website defacement,Medium,2025-05-22,Closed
+INC-2025-00242,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-05-23,Closed
+INC-2025-00243,HLT-001,Shifa Northern Health Cluster,Missing MFA on VPN / remote access,Critical,2025-05-24,Open
+INC-2025-00244,FIN-004,Waqar Takaful Insurance,Hard-coded secrets in source code repository,High,2025-05-24,Closed
+INC-2025-00245,TRN-001,Wasl Logistics and Freight,Zero-day exploitation with no threat intelligence coverage,High,2025-05-24,Closed
+INC-2025-00246,ENR-002,Shuaa Solar Power Plant Operator,Advanced persistent threat (APT) lateral movement,Critical,2025-05-25,Closed
+INC-2025-00247,TRN-003,Marsa Port Services,Personal data breach not reported on time (PDPL),High,2025-05-25,Closed
+INC-2025-00248,FIN-004,Waqar Takaful Insurance,Excessive privileges / privileged account misuse,High,2025-05-27,Open
+INC-2025-00249,TEL-001,Sahab Telecom Services,Website defacement,High,2025-05-27,Closed
+INC-2025-00250,EDU-001,Qimam University,Insider data exfiltration,High,2025-05-27,Closed
+INC-2025-00251,HLT-003,Nabd Medical Laboratories,Insecure container / Kubernetes configuration,High,2025-05-29,Open
+INC-2025-00252,UTL-002,Barq Electricity Distribution Co.,Business email compromise (invoice / payment fraud),Medium,2025-05-30,Closed
+INC-2025-00253,GOV-002,Najmah Civil Registry Agency,Missing MFA on VPN / remote access,High,2025-06-01,Closed
+INC-2025-00254,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,High,2025-06-01,Closed
+INC-2025-00255,HLT-001,Shifa Northern Health Cluster,Excessive privileges / privileged account misuse,Medium,2025-06-03,Contained
+INC-2025-00256,UTL-002,Barq Electricity Distribution Co.,DDoS attack disrupted public e-services,High,2025-06-03,Contained
+INC-2025-00257,UTL-003,Ain Desalination Operations,Unmanaged / shadow IT assets discovered,Low,2025-06-03,Open
+INC-2025-00258,RTL-002,Zad Food Distribution Group,Malware introduced via removable media (USB),Low,2025-06-03,Contained
+INC-2025-00259,RTL-003,Rihla Travel and Booking,Insecure default configuration on servers,Medium,2025-06-03,Closed
+INC-2025-00260,FIN-004,Waqar Takaful Insurance,Account takeover via credential stuffing,Medium,2025-06-05,Closed
+INC-2025-00261,UTL-003,Ain Desalination Operations,Misconfigured cloud storage exposed data publicly,Critical,2025-06-05,Closed
+INC-2025-00262,GOV-003,Sadeem Public Procurement Office,Excessive privileges / privileged account misuse,High,2025-06-06,Contained
+INC-2025-00263,FIN-001,Rimal Digital Bank,Cross-site scripting (XSS) in customer portal,Medium,2025-06-07,Open
+INC-2025-00264,GOV-003,Sadeem Public Procurement Office,Unmanaged / shadow IT assets discovered,Low,2025-06-08,Closed
+INC-2025-00265,HLT-003,Nabd Medical Laboratories,Unpatched internet-facing server (critical CVE exploited),Critical,2025-06-10,Contained
+INC-2025-00266,TEL-003,Raqmi Cloud Solutions,Advanced persistent threat (APT) lateral movement,Critical,2025-06-11,Closed
+INC-2025-00267,GOV-004,Ufuq Housing Support Program,DDoS attack disrupted public e-services,High,2025-06-12,Closed
+INC-2025-00268,FIN-004,Waqar Takaful Insurance,Insecure default configuration on servers,Medium,2025-06-13,Open
+INC-2025-00269,HLT-001,Shifa Northern Health Cluster,Weak TLS configuration / expired certificates,Medium,2025-06-14,Closed
+INC-2025-00270,EDU-004,Ilm E-Learning Platform,Unpatched internet-facing server (critical CVE exploited),Critical,2025-06-17,Closed
+INC-2025-00271,GOV-004,Ufuq Housing Support Program,Open management ports / permissive firewall rules,Medium,2025-06-18,Closed
+INC-2025-00272,TRN-003,Marsa Port Services,Personal data breach not reported on time (PDPL),High,2025-06-18,Closed
+INC-2025-00273,HLT-004,Afiya Primary Care Network,Malware introduced via removable media (USB),Medium,2025-06-19,Closed
+INC-2025-00274,HLT-002,Rahma Specialist Hospital Group,Weak TLS configuration / expired certificates,Low,2025-06-20,Closed
+INC-2025-00275,GOV-003,Sadeem Public Procurement Office,Ransomware encrypted file servers,Critical,2025-06-22,Closed
+INC-2025-00276,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-06-22,Contained
+INC-2025-00277,UTL-002,Barq Electricity Distribution Co.,Weak or default passwords on network devices,Medium,2025-06-23,Closed
+INC-2025-00278,TRN-003,Marsa Port Services,Weak TLS configuration / expired certificates,Low,2025-06-24,Closed
+INC-2025-00279,GOV-002,Najmah Civil Registry Agency,Insecure default configuration on servers,High,2025-06-25,Closed
+INC-2025-00280,HLT-001,Shifa Northern Health Cluster,Lost or stolen unencrypted laptop,Medium,2025-06-27,Closed
+INC-2025-00281,HLT-003,Nabd Medical Laboratories,Website defacement,Medium,2025-06-27,Closed
+INC-2025-00282,GOV-003,Sadeem Public Procurement Office,Non-compliance with NCA ECC controls (audit finding),High,2025-06-28,Contained
+INC-2025-00283,HLT-001,Shifa Northern Health Cluster,Insider data exfiltration,High,2025-06-28,Closed
+INC-2025-00284,GOV-004,Ufuq Housing Support Program,Malware introduced via removable media (USB),Medium,2025-06-29,Closed
+INC-2025-00285,UTL-002,Barq Electricity Distribution Co.,Insecure container / Kubernetes configuration,Medium,2025-06-29,Closed
+INC-2025-00286,GOV-006,Bayan Statistics and Planning Unit,Business email compromise (invoice / payment fraud),High,2025-07-03,Closed
+INC-2025-00287,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Medium,2025-07-04,Closed
+INC-2025-00288,GOV-005,Masar Licensing and Permits Center,Open management ports / permissive firewall rules,High,2025-07-05,Closed
+INC-2025-00289,GOV-002,Najmah Civil Registry Agency,Weak or default passwords on network devices,High,2025-07-06,Open
+INC-2025-00290,EDU-001,Qimam University,Excessive privileges / privileged account misuse,Critical,2025-07-06,Closed
+INC-2025-00291,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),Medium,2025-07-07,Open
+INC-2025-00292,UTL-002,Barq Electricity Distribution Co.,Default credentials on PLC / HMI devices,High,2025-07-08,Closed
+INC-2025-00293,GOV-002,Najmah Civil Registry Agency,Business email compromise (invoice / payment fraud),High,2025-07-09,Contained
+INC-2025-00294,TEL-003,Raqmi Cloud Solutions,Ransomware encrypted file servers,Critical,2025-07-09,Open
+INC-2025-00295,GOV-002,Najmah Civil Registry Agency,Weak TLS configuration / expired certificates,Low,2025-07-11,Closed
+INC-2025-00296,GOV-006,Bayan Statistics and Planning Unit,Third-party vendor breach affected entity systems,High,2025-07-11,Closed
+INC-2025-00297,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-07-11,Closed
+INC-2025-00298,EDU-004,Ilm E-Learning Platform,Phishing email led to credential compromise,Medium,2025-07-11,Closed
+INC-2025-00299,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,Medium,2025-07-12,Open
+INC-2025-00300,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,High,2025-07-14,Closed
+INC-2025-00301,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,Critical,2025-07-14,Contained
+INC-2025-00302,GOV-005,Masar Licensing and Permits Center,Website defacement,Medium,2025-07-14,Closed
+INC-2025-00303,RTL-001,Souq Al-Nakheel E-commerce,SQL injection in public web application,Critical,2025-07-14,Closed
+INC-2025-00304,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-07-14,Contained
+INC-2025-00305,GOV-006,Bayan Statistics and Planning Unit,Insecure container / Kubernetes configuration,Medium,2025-07-15,Closed
+INC-2025-00306,ENR-001,Dana Petrochemical Processing Co.,Open management ports / permissive firewall rules,High,2025-07-15,Closed
+INC-2025-00307,UTL-003,Ain Desalination Operations,Excessive privileges / privileged account misuse,High,2025-07-15,Closed
+INC-2025-00308,HLT-001,Shifa Northern Health Cluster,Weak TLS configuration / expired certificates,Low,2025-07-19,Open
+INC-2025-00309,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-07-19,Closed
+INC-2025-00310,ENR-001,Dana Petrochemical Processing Co.,Business email compromise (invoice / payment fraud),High,2025-07-20,Open
+INC-2025-00311,UTL-003,Ain Desalination Operations,Misconfigured cloud storage exposed data publicly,Critical,2025-07-20,Closed
+INC-2025-00312,RTL-002,Zad Food Distribution Group,Website defacement,Medium,2025-07-20,Closed
+INC-2025-00313,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Low,2025-07-21,Closed
+INC-2025-00314,GOV-005,Masar Licensing and Permits Center,Zero-day exploitation with no threat intelligence coverage,High,2025-07-22,Closed
+INC-2025-00315,UTL-003,Ain Desalination Operations,Unpatched internet-facing server (critical CVE exploited),Critical,2025-07-22,Contained
+INC-2025-00316,GOV-001,Rawdah Municipal Services Authority,Weak TLS configuration / expired certificates,Low,2025-07-23,Closed
+INC-2025-00317,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),High,2025-07-24,Closed
+INC-2025-00318,UTL-003,Ain Desalination Operations,Missing or untested incident response plan,High,2025-07-24,Closed
+INC-2025-00319,UTL-003,Ain Desalination Operations,Flat network between IT and OT environments,High,2025-07-25,Contained
+INC-2025-00320,GOV-006,Bayan Statistics and Planning Unit,Unpatched internet-facing server (critical CVE exploited),Critical,2025-07-26,Contained
+INC-2025-00321,GOV-006,Bayan Statistics and Planning Unit,Website defacement,High,2025-07-26,Closed
+INC-2025-00322,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),High,2025-07-27,Contained
+INC-2025-00323,GOV-004,Ufuq Housing Support Program,DDoS attack disrupted public e-services,Medium,2025-07-28,Contained
+INC-2025-00324,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,High,2025-07-28,Closed
+INC-2025-00325,FIN-004,Waqar Takaful Insurance,Insider data exfiltration,High,2025-07-28,Open
+INC-2025-00326,UTL-002,Barq Electricity Distribution Co.,Insecure default configuration on servers,Low,2025-07-28,Open
+INC-2025-00327,UTL-003,Ain Desalination Operations,Missing or untested incident response plan,Critical,2025-07-29,Contained
+INC-2025-00328,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),High,2025-07-30,Contained
+INC-2025-00329,UTL-002,Barq Electricity Distribution Co.,Malware on ICS engineering workstation,Critical,2025-07-30,Closed
+INC-2025-00330,TEL-001,Sahab Telecom Services,Ransomware encrypted file servers,High,2025-07-30,Closed
+INC-2025-00331,GOV-005,Masar Licensing and Permits Center,Non-compliance with NCA ECC controls (audit finding),Medium,2025-07-31,Closed
+INC-2025-00332,HLT-003,Nabd Medical Laboratories,Ransomware encrypted file servers,Critical,2025-07-31,Open
+INC-2025-00333,UTL-002,Barq Electricity Distribution Co.,Misconfigured cloud storage exposed data publicly,Critical,2025-07-31,Closed
+INC-2025-00334,FIN-004,Waqar Takaful Insurance,Weak TLS configuration / expired certificates,Low,2025-08-01,Closed
+INC-2025-00335,RTL-002,Zad Food Distribution Group,Excessive privileges / privileged account misuse,Medium,2025-08-01,Closed
+INC-2025-00336,EDU-002,Manar Technical College,DDoS attack disrupted public e-services,High,2025-08-02,Contained
+INC-2025-00337,GOV-003,Sadeem Public Procurement Office,Third-party vendor breach affected entity systems,High,2025-08-03,Contained
+INC-2025-00338,HLT-003,Nabd Medical Laboratories,Advanced persistent threat (APT) lateral movement,Critical,2025-08-03,Closed
+INC-2025-00339,HLT-002,Rahma Specialist Hospital Group,Lost or stolen unencrypted laptop,Medium,2025-08-04,Closed
+INC-2025-00340,HLT-002,Rahma Specialist Hospital Group,Weak or default passwords on network devices,Medium,2025-08-04,Closed
+INC-2025-00341,UTL-002,Barq Electricity Distribution Co.,Website defacement,Low,2025-08-04,Closed
+INC-2025-00342,RTL-003,Rihla Travel and Booking,Personal data breach not reported on time (PDPL),High,2025-08-04,Contained
+INC-2025-00343,UTL-001,Ghadeer Regional Water Utility,Zero-day exploitation with no threat intelligence coverage,Critical,2025-08-06,Closed
+INC-2025-00344,UTL-002,Barq Electricity Distribution Co.,Ransomware encrypted file servers,Critical,2025-08-06,Closed
+INC-2025-00345,GOV-006,Bayan Statistics and Planning Unit,Website defacement,Medium,2025-08-07,Closed
+INC-2025-00346,HLT-003,Nabd Medical Laboratories,Delayed detection due to missing log monitoring,Critical,2025-08-07,Contained
+INC-2025-00347,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,High,2025-08-07,Open
+INC-2025-00348,GOV-002,Najmah Civil Registry Agency,Misconfigured cloud storage exposed data publicly,Critical,2025-08-08,Closed
+INC-2025-00349,HLT-003,Nabd Medical Laboratories,Insecure container / Kubernetes configuration,High,2025-08-08,Closed
+INC-2025-00350,TEL-001,Sahab Telecom Services,DDoS attack disrupted public e-services,High,2025-08-08,Closed
+INC-2025-00351,TEL-001,Sahab Telecom Services,Delayed detection due to missing log monitoring,High,2025-08-09,Contained
+INC-2025-00352,TEL-001,Sahab Telecom Services,Excessive privileges / privileged account misuse,High,2025-08-09,Contained
+INC-2025-00353,RTL-001,Souq Al-Nakheel E-commerce,Ransomware encrypted file servers,High,2025-08-09,Contained
+INC-2025-00354,HLT-003,Nabd Medical Laboratories,Advanced persistent threat (APT) lateral movement,Critical,2025-08-10,Closed
+INC-2025-00355,FIN-003,Dirham Payments Gateway,Hard-coded secrets in source code repository,Medium,2025-08-10,Closed
+INC-2025-00356,UTL-003,Ain Desalination Operations,End-of-life operating systems still in production,Low,2025-08-10,Closed
+INC-2025-00357,TRN-001,Wasl Logistics and Freight,Website defacement,Medium,2025-08-10,Closed
+INC-2025-00358,TRN-001,Wasl Logistics and Freight,Misconfigured cloud storage exposed data publicly,Critical,2025-08-10,Closed
+INC-2025-00359,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Medium,2025-08-12,Closed
+INC-2025-00360,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Critical,2025-08-12,Closed
+INC-2025-00361,UTL-002,Barq Electricity Distribution Co.,End-of-life operating systems still in production,High,2025-08-13,Closed
+INC-2025-00362,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,High,2025-08-14,Open
+INC-2025-00363,GOV-003,Sadeem Public Procurement Office,Hard-coded secrets in source code repository,Medium,2025-08-15,Closed
+INC-2025-00364,HLT-001,Shifa Northern Health Cluster,Weak TLS configuration / expired certificates,Low,2025-08-15,Closed
+INC-2025-00365,TEL-001,Sahab Telecom Services,Advanced persistent threat (APT) lateral movement,Critical,2025-08-15,Closed
+INC-2025-00366,UTL-003,Ain Desalination Operations,Insecure default configuration on servers,Medium,2025-08-16,Contained
+INC-2025-00367,RTL-001,Souq Al-Nakheel E-commerce,DDoS attack disrupted public e-services,Critical,2025-08-16,Contained
+INC-2025-00368,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),Medium,2025-08-17,Contained
+INC-2025-00369,HLT-001,Shifa Northern Health Cluster,Ransomware encrypted file servers,High,2025-08-18,Open
+INC-2025-00370,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Low,2025-08-18,Closed
+INC-2025-00371,RTL-003,Rihla Travel and Booking,Advanced persistent threat (APT) lateral movement,Critical,2025-08-18,Contained
+INC-2025-00372,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2025-08-19,Closed
+INC-2025-00373,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2025-08-19,Open
+INC-2025-00374,TRN-001,Wasl Logistics and Freight,Account takeover via credential stuffing,Medium,2025-08-19,Contained
+INC-2025-00375,UTL-002,Barq Electricity Distribution Co.,Missing or untested incident response plan,High,2025-08-21,Closed
+INC-2025-00376,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2025-08-24,Contained
+INC-2025-00377,TRN-002,Sikka Rail Operations,Flat network between IT and OT environments,Medium,2025-08-24,Closed
+INC-2025-00378,HLT-001,Shifa Northern Health Cluster,Business email compromise (invoice / payment fraud),Medium,2025-08-25,Contained
+INC-2025-00379,HLT-003,Nabd Medical Laboratories,Exposed API with broken access control,Medium,2025-08-25,Contained
+INC-2025-00380,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Medium,2025-08-25,Closed
+INC-2025-00381,RTL-001,Souq Al-Nakheel E-commerce,Delayed detection due to missing log monitoring,High,2025-08-26,Open
+INC-2025-00382,HLT-004,Afiya Primary Care Network,Personal data breach not reported on time (PDPL),High,2025-08-27,Open
+INC-2025-00383,GOV-005,Masar Licensing and Permits Center,Zero-day exploitation with no threat intelligence coverage,High,2025-08-29,Closed
+INC-2025-00384,EDU-004,Ilm E-Learning Platform,Business email compromise (invoice / payment fraud),Medium,2025-08-29,Contained
+INC-2025-00385,EDU-001,Qimam University,Unpatched internet-facing server (critical CVE exploited),Critical,2025-08-30,Closed
+INC-2025-00386,EDU-001,Qimam University,Insider data exfiltration,Critical,2025-08-31,Closed
+INC-2025-00387,GOV-004,Ufuq Housing Support Program,Exposed API with broken access control,Medium,2025-09-02,Closed
+INC-2025-00388,RTL-002,Zad Food Distribution Group,Personal data breach not reported on time (PDPL),High,2025-09-02,Contained
+INC-2025-00389,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,High,2025-09-06,Closed
+INC-2025-00390,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,High,2025-09-07,Closed
+INC-2025-00391,TEL-001,Sahab Telecom Services,Malware introduced via removable media (USB),Medium,2025-09-07,Closed
+INC-2025-00392,GOV-004,Ufuq Housing Support Program,Insecure default configuration on servers,High,2025-09-08,Closed
+INC-2025-00393,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),High,2025-09-08,Open
+INC-2025-00394,FIN-003,Dirham Payments Gateway,Phishing email led to credential compromise,High,2025-09-08,Closed
+INC-2025-00395,GOV-003,Sadeem Public Procurement Office,Cross-site scripting (XSS) in customer portal,Medium,2025-09-10,Contained
+INC-2025-00396,RTL-002,Zad Food Distribution Group,Insecure container / Kubernetes configuration,Medium,2025-09-10,Closed
+INC-2025-00397,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2025-09-10,Closed
+INC-2025-00398,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),Critical,2025-09-12,Closed
+INC-2025-00399,UTL-002,Barq Electricity Distribution Co.,Hard-coded secrets in source code repository,Medium,2025-09-13,Closed
+INC-2025-00400,RTL-001,Souq Al-Nakheel E-commerce,SQL injection in public web application,High,2025-09-13,Open
+INC-2025-00401,GOV-003,Sadeem Public Procurement Office,SQL injection in public web application,High,2025-09-14,Closed
+INC-2025-00402,GOV-004,Ufuq Housing Support Program,Delayed detection due to missing log monitoring,High,2025-09-14,Closed
+INC-2025-00403,UTL-002,Barq Electricity Distribution Co.,Default credentials on PLC / HMI devices,Critical,2025-09-14,Closed
+INC-2025-00404,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2025-09-15,Closed
+INC-2025-00405,UTL-003,Ain Desalination Operations,Malware on ICS engineering workstation,High,2025-09-15,Contained
+INC-2025-00406,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,Critical,2025-09-16,Closed
+INC-2025-00407,EDU-003,Nukhba International Schools,Missing or untested incident response plan,High,2025-09-16,Contained
+INC-2025-00408,GOV-006,Bayan Statistics and Planning Unit,DDoS attack disrupted public e-services,High,2025-09-17,Closed
+INC-2025-00409,UTL-002,Barq Electricity Distribution Co.,Default credentials on PLC / HMI devices,Critical,2025-09-17,Closed
+INC-2025-00410,UTL-002,Barq Electricity Distribution Co.,Default credentials on PLC / HMI devices,High,2025-09-18,Open
+INC-2025-00411,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,Critical,2025-09-20,Closed
+INC-2025-00412,GOV-002,Najmah Civil Registry Agency,Phishing email led to credential compromise,Critical,2025-09-21,Closed
+INC-2025-00413,UTL-001,Ghadeer Regional Water Utility,Flat network between IT and OT environments,Medium,2025-09-22,Open
+INC-2025-00414,UTL-002,Barq Electricity Distribution Co.,Delayed detection due to missing log monitoring,High,2025-09-22,Closed
+INC-2025-00415,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,Low,2025-09-23,Closed
+INC-2025-00416,TEL-001,Sahab Telecom Services,Ransomware encrypted file servers,High,2025-09-23,Closed
+INC-2025-00417,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2025-09-24,Closed
+INC-2025-00418,HLT-001,Shifa Northern Health Cluster,Missing MFA on VPN / remote access,High,2025-09-24,Closed
+INC-2025-00419,TRN-001,Wasl Logistics and Freight,Business email compromise (invoice / payment fraud),High,2025-09-24,Closed
+INC-2025-00420,GOV-002,Najmah Civil Registry Agency,Insecure default configuration on servers,Medium,2025-09-25,Closed
+INC-2025-00421,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,High,2025-09-25,Closed
+INC-2025-00422,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),High,2025-09-25,Closed
+INC-2025-00423,UTL-002,Barq Electricity Distribution Co.,Insecure default configuration on servers,Low,2025-09-25,Closed
+INC-2025-00424,TRN-001,Wasl Logistics and Freight,Hard-coded secrets in source code repository,Medium,2025-09-25,Closed
+INC-2025-00425,HLT-004,Afiya Primary Care Network,Unpatched internet-facing server (critical CVE exploited),Critical,2025-09-27,Closed
+INC-2025-00426,UTL-002,Barq Electricity Distribution Co.,Third-party vendor breach affected entity systems,High,2025-09-27,Contained
+INC-2025-00427,GOV-005,Masar Licensing and Permits Center,Website defacement,Medium,2025-09-29,Closed
+INC-2025-00428,GOV-001,Rawdah Municipal Services Authority,Cross-site scripting (XSS) in customer portal,Low,2025-09-30,Open
+INC-2025-00429,HLT-001,Shifa Northern Health Cluster,Insecure container / Kubernetes configuration,Low,2025-09-30,Closed
+INC-2025-00430,UTL-002,Barq Electricity Distribution Co.,Website defacement,Low,2025-09-30,Open
+INC-2025-00431,TRN-001,Wasl Logistics and Freight,Malware introduced via removable media (USB),Medium,2025-09-30,Closed
+INC-2025-00432,HLT-004,Afiya Primary Care Network,Malware introduced via removable media (USB),Low,2025-10-01,Closed
+INC-2025-00433,EDU-004,Ilm E-Learning Platform,Weak or default passwords on network devices,High,2025-10-01,Closed
+INC-2025-00434,TRN-002,Sikka Rail Operations,Malware on ICS engineering workstation,High,2025-10-01,Contained
+INC-2025-00435,GOV-001,Rawdah Municipal Services Authority,DDoS attack disrupted public e-services,High,2025-10-02,Contained
+INC-2025-00436,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2025-10-02,Closed
+INC-2025-00437,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),High,2025-10-02,Open
+INC-2025-00438,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,High,2025-10-02,Contained
+INC-2025-00439,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,High,2025-10-04,Closed
+INC-2025-00440,ENR-002,Shuaa Solar Power Plant Operator,Website defacement,Low,2025-10-04,Open
+INC-2025-00441,GOV-003,Sadeem Public Procurement Office,Exposed API with broken access control,High,2025-10-05,Contained
+INC-2025-00442,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-10-05,Closed
+INC-2025-00443,ENR-003,Nawras Gas Distribution Co.,Website defacement,Low,2025-10-05,Closed
+INC-2025-00444,ENR-003,Nawras Gas Distribution Co.,Default credentials on PLC / HMI devices,Critical,2025-10-05,Closed
+INC-2025-00445,HLT-003,Nabd Medical Laboratories,Insider data exfiltration,Critical,2025-10-06,Closed
+INC-2025-00446,ENR-001,Dana Petrochemical Processing Co.,Flat network between IT and OT environments,High,2025-10-07,Closed
+INC-2025-00447,GOV-003,Sadeem Public Procurement Office,Website defacement,Low,2025-10-08,Closed
+INC-2025-00448,GOV-006,Bayan Statistics and Planning Unit,Malware introduced via removable media (USB),Low,2025-10-08,Contained
+INC-2025-00449,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Low,2025-10-08,Closed
+INC-2025-00450,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),High,2025-10-08,Contained
+INC-2025-00451,RTL-002,Zad Food Distribution Group,SQL injection in public web application,High,2025-10-08,Contained
+INC-2025-00452,UTL-002,Barq Electricity Distribution Co.,Insecure container / Kubernetes configuration,Medium,2025-10-10,Closed
+INC-2025-00453,HLT-002,Rahma Specialist Hospital Group,Delayed detection due to missing log monitoring,High,2025-10-11,Open
+INC-2025-00454,EDU-002,Manar Technical College,End-of-life operating systems still in production,Medium,2025-10-11,Closed
+INC-2025-00455,GOV-004,Ufuq Housing Support Program,Hard-coded secrets in source code repository,High,2025-10-13,Open
+INC-2025-00456,UTL-003,Ain Desalination Operations,Zero-day exploitation with no threat intelligence coverage,Critical,2025-10-14,Closed
+INC-2025-00457,TEL-001,Sahab Telecom Services,Open management ports / permissive firewall rules,High,2025-10-14,Closed
+INC-2025-00458,ENR-002,Shuaa Solar Power Plant Operator,Missing or untested incident response plan,Medium,2025-10-15,Contained
+INC-2025-00459,HLT-002,Rahma Specialist Hospital Group,Unmanaged / shadow IT assets discovered,Low,2025-10-16,Closed
+INC-2025-00460,ENR-003,Nawras Gas Distribution Co.,DDoS attack disrupted public e-services,High,2025-10-17,Closed
+INC-2025-00461,UTL-002,Barq Electricity Distribution Co.,End-of-life operating systems still in production,Low,2025-10-19,Closed
+INC-2025-00462,TEL-001,Sahab Telecom Services,Exposed API with broken access control,High,2025-10-20,Closed
+INC-2025-00463,RTL-002,Zad Food Distribution Group,Weak TLS configuration / expired certificates,Low,2025-10-20,Contained
+INC-2025-00464,GOV-004,Ufuq Housing Support Program,Phishing email led to credential compromise,Medium,2025-10-21,Closed
+INC-2025-00465,GOV-006,Bayan Statistics and Planning Unit,Insecure container / Kubernetes configuration,Medium,2025-10-21,Contained
+INC-2025-00466,HLT-002,Rahma Specialist Hospital Group,End-of-life operating systems still in production,Low,2025-10-21,Closed
+INC-2025-00467,HLT-002,Rahma Specialist Hospital Group,Malware introduced via removable media (USB),High,2025-10-21,Closed
+INC-2025-00468,FIN-002,Sanad Microfinance Company,Missing MFA on VPN / remote access,High,2025-10-22,Closed
+INC-2025-00469,TEL-001,Sahab Telecom Services,Unmanaged / shadow IT assets discovered,Low,2025-10-22,Open
+INC-2025-00470,HLT-003,Nabd Medical Laboratories,Ransomware encrypted file servers,Critical,2025-10-23,Closed
+INC-2025-00471,HLT-002,Rahma Specialist Hospital Group,Malware introduced via removable media (USB),High,2025-10-24,Closed
+INC-2025-00472,GOV-006,Bayan Statistics and Planning Unit,Malware introduced via removable media (USB),High,2025-10-25,Contained
+INC-2025-00473,EDU-001,Qimam University,End-of-life operating systems still in production,Low,2025-10-25,Closed
+INC-2025-00474,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),High,2025-10-27,Closed
+INC-2025-00475,GOV-003,Sadeem Public Procurement Office,Missing MFA on VPN / remote access,Medium,2025-10-28,Closed
+INC-2025-00476,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2025-10-30,Open
+INC-2025-00477,EDU-001,Qimam University,Phishing email led to credential compromise,High,2025-10-30,Closed
+INC-2025-00478,EDU-004,Ilm E-Learning Platform,Weak or default passwords on network devices,Medium,2025-10-30,Closed
+INC-2025-00479,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-10-31,Closed
+INC-2025-00480,GOV-003,Sadeem Public Procurement Office,Open management ports / permissive firewall rules,High,2025-11-02,Open
+INC-2025-00481,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Low,2025-11-02,Contained
+INC-2025-00482,GOV-003,Sadeem Public Procurement Office,Insecure container / Kubernetes configuration,Low,2025-11-03,Open
+INC-2025-00483,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Low,2025-11-03,Closed
+INC-2025-00484,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2025-11-04,Open
+INC-2025-00485,TRN-002,Sikka Rail Operations,Weak or default passwords on network devices,High,2025-11-04,Open
+INC-2025-00486,UTL-002,Barq Electricity Distribution Co.,Malware on ICS engineering workstation,High,2025-11-05,Contained
+INC-2025-00487,GOV-003,Sadeem Public Procurement Office,Zero-day exploitation with no threat intelligence coverage,High,2025-11-06,Closed
+INC-2025-00488,HLT-003,Nabd Medical Laboratories,Third-party vendor breach affected entity systems,High,2025-11-06,Closed
+INC-2025-00489,GOV-006,Bayan Statistics and Planning Unit,Business email compromise (invoice / payment fraud),High,2025-11-07,Closed
+INC-2025-00490,ENR-003,Nawras Gas Distribution Co.,Malware on ICS engineering workstation,High,2025-11-07,Closed
+INC-2025-00491,UTL-003,Ain Desalination Operations,Weak or default passwords on network devices,High,2025-11-10,Open
+INC-2025-00492,GOV-003,Sadeem Public Procurement Office,Zero-day exploitation with no threat intelligence coverage,Critical,2025-11-11,Closed
+INC-2025-00493,RTL-003,Rihla Travel and Booking,Weak TLS configuration / expired certificates,Low,2025-11-11,Open
+INC-2025-00494,TRN-002,Sikka Rail Operations,Cross-site scripting (XSS) in customer portal,Low,2025-11-12,Closed
+INC-2025-00495,TEL-001,Sahab Telecom Services,Insecure default configuration on servers,Medium,2025-11-15,Closed
+INC-2025-00496,EDU-001,Qimam University,Business email compromise (invoice / payment fraud),Medium,2025-11-15,Closed
+INC-2025-00497,FIN-004,Waqar Takaful Insurance,Weak or default passwords on network devices,Medium,2025-11-16,Open
+INC-2025-00498,GOV-001,Rawdah Municipal Services Authority,DDoS attack disrupted public e-services,Medium,2025-11-17,Contained
+INC-2025-00499,GOV-004,Ufuq Housing Support Program,Open management ports / permissive firewall rules,High,2025-11-17,Contained
+INC-2025-00500,EDU-001,Qimam University,Third-party vendor breach affected entity systems,High,2025-11-17,Closed
+INC-2025-00501,EDU-001,Qimam University,Zero-day exploitation with no threat intelligence coverage,Critical,2025-11-17,Contained
+INC-2025-00502,HLT-003,Nabd Medical Laboratories,Excessive privileges / privileged account misuse,Critical,2025-11-18,Contained
+INC-2025-00503,UTL-002,Barq Electricity Distribution Co.,End-of-life operating systems still in production,Medium,2025-11-18,Open
+INC-2025-00504,UTL-003,Ain Desalination Operations,Personal data breach not reported on time (PDPL),High,2025-11-18,Closed
+INC-2025-00505,TEL-003,Raqmi Cloud Solutions,Weak or default passwords on network devices,High,2025-11-18,Closed
+INC-2025-00506,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,Medium,2025-11-19,Closed
+INC-2025-00507,TEL-001,Sahab Telecom Services,Unmanaged / shadow IT assets discovered,Medium,2025-11-20,Open
+INC-2025-00508,RTL-002,Zad Food Distribution Group,Unpatched internet-facing server (critical CVE exploited),Critical,2025-11-20,Closed
+INC-2025-00509,GOV-001,Rawdah Municipal Services Authority,Lost or stolen unencrypted laptop,Medium,2025-11-21,Closed
+INC-2025-00510,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,High,2025-11-21,Open
+INC-2025-00511,FIN-004,Waqar Takaful Insurance,SQL injection in public web application,High,2025-11-21,Open
+INC-2025-00512,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Medium,2025-11-21,Closed
+INC-2025-00513,TRN-001,Wasl Logistics and Freight,Flat network between IT and OT environments,High,2025-11-21,Closed
+INC-2025-00514,UTL-002,Barq Electricity Distribution Co.,Ransomware encrypted file servers,Critical,2025-11-22,Contained
+INC-2025-00515,EDU-004,Ilm E-Learning Platform,Zero-day exploitation with no threat intelligence coverage,Critical,2025-11-22,Open
+INC-2025-00516,RTL-001,Souq Al-Nakheel E-commerce,Third-party vendor breach affected entity systems,High,2025-11-22,Closed
+INC-2025-00517,RTL-002,Zad Food Distribution Group,Insider data exfiltration,Medium,2025-11-22,Closed
+INC-2025-00518,GOV-004,Ufuq Housing Support Program,Excessive privileges / privileged account misuse,Medium,2025-11-23,Closed
+INC-2025-00519,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2025-11-23,Open
+INC-2025-00520,HLT-003,Nabd Medical Laboratories,Website defacement,Medium,2025-11-23,Open
+INC-2025-00521,ENR-001,Dana Petrochemical Processing Co.,Insecure default configuration on servers,Medium,2025-11-23,Contained
+INC-2025-00522,ENR-003,Nawras Gas Distribution Co.,Default credentials on PLC / HMI devices,High,2025-11-23,Closed
+INC-2025-00523,RTL-003,Rihla Travel and Booking,Insecure container / Kubernetes configuration,Low,2025-11-23,Closed
+INC-2025-00524,HLT-003,Nabd Medical Laboratories,Non-compliance with NCA ECC controls (audit finding),Medium,2025-11-24,Open
+INC-2025-00525,UTL-003,Ain Desalination Operations,Malware on ICS engineering workstation,Critical,2025-11-24,Contained
+INC-2025-00526,TRN-002,Sikka Rail Operations,Missing MFA on VPN / remote access,High,2025-11-24,Closed
+INC-2025-00527,FIN-001,Rimal Digital Bank,Weak TLS configuration / expired certificates,Low,2025-11-25,Closed
+INC-2025-00528,FIN-004,Waqar Takaful Insurance,Cross-site scripting (XSS) in customer portal,Low,2025-11-25,Open
+INC-2025-00529,UTL-003,Ain Desalination Operations,Unmanaged / shadow IT assets discovered,Low,2025-11-25,Closed
+INC-2025-00530,EDU-004,Ilm E-Learning Platform,Malware introduced via removable media (USB),Medium,2025-11-25,Closed
+INC-2025-00531,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2025-11-26,Contained
+INC-2025-00532,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,High,2025-11-27,Closed
+INC-2025-00533,EDU-003,Nukhba International Schools,Unmanaged / shadow IT assets discovered,Low,2025-11-27,Contained
+INC-2025-00534,RTL-002,Zad Food Distribution Group,DDoS attack disrupted public e-services,High,2025-11-27,Closed
+INC-2025-00535,RTL-003,Rihla Travel and Booking,Missing MFA on VPN / remote access,Medium,2025-11-27,Closed
+INC-2025-00536,HLT-002,Rahma Specialist Hospital Group,Misconfigured cloud storage exposed data publicly,Critical,2025-11-28,Closed
+INC-2025-00537,UTL-002,Barq Electricity Distribution Co.,Non-compliance with NCA ECC controls (audit finding),Medium,2025-11-28,Closed
+INC-2025-00538,FIN-004,Waqar Takaful Insurance,Hard-coded secrets in source code repository,Critical,2025-11-29,Closed
+INC-2025-00539,UTL-002,Barq Electricity Distribution Co.,Unmanaged / shadow IT assets discovered,Low,2025-11-29,Contained
+INC-2025-00540,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,Medium,2025-11-30,Closed
+INC-2025-00541,GOV-004,Ufuq Housing Support Program,Third-party vendor breach affected entity systems,High,2025-12-01,Contained
+INC-2025-00542,HLT-002,Rahma Specialist Hospital Group,Open management ports / permissive firewall rules,Medium,2025-12-01,Closed
+INC-2025-00543,RTL-003,Rihla Travel and Booking,Cross-site scripting (XSS) in customer portal,Medium,2025-12-01,Closed
+INC-2025-00544,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),High,2025-12-02,Closed
+INC-2025-00545,GOV-006,Bayan Statistics and Planning Unit,Ransomware encrypted file servers,Critical,2025-12-05,Closed
+INC-2025-00546,RTL-002,Zad Food Distribution Group,Cross-site scripting (XSS) in customer portal,High,2025-12-05,Closed
+INC-2025-00547,GOV-003,Sadeem Public Procurement Office,Hard-coded secrets in source code repository,High,2025-12-06,Open
+INC-2025-00548,HLT-002,Rahma Specialist Hospital Group,Lost or stolen unencrypted laptop,Medium,2025-12-07,Closed
+INC-2025-00549,FIN-004,Waqar Takaful Insurance,Weak or default passwords on network devices,High,2025-12-07,Closed
+INC-2025-00550,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,Critical,2025-12-08,Closed
+INC-2025-00551,GOV-004,Ufuq Housing Support Program,Missing MFA on VPN / remote access,High,2025-12-09,Contained
+INC-2025-00552,GOV-006,Bayan Statistics and Planning Unit,Excessive privileges / privileged account misuse,High,2025-12-09,Closed
+INC-2025-00553,RTL-003,Rihla Travel and Booking,Exposed API with broken access control,High,2025-12-09,Closed
+INC-2025-00554,FIN-004,Waqar Takaful Insurance,Lost or stolen unencrypted laptop,Medium,2025-12-10,Open
+INC-2025-00555,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,Critical,2025-12-11,Contained
+INC-2025-00556,UTL-002,Barq Electricity Distribution Co.,Malware introduced via removable media (USB),Medium,2025-12-12,Closed
+INC-2025-00557,FIN-001,Rimal Digital Bank,Business email compromise (invoice / payment fraud),Critical,2025-12-13,Closed
+INC-2025-00558,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Low,2025-12-13,Closed
+INC-2025-00559,HLT-002,Rahma Specialist Hospital Group,Insecure container / Kubernetes configuration,Low,2025-12-14,Closed
+INC-2025-00560,ENR-001,Dana Petrochemical Processing Co.,DDoS attack disrupted public e-services,High,2025-12-14,Closed
+INC-2025-00561,UTL-003,Ain Desalination Operations,Missing MFA on VPN / remote access,Medium,2025-12-14,Closed
+INC-2025-00562,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Medium,2025-12-14,Contained
+INC-2025-00563,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2025-12-15,Closed
+INC-2025-00564,ENR-001,Dana Petrochemical Processing Co.,Weak TLS configuration / expired certificates,Low,2025-12-15,Closed
+INC-2025-00565,UTL-002,Barq Electricity Distribution Co.,Exposed API with broken access control,Medium,2025-12-16,Contained
+INC-2025-00566,GOV-006,Bayan Statistics and Planning Unit,Ransomware encrypted file servers,Critical,2025-12-19,Contained
+INC-2025-00567,HLT-001,Shifa Northern Health Cluster,Business email compromise (invoice / payment fraud),High,2025-12-20,Closed
+INC-2025-00568,RTL-003,Rihla Travel and Booking,Website defacement,Low,2025-12-20,Closed
+INC-2025-00569,RTL-003,Rihla Travel and Booking,Missing or untested incident response plan,Medium,2025-12-21,Contained
+INC-2025-00570,TRN-001,Wasl Logistics and Freight,Malware introduced via removable media (USB),Medium,2025-12-22,Open
+INC-2025-00571,TRN-002,Sikka Rail Operations,Weak or default passwords on network devices,High,2025-12-22,Contained
+INC-2025-00572,GOV-003,Sadeem Public Procurement Office,Excessive privileges / privileged account misuse,High,2025-12-23,Closed
+INC-2025-00573,EDU-002,Manar Technical College,Open management ports / permissive firewall rules,High,2025-12-24,Open
+INC-2025-00574,GOV-002,Najmah Civil Registry Agency,Ransomware encrypted file servers,Critical,2025-12-25,Closed
+INC-2025-00575,GOV-003,Sadeem Public Procurement Office,Lost or stolen unencrypted laptop,Medium,2025-12-25,Closed
+INC-2025-00576,HLT-003,Nabd Medical Laboratories,Insider data exfiltration,Critical,2025-12-25,Closed
+INC-2025-00577,TRN-001,Wasl Logistics and Freight,Non-compliance with NCA ECC controls (audit finding),Low,2025-12-25,Closed
+INC-2025-00578,FIN-004,Waqar Takaful Insurance,Malware introduced via removable media (USB),Medium,2025-12-26,Open
+INC-2025-00579,TEL-001,Sahab Telecom Services,Exposed API with broken access control,High,2025-12-28,Closed
+INC-2025-00580,GOV-004,Ufuq Housing Support Program,Cross-site scripting (XSS) in customer portal,Medium,2025-12-29,Closed
+INC-2025-00581,HLT-003,Nabd Medical Laboratories,Insecure default configuration on servers,Medium,2025-12-29,Open
+INC-2025-00582,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,Critical,2025-12-29,Open
+INC-2025-00583,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Medium,2025-12-29,Closed
+INC-2025-00584,RTL-002,Zad Food Distribution Group,Weak TLS configuration / expired certificates,Medium,2025-12-29,Contained
+INC-2025-00585,RTL-001,Souq Al-Nakheel E-commerce,Personal data breach not reported on time (PDPL),High,2025-12-30,Contained
+INC-2025-00586,GOV-004,Ufuq Housing Support Program,Cross-site scripting (XSS) in customer portal,Medium,2025-12-31,Open
+INC-2025-00587,GOV-005,Masar Licensing and Permits Center,Hard-coded secrets in source code repository,High,2025-12-31,Closed
+INC-2025-00588,RTL-002,Zad Food Distribution Group,Business email compromise (invoice / payment fraud),High,2025-12-31,Closed
+INC-2026-00589,GOV-003,Sadeem Public Procurement Office,Malware introduced via removable media (USB),Medium,2026-01-01,Closed
+INC-2026-00590,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,Critical,2026-01-01,Closed
+INC-2026-00591,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,Medium,2026-01-02,Contained
+INC-2026-00592,EDU-004,Ilm E-Learning Platform,Business email compromise (invoice / payment fraud),Medium,2026-01-02,Closed
+INC-2026-00593,ENR-003,Nawras Gas Distribution Co.,Insider data exfiltration,High,2026-01-03,Closed
+INC-2026-00594,GOV-003,Sadeem Public Procurement Office,SQL injection in public web application,High,2026-01-04,Closed
+INC-2026-00595,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,High,2026-01-04,Closed
+INC-2026-00596,ENR-003,Nawras Gas Distribution Co.,Insecure default configuration on servers,High,2026-01-04,Closed
+INC-2026-00597,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2026-01-04,Contained
+INC-2026-00598,HLT-002,Rahma Specialist Hospital Group,Personal data breach not reported on time (PDPL),High,2026-01-05,Contained
+INC-2026-00599,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2026-01-05,Open
+INC-2026-00600,HLT-004,Afiya Primary Care Network,Weak TLS configuration / expired certificates,Low,2026-01-05,Contained
+INC-2026-00601,HLT-001,Shifa Northern Health Cluster,Business email compromise (invoice / payment fraud),Medium,2026-01-06,Closed
+INC-2026-00602,TRN-002,Sikka Rail Operations,Malware introduced via removable media (USB),High,2026-01-06,Closed
+INC-2026-00603,GOV-003,Sadeem Public Procurement Office,SQL injection in public web application,Medium,2026-01-10,Closed
+INC-2026-00604,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,High,2026-01-10,Open
+INC-2026-00605,GOV-005,Masar Licensing and Permits Center,Business email compromise (invoice / payment fraud),Medium,2026-01-11,Open
+INC-2026-00606,GOV-006,Bayan Statistics and Planning Unit,Business email compromise (invoice / payment fraud),High,2026-01-12,Open
+INC-2026-00607,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Medium,2026-01-12,Closed
+INC-2026-00608,TEL-002,Majal Data Center Hosting,Zero-day exploitation with no threat intelligence coverage,High,2026-01-13,Closed
+INC-2026-00609,GOV-003,Sadeem Public Procurement Office,Exposed API with broken access control,High,2026-01-14,Closed
+INC-2026-00610,UTL-003,Ain Desalination Operations,Insider data exfiltration,High,2026-01-14,Closed
+INC-2026-00611,GOV-006,Bayan Statistics and Planning Unit,SQL injection in public web application,Medium,2026-01-15,Closed
+INC-2026-00612,RTL-002,Zad Food Distribution Group,Weak TLS configuration / expired certificates,Low,2026-01-15,Closed
+INC-2026-00613,EDU-004,Ilm E-Learning Platform,Missing MFA on VPN / remote access,High,2026-01-16,Closed
+INC-2026-00614,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Low,2026-01-17,Open
+INC-2026-00615,HLT-002,Rahma Specialist Hospital Group,Insider data exfiltration,Medium,2026-01-17,Closed
+INC-2026-00616,EDU-001,Qimam University,SQL injection in public web application,High,2026-01-17,Closed
+INC-2026-00617,UTL-003,Ain Desalination Operations,End-of-life operating systems still in production,Medium,2026-01-18,Closed
+INC-2026-00618,RTL-002,Zad Food Distribution Group,Account takeover via credential stuffing,Medium,2026-01-18,Closed
+INC-2026-00619,GOV-002,Najmah Civil Registry Agency,Missing or untested incident response plan,Critical,2026-01-19,Open
+INC-2026-00620,HLT-002,Rahma Specialist Hospital Group,Misconfigured cloud storage exposed data publicly,Critical,2026-01-19,Contained
+INC-2026-00621,UTL-002,Barq Electricity Distribution Co.,Excessive privileges / privileged account misuse,Critical,2026-01-19,Closed
+INC-2026-00622,UTL-003,Ain Desalination Operations,Insider data exfiltration,High,2026-01-19,Open
+INC-2026-00623,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Critical,2026-01-19,Closed
+INC-2026-00624,EDU-002,Manar Technical College,Missing MFA on VPN / remote access,High,2026-01-20,Closed
+INC-2026-00625,RTL-003,Rihla Travel and Booking,Unpatched internet-facing server (critical CVE exploited),Critical,2026-01-20,Closed
+INC-2026-00626,GOV-002,Najmah Civil Registry Agency,Malware introduced via removable media (USB),Medium,2026-01-22,Closed
+INC-2026-00627,ENR-001,Dana Petrochemical Processing Co.,Missing MFA on VPN / remote access,High,2026-01-23,Closed
+INC-2026-00628,ENR-001,Dana Petrochemical Processing Co.,Zero-day exploitation with no threat intelligence coverage,High,2026-01-23,Open
+INC-2026-00629,GOV-004,Ufuq Housing Support Program,Business email compromise (invoice / payment fraud),Medium,2026-01-24,Closed
+INC-2026-00630,ENR-001,Dana Petrochemical Processing Co.,Default credentials on PLC / HMI devices,Critical,2026-01-24,Contained
+INC-2026-00631,EDU-003,Nukhba International Schools,Account takeover via credential stuffing,Medium,2026-01-25,Closed
+INC-2026-00632,EDU-003,Nukhba International Schools,Unmanaged / shadow IT assets discovered,Low,2026-01-25,Closed
+INC-2026-00633,EDU-001,Qimam University,Missing MFA on VPN / remote access,High,2026-01-26,Closed
+INC-2026-00634,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),Critical,2026-01-27,Closed
+INC-2026-00635,UTL-002,Barq Electricity Distribution Co.,Phishing email led to credential compromise,High,2026-01-27,Closed
+INC-2026-00636,UTL-003,Ain Desalination Operations,Insecure container / Kubernetes configuration,Medium,2026-01-27,Contained
+INC-2026-00637,FIN-004,Waqar Takaful Insurance,Weak or default passwords on network devices,Medium,2026-01-28,Contained
+INC-2026-00638,HLT-001,Shifa Northern Health Cluster,Ransomware encrypted file servers,Critical,2026-01-29,Closed
+INC-2026-00639,TRN-002,Sikka Rail Operations,Flat network between IT and OT environments,High,2026-01-29,Open
+INC-2026-00640,HLT-002,Rahma Specialist Hospital Group,Insecure default configuration on servers,Low,2026-01-30,Open
+INC-2026-00641,HLT-003,Nabd Medical Laboratories,Unmanaged / shadow IT assets discovered,Low,2026-01-30,Closed
+INC-2026-00642,ENR-003,Nawras Gas Distribution Co.,Flat network between IT and OT environments,Critical,2026-01-31,Closed
+INC-2026-00643,HLT-002,Rahma Specialist Hospital Group,Lost or stolen unencrypted laptop,Medium,2026-02-01,Closed
+INC-2026-00644,RTL-003,Rihla Travel and Booking,Personal data breach not reported on time (PDPL),High,2026-02-01,Contained
+INC-2026-00645,TEL-001,Sahab Telecom Services,Missing MFA on VPN / remote access,High,2026-02-02,Contained
+INC-2026-00646,GOV-002,Najmah Civil Registry Agency,Website defacement,High,2026-02-03,Closed
+INC-2026-00647,FIN-001,Rimal Digital Bank,Phishing email led to credential compromise,Critical,2026-02-03,Closed
+INC-2026-00648,FIN-003,Dirham Payments Gateway,Third-party vendor breach affected entity systems,Medium,2026-02-03,Contained
+INC-2026-00649,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2026-02-08,Closed
+INC-2026-00650,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,Critical,2026-02-08,Closed
+INC-2026-00651,HLT-002,Rahma Specialist Hospital Group,Misconfigured cloud storage exposed data publicly,Critical,2026-02-08,Closed
+INC-2026-00652,FIN-004,Waqar Takaful Insurance,Delayed detection due to missing log monitoring,Critical,2026-02-08,Closed
+INC-2026-00653,TRN-002,Sikka Rail Operations,Missing MFA on VPN / remote access,Critical,2026-02-08,Contained
+INC-2026-00654,RTL-002,Zad Food Distribution Group,Non-compliance with NCA ECC controls (audit finding),Medium,2026-02-08,Closed
+INC-2026-00655,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),High,2026-02-10,Closed
+INC-2026-00656,EDU-001,Qimam University,Missing MFA on VPN / remote access,Medium,2026-02-11,Closed
+INC-2026-00657,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2026-02-12,Closed
+INC-2026-00658,TEL-003,Raqmi Cloud Solutions,Insecure container / Kubernetes configuration,Medium,2026-02-12,Closed
+INC-2026-00659,TRN-003,Marsa Port Services,DDoS attack disrupted public e-services,High,2026-02-12,Open
+INC-2026-00660,EDU-001,Qimam University,Phishing email led to credential compromise,High,2026-02-13,Open
+INC-2026-00661,HLT-004,Afiya Primary Care Network,Weak TLS configuration / expired certificates,Low,2026-02-14,Contained
+INC-2026-00662,GOV-001,Rawdah Municipal Services Authority,Exposed API with broken access control,High,2026-02-16,Closed
+INC-2026-00663,EDU-003,Nukhba International Schools,Unpatched internet-facing server (critical CVE exploited),Critical,2026-02-17,Contained
+INC-2026-00664,RTL-002,Zad Food Distribution Group,Open management ports / permissive firewall rules,Critical,2026-02-18,Closed
+INC-2026-00665,UTL-001,Ghadeer Regional Water Utility,Flat network between IT and OT environments,High,2026-02-20,Contained
+INC-2026-00666,TRN-003,Marsa Port Services,Ransomware encrypted file servers,Critical,2026-02-20,Closed
+INC-2026-00667,HLT-001,Shifa Northern Health Cluster,Unpatched internet-facing server (critical CVE exploited),Critical,2026-02-21,Closed
+INC-2026-00668,TEL-001,Sahab Telecom Services,Cross-site scripting (XSS) in customer portal,Medium,2026-02-21,Closed
+INC-2026-00669,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Medium,2026-02-22,Closed
+INC-2026-00670,FIN-004,Waqar Takaful Insurance,Insider data exfiltration,Medium,2026-02-24,Closed
+INC-2026-00671,GOV-001,Rawdah Municipal Services Authority,End-of-life operating systems still in production,Low,2026-02-26,Closed
+INC-2026-00672,GOV-001,Rawdah Municipal Services Authority,Lost or stolen unencrypted laptop,Medium,2026-02-26,Closed
+INC-2026-00673,EDU-001,Qimam University,Missing MFA on VPN / remote access,High,2026-02-27,Contained
+INC-2026-00674,GOV-005,Masar Licensing and Permits Center,Misconfigured cloud storage exposed data publicly,Critical,2026-02-28,Closed
+INC-2026-00675,HLT-004,Afiya Primary Care Network,Exposed API with broken access control,Medium,2026-02-28,Closed
+INC-2026-00676,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,Critical,2026-03-01,Closed
+INC-2026-00677,TRN-001,Wasl Logistics and Freight,Weak or default passwords on network devices,High,2026-03-01,Contained
+INC-2026-00678,GOV-002,Najmah Civil Registry Agency,Insecure default configuration on servers,Medium,2026-03-02,Closed
+INC-2026-00679,UTL-003,Ain Desalination Operations,Excessive privileges / privileged account misuse,High,2026-03-02,Closed
+INC-2026-00680,TRN-003,Marsa Port Services,Ransomware encrypted file servers,Critical,2026-03-02,Closed
+INC-2026-00681,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,Critical,2026-03-03,Closed
+INC-2026-00682,GOV-002,Najmah Civil Registry Agency,Phishing email led to credential compromise,High,2026-03-04,Closed
+INC-2026-00683,HLT-002,Rahma Specialist Hospital Group,End-of-life operating systems still in production,Low,2026-03-04,Closed
+INC-2026-00684,TEL-001,Sahab Telecom Services,Misconfigured cloud storage exposed data publicly,Critical,2026-03-05,Contained
+INC-2026-00685,HLT-002,Rahma Specialist Hospital Group,Personal data breach not reported on time (PDPL),Critical,2026-03-07,Closed
+INC-2026-00686,UTL-002,Barq Electricity Distribution Co.,Open management ports / permissive firewall rules,Medium,2026-03-08,Contained
+INC-2026-00687,GOV-003,Sadeem Public Procurement Office,Excessive privileges / privileged account misuse,High,2026-03-09,Closed
+INC-2026-00688,EDU-004,Ilm E-Learning Platform,Business email compromise (invoice / payment fraud),High,2026-03-09,Contained
+INC-2026-00689,FIN-004,Waqar Takaful Insurance,Missing MFA on VPN / remote access,Medium,2026-03-10,Open
+INC-2026-00690,HLT-002,Rahma Specialist Hospital Group,Phishing email led to credential compromise,Medium,2026-03-11,Open
+INC-2026-00691,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Medium,2026-03-11,Open
+INC-2026-00692,GOV-001,Rawdah Municipal Services Authority,Weak TLS configuration / expired certificates,Low,2026-03-12,Contained
+INC-2026-00693,GOV-002,Najmah Civil Registry Agency,Personal data breach not reported on time (PDPL),High,2026-03-12,Closed
+INC-2026-00694,FIN-004,Waqar Takaful Insurance,Hard-coded secrets in source code repository,Medium,2026-03-12,Closed
+INC-2026-00695,HLT-003,Nabd Medical Laboratories,Advanced persistent threat (APT) lateral movement,High,2026-03-13,Closed
+INC-2026-00696,RTL-001,Souq Al-Nakheel E-commerce,Insecure default configuration on servers,Low,2026-03-13,Closed
+INC-2026-00697,HLT-002,Rahma Specialist Hospital Group,Personal data breach not reported on time (PDPL),Medium,2026-03-14,Open
+INC-2026-00698,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2026-03-15,Closed
+INC-2026-00699,FIN-004,Waqar Takaful Insurance,Business email compromise (invoice / payment fraud),High,2026-03-15,Closed
+INC-2026-00700,ENR-003,Nawras Gas Distribution Co.,Unpatched internet-facing server (critical CVE exploited),High,2026-03-15,Contained
+INC-2026-00701,UTL-002,Barq Electricity Distribution Co.,Malware on ICS engineering workstation,High,2026-03-15,Closed
+INC-2026-00702,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Medium,2026-03-16,Closed
+INC-2026-00703,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,High,2026-03-16,Closed
+INC-2026-00704,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,Medium,2026-03-16,Closed
+INC-2026-00705,GOV-003,Sadeem Public Procurement Office,Missing MFA on VPN / remote access,High,2026-03-18,Closed
+INC-2026-00706,FIN-001,Rimal Digital Bank,Lost or stolen unencrypted laptop,Low,2026-03-18,Closed
+INC-2026-00707,ENR-001,Dana Petrochemical Processing Co.,Advanced persistent threat (APT) lateral movement,Critical,2026-03-18,Contained
+INC-2026-00708,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,High,2026-03-18,Contained
+INC-2026-00709,RTL-002,Zad Food Distribution Group,Weak or default passwords on network devices,Critical,2026-03-18,Open
+INC-2026-00710,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,Medium,2026-03-20,Contained
+INC-2026-00711,GOV-001,Rawdah Municipal Services Authority,Delayed detection due to missing log monitoring,High,2026-03-21,Closed
+INC-2026-00712,UTL-002,Barq Electricity Distribution Co.,Open management ports / permissive firewall rules,High,2026-03-21,Closed
+INC-2026-00713,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2026-03-22,Contained
+INC-2026-00714,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),High,2026-03-22,Closed
+INC-2026-00715,GOV-006,Bayan Statistics and Planning Unit,Exposed API with broken access control,High,2026-03-23,Closed
+INC-2026-00716,EDU-001,Qimam University,Weak TLS configuration / expired certificates,Medium,2026-03-23,Contained
+INC-2026-00717,EDU-004,Ilm E-Learning Platform,Excessive privileges / privileged account misuse,Medium,2026-03-23,Contained
+INC-2026-00718,EDU-004,Ilm E-Learning Platform,Weak or default passwords on network devices,High,2026-03-23,Closed
+INC-2026-00719,GOV-002,Najmah Civil Registry Agency,Insider data exfiltration,Medium,2026-03-24,Open
+INC-2026-00720,GOV-004,Ufuq Housing Support Program,Lost or stolen unencrypted laptop,High,2026-03-26,Contained
+INC-2026-00721,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,Critical,2026-03-26,Closed
+INC-2026-00722,RTL-003,Rihla Travel and Booking,Ransomware encrypted file servers,Critical,2026-03-27,Contained
+INC-2026-00723,GOV-005,Masar Licensing and Permits Center,Weak TLS configuration / expired certificates,Low,2026-03-29,Closed
+INC-2026-00724,ENR-001,Dana Petrochemical Processing Co.,Malware introduced via removable media (USB),Medium,2026-03-29,Closed
+INC-2026-00725,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,Medium,2026-03-29,Closed
+INC-2026-00726,RTL-002,Zad Food Distribution Group,Business email compromise (invoice / payment fraud),High,2026-03-29,Closed
+INC-2026-00727,GOV-004,Ufuq Housing Support Program,End-of-life operating systems still in production,Medium,2026-03-31,Closed
+INC-2026-00728,GOV-004,Ufuq Housing Support Program,Business email compromise (invoice / payment fraud),High,2026-03-31,Contained
+INC-2026-00729,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,Critical,2026-03-31,Contained
+INC-2026-00730,TRN-002,Sikka Rail Operations,Phishing email led to credential compromise,High,2026-03-31,Closed
+INC-2026-00731,GOV-002,Najmah Civil Registry Agency,Unpatched internet-facing server (critical CVE exploited),Critical,2026-04-01,Closed
+INC-2026-00732,GOV-003,Sadeem Public Procurement Office,Zero-day exploitation with no threat intelligence coverage,Critical,2026-04-01,Closed
+INC-2026-00733,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,Critical,2026-04-01,Closed
+INC-2026-00734,TEL-003,Raqmi Cloud Solutions,Phishing email led to credential compromise,High,2026-04-01,Closed
+INC-2026-00735,TRN-002,Sikka Rail Operations,Website defacement,Medium,2026-04-01,Closed
+INC-2026-00736,HLT-003,Nabd Medical Laboratories,Missing or untested incident response plan,Medium,2026-04-02,Closed
+INC-2026-00737,FIN-003,Dirham Payments Gateway,DDoS attack disrupted public e-services,Medium,2026-04-02,Closed
+INC-2026-00738,FIN-003,Dirham Payments Gateway,Exposed API with broken access control,Medium,2026-04-03,Contained
+INC-2026-00739,ENR-001,Dana Petrochemical Processing Co.,Account takeover via credential stuffing,Medium,2026-04-03,Open
+INC-2026-00740,FIN-001,Rimal Digital Bank,Ransomware encrypted file servers,Critical,2026-04-05,Closed
+INC-2026-00741,FIN-001,Rimal Digital Bank,SQL injection in public web application,High,2026-04-05,Closed
+INC-2026-00742,TEL-003,Raqmi Cloud Solutions,DDoS attack disrupted public e-services,High,2026-04-07,Contained
+INC-2026-00743,GOV-001,Rawdah Municipal Services Authority,Weak TLS configuration / expired certificates,Low,2026-04-08,Closed
+INC-2026-00744,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,Low,2026-04-08,Contained
+INC-2026-00745,GOV-005,Masar Licensing and Permits Center,Missing or untested incident response plan,High,2026-04-09,Closed
+INC-2026-00746,ENR-001,Dana Petrochemical Processing Co.,Excessive privileges / privileged account misuse,High,2026-04-10,Closed
+INC-2026-00747,GOV-002,Najmah Civil Registry Agency,End-of-life operating systems still in production,High,2026-04-11,Contained
+INC-2026-00748,GOV-006,Bayan Statistics and Planning Unit,DDoS attack disrupted public e-services,High,2026-04-11,Closed
+INC-2026-00749,EDU-004,Ilm E-Learning Platform,Hard-coded secrets in source code repository,High,2026-04-11,Contained
+INC-2026-00750,GOV-004,Ufuq Housing Support Program,Insider data exfiltration,High,2026-04-13,Closed
+INC-2026-00751,RTL-003,Rihla Travel and Booking,Weak TLS configuration / expired certificates,Low,2026-04-14,Closed
+INC-2026-00752,TEL-002,Majal Data Center Hosting,Weak or default passwords on network devices,Medium,2026-04-15,Closed
+INC-2026-00753,EDU-004,Ilm E-Learning Platform,Cross-site scripting (XSS) in customer portal,Low,2026-04-18,Contained
+INC-2026-00754,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2026-04-19,Open
+INC-2026-00755,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Critical,2026-04-20,Closed
+INC-2026-00756,HLT-001,Shifa Northern Health Cluster,Weak TLS configuration / expired certificates,Low,2026-04-20,Closed
+INC-2026-00757,GOV-006,Bayan Statistics and Planning Unit,DDoS attack disrupted public e-services,High,2026-04-21,Closed
+INC-2026-00758,HLT-004,Afiya Primary Care Network,Weak TLS configuration / expired certificates,Low,2026-04-21,Closed
+INC-2026-00759,TRN-001,Wasl Logistics and Freight,Flat network between IT and OT environments,High,2026-04-21,Contained
+INC-2026-00760,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,High,2026-04-21,Closed
+INC-2026-00761,GOV-006,Bayan Statistics and Planning Unit,Insider data exfiltration,Medium,2026-04-22,Open
+INC-2026-00762,FIN-001,Rimal Digital Bank,Excessive privileges / privileged account misuse,Critical,2026-04-23,Contained
+INC-2026-00763,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),High,2026-04-24,Closed
+INC-2026-00764,RTL-001,Souq Al-Nakheel E-commerce,Insecure default configuration on servers,Medium,2026-04-24,Closed
+INC-2026-00765,GOV-004,Ufuq Housing Support Program,Non-compliance with NCA ECC controls (audit finding),Low,2026-04-25,Closed
+INC-2026-00766,EDU-001,Qimam University,SQL injection in public web application,High,2026-04-25,Closed
+INC-2026-00767,HLT-002,Rahma Specialist Hospital Group,Insecure default configuration on servers,Medium,2026-04-26,Closed
+INC-2026-00768,EDU-004,Ilm E-Learning Platform,Insecure container / Kubernetes configuration,Medium,2026-04-26,Closed
+INC-2026-00769,GOV-001,Rawdah Municipal Services Authority,Business email compromise (invoice / payment fraud),High,2026-04-27,Closed
+INC-2026-00770,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,Critical,2026-04-28,Contained
+INC-2026-00771,TEL-002,Majal Data Center Hosting,Open management ports / permissive firewall rules,High,2026-04-28,Contained
+INC-2026-00772,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,High,2026-04-29,Closed
+INC-2026-00773,TEL-003,Raqmi Cloud Solutions,Insecure container / Kubernetes configuration,Medium,2026-04-29,Closed
+INC-2026-00774,EDU-003,Nukhba International Schools,Business email compromise (invoice / payment fraud),High,2026-04-29,Contained
+INC-2026-00775,GOV-001,Rawdah Municipal Services Authority,Third-party vendor breach affected entity systems,High,2026-04-30,Closed
+INC-2026-00776,GOV-004,Ufuq Housing Support Program,Zero-day exploitation with no threat intelligence coverage,Critical,2026-05-01,Open
+INC-2026-00777,GOV-006,Bayan Statistics and Planning Unit,Missing or untested incident response plan,High,2026-05-01,Contained
+INC-2026-00778,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,Critical,2026-05-01,Open
+INC-2026-00779,UTL-003,Ain Desalination Operations,Insecure container / Kubernetes configuration,Medium,2026-05-02,Contained
+INC-2026-00780,EDU-001,Qimam University,Business email compromise (invoice / payment fraud),Medium,2026-05-02,Closed
+INC-2026-00781,FIN-001,Rimal Digital Bank,Phishing email led to credential compromise,Critical,2026-05-03,Closed
+INC-2026-00782,ENR-003,Nawras Gas Distribution Co.,Insecure default configuration on servers,Medium,2026-05-05,Open
+INC-2026-00783,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2026-05-07,Closed
+INC-2026-00784,FIN-002,Sanad Microfinance Company,Missing MFA on VPN / remote access,High,2026-05-07,Closed
+INC-2026-00785,HLT-003,Nabd Medical Laboratories,Hard-coded secrets in source code repository,High,2026-05-08,Contained
+INC-2026-00786,UTL-002,Barq Electricity Distribution Co.,Unpatched internet-facing server (critical CVE exploited),Critical,2026-05-09,Closed
+INC-2026-00787,TRN-002,Sikka Rail Operations,Misconfigured cloud storage exposed data publicly,Critical,2026-05-09,Closed
+INC-2026-00788,GOV-003,Sadeem Public Procurement Office,Website defacement,Medium,2026-05-10,Closed
+INC-2026-00789,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),Critical,2026-05-10,Closed
+INC-2026-00790,FIN-001,Rimal Digital Bank,SQL injection in public web application,High,2026-05-10,Open
+INC-2026-00791,UTL-002,Barq Electricity Distribution Co.,Account takeover via credential stuffing,High,2026-05-12,Closed
+INC-2026-00792,GOV-001,Rawdah Municipal Services Authority,End-of-life operating systems still in production,Low,2026-05-13,Closed
+INC-2026-00793,HLT-003,Nabd Medical Laboratories,Hard-coded secrets in source code repository,Medium,2026-05-13,Closed
+INC-2026-00794,RTL-002,Zad Food Distribution Group,Unmanaged / shadow IT assets discovered,Low,2026-05-13,Closed
+INC-2026-00795,ENR-001,Dana Petrochemical Processing Co.,Default credentials on PLC / HMI devices,Critical,2026-05-14,Closed
+INC-2026-00796,HLT-003,Nabd Medical Laboratories,Weak TLS configuration / expired certificates,Medium,2026-05-15,Closed
+INC-2026-00797,GOV-004,Ufuq Housing Support Program,Lost or stolen unencrypted laptop,Medium,2026-05-16,Closed
+INC-2026-00798,HLT-002,Rahma Specialist Hospital Group,Hard-coded secrets in source code repository,High,2026-05-16,Closed
+INC-2026-00799,GOV-006,Bayan Statistics and Planning Unit,DDoS attack disrupted public e-services,Medium,2026-05-17,Closed
+INC-2026-00800,GOV-001,Rawdah Municipal Services Authority,Advanced persistent threat (APT) lateral movement,Critical,2026-05-18,Closed
+INC-2026-00801,UTL-003,Ain Desalination Operations,Malware on ICS engineering workstation,Critical,2026-05-18,Open
+INC-2026-00802,GOV-001,Rawdah Municipal Services Authority,Account takeover via credential stuffing,High,2026-05-19,Contained
+INC-2026-00803,HLT-001,Shifa Northern Health Cluster,Weak TLS configuration / expired certificates,Low,2026-05-19,Closed
+INC-2026-00804,HLT-003,Nabd Medical Laboratories,Insecure container / Kubernetes configuration,Medium,2026-05-19,Closed
+INC-2026-00805,RTL-003,Rihla Travel and Booking,Insecure default configuration on servers,Low,2026-05-19,Closed
+INC-2026-00806,GOV-003,Sadeem Public Procurement Office,Exposed API with broken access control,High,2026-05-21,Closed
+INC-2026-00807,HLT-003,Nabd Medical Laboratories,Ransomware encrypted file servers,Critical,2026-05-21,Closed
+INC-2026-00808,FIN-004,Waqar Takaful Insurance,Cross-site scripting (XSS) in customer portal,Medium,2026-05-21,Contained
+INC-2026-00809,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Critical,2026-05-22,Contained
+INC-2026-00810,GOV-003,Sadeem Public Procurement Office,Insecure container / Kubernetes configuration,Medium,2026-05-22,Open
+INC-2026-00811,EDU-004,Ilm E-Learning Platform,Malware introduced via removable media (USB),Medium,2026-05-22,Contained
+INC-2026-00812,UTL-003,Ain Desalination Operations,Flat network between IT and OT environments,Medium,2026-05-23,Contained
+INC-2026-00813,EDU-002,Manar Technical College,Excessive privileges / privileged account misuse,High,2026-05-23,Closed
+INC-2026-00814,FIN-002,Sanad Microfinance Company,Advanced persistent threat (APT) lateral movement,Critical,2026-05-24,Contained
+INC-2026-00815,ENR-001,Dana Petrochemical Processing Co.,Hard-coded secrets in source code repository,High,2026-05-24,Closed
+INC-2026-00816,RTL-001,Souq Al-Nakheel E-commerce,Lost or stolen unencrypted laptop,Medium,2026-05-24,Open
+INC-2026-00817,HLT-002,Rahma Specialist Hospital Group,Lost or stolen unencrypted laptop,Medium,2026-05-25,Closed
+INC-2026-00818,RTL-003,Rihla Travel and Booking,Missing MFA on VPN / remote access,Medium,2026-05-25,Closed
+INC-2026-00819,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2026-05-26,Contained
+INC-2026-00820,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,High,2026-05-26,Closed
+INC-2026-00821,HLT-003,Nabd Medical Laboratories,Delayed detection due to missing log monitoring,Critical,2026-05-29,Closed
+INC-2026-00822,UTL-002,Barq Electricity Distribution Co.,Misconfigured cloud storage exposed data publicly,High,2026-05-29,Closed
+INC-2026-00823,GOV-001,Rawdah Municipal Services Authority,Non-compliance with NCA ECC controls (audit finding),High,2026-06-01,Closed
+INC-2026-00824,FIN-002,Sanad Microfinance Company,SQL injection in public web application,Medium,2026-06-01,Closed
+INC-2026-00825,FIN-003,Dirham Payments Gateway,Phishing email led to credential compromise,High,2026-06-02,Contained
+INC-2026-00826,GOV-005,Masar Licensing and Permits Center,Insecure container / Kubernetes configuration,High,2026-06-03,Closed
+INC-2026-00827,FIN-004,Waqar Takaful Insurance,Non-compliance with NCA ECC controls (audit finding),Medium,2026-06-03,Contained
+INC-2026-00828,ENR-003,Nawras Gas Distribution Co.,Default credentials on PLC / HMI devices,Critical,2026-06-04,Closed
+INC-2026-00829,HLT-001,Shifa Northern Health Cluster,Advanced persistent threat (APT) lateral movement,High,2026-06-05,Closed
+INC-2026-00830,HLT-003,Nabd Medical Laboratories,Weak or default passwords on network devices,High,2026-06-05,Closed
+INC-2026-00831,HLT-002,Rahma Specialist Hospital Group,Cross-site scripting (XSS) in customer portal,Medium,2026-06-06,Closed
+INC-2026-00832,ENR-003,Nawras Gas Distribution Co.,Advanced persistent threat (APT) lateral movement,Critical,2026-06-06,Contained
+INC-2026-00833,GOV-005,Masar Licensing and Permits Center,SQL injection in public web application,High,2026-06-08,Closed
+INC-2026-00834,HLT-001,Shifa Northern Health Cluster,Cross-site scripting (XSS) in customer portal,Low,2026-06-08,Closed
+INC-2026-00835,TEL-001,Sahab Telecom Services,Misconfigured cloud storage exposed data publicly,Critical,2026-06-10,Open
+INC-2026-00836,GOV-001,Rawdah Municipal Services Authority,Zero-day exploitation with no threat intelligence coverage,Critical,2026-06-12,Closed
+INC-2026-00837,GOV-004,Ufuq Housing Support Program,Missing or untested incident response plan,High,2026-06-12,Contained
+INC-2026-00838,GOV-003,Sadeem Public Procurement Office,Non-compliance with NCA ECC controls (audit finding),Medium,2026-06-13,Contained
+INC-2026-00839,TEL-001,Sahab Telecom Services,Insider data exfiltration,High,2026-06-14,Contained
+INC-2026-00840,HLT-001,Shifa Northern Health Cluster,Business email compromise (invoice / payment fraud),High,2026-06-15,Closed
+INC-2026-00841,HLT-002,Rahma Specialist Hospital Group,Phishing email led to credential compromise,High,2026-06-15,Closed
+INC-2026-00842,HLT-004,Afiya Primary Care Network,Malware introduced via removable media (USB),Medium,2026-06-16,Closed
+INC-2026-00843,GOV-004,Ufuq Housing Support Program,Ransomware encrypted file servers,High,2026-06-18,Closed
+INC-2026-00844,GOV-003,Sadeem Public Procurement Office,Excessive privileges / privileged account misuse,Critical,2026-06-19,Closed
+INC-2026-00845,GOV-006,Bayan Statistics and Planning Unit,Malware introduced via removable media (USB),Medium,2026-06-19,Open
+INC-2026-00846,HLT-002,Rahma Specialist Hospital Group,Weak TLS configuration / expired certificates,Low,2026-06-19,Open
+INC-2026-00847,UTL-001,Ghadeer Regional Water Utility,Malware on ICS engineering workstation,Critical,2026-06-19,Open
+INC-2026-00848,UTL-003,Ain Desalination Operations,Open management ports / permissive firewall rules,High,2026-06-19,Contained
+INC-2026-00849,GOV-001,Rawdah Municipal Services Authority,Delayed detection due to missing log monitoring,High,2026-06-20,Open
+INC-2026-00850,GOV-001,Rawdah Municipal Services Authority,Personal data breach not reported on time (PDPL),Critical,2026-06-20,Open
+INC-2026-00851,GOV-002,Najmah Civil Registry Agency,Malware introduced via removable media (USB),Low,2026-06-20,Closed
+INC-2026-00852,ENR-001,Dana Petrochemical Processing Co.,Business email compromise (invoice / payment fraud),High,2026-06-20,Closed
+INC-2026-00853,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2026-06-22,Closed
+INC-2026-00854,GOV-006,Bayan Statistics and Planning Unit,Lost or stolen unencrypted laptop,Medium,2026-06-22,Closed
+INC-2026-00855,GOV-005,Masar Licensing and Permits Center,Missing or untested incident response plan,High,2026-06-23,Closed
+INC-2026-00856,RTL-002,Zad Food Distribution Group,Account takeover via credential stuffing,Low,2026-06-24,Open
+INC-2026-00857,GOV-003,Sadeem Public Procurement Office,Non-compliance with NCA ECC controls (audit finding),High,2026-06-25,Closed
+INC-2026-00858,GOV-006,Bayan Statistics and Planning Unit,Delayed detection due to missing log monitoring,Medium,2026-06-25,Closed
+INC-2026-00859,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Medium,2026-06-25,Open
+INC-2026-00860,GOV-004,Ufuq Housing Support Program,Unpatched internet-facing server (critical CVE exploited),Critical,2026-06-27,Closed
+INC-2026-00861,GOV-004,Ufuq Housing Support Program,Personal data breach not reported on time (PDPL),High,2026-06-28,Open
+INC-2026-00862,GOV-004,Ufuq Housing Support Program,Insecure container / Kubernetes configuration,Medium,2026-06-28,Closed
+INC-2026-00863,TEL-001,Sahab Telecom Services,Open management ports / permissive firewall rules,Medium,2026-06-28,Closed
+INC-2026-00864,HLT-002,Rahma Specialist Hospital Group,Open management ports / permissive firewall rules,Medium,2026-06-30,Closed
+INC-2026-00865,ENR-003,Nawras Gas Distribution Co.,Default credentials on PLC / HMI devices,Critical,2026-07-01,Closed
+INC-2026-00866,GOV-004,Ufuq Housing Support Program,Business email compromise (invoice / payment fraud),Medium,2026-07-02,Open
+INC-2026-00867,GOV-003,Sadeem Public Procurement Office,Website defacement,Medium,2026-07-05,Closed
+INC-2026-00868,HLT-003,Nabd Medical Laboratories,SQL injection in public web application,High,2026-07-05,Closed
+INC-2026-00869,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,Critical,2026-07-05,Open
+INC-2026-00870,UTL-002,Barq Electricity Distribution Co.,Insecure default configuration on servers,Medium,2026-07-06,Open
+INC-2026-00871,GOV-003,Sadeem Public Procurement Office,Exposed API with broken access control,Medium,2026-07-07,Closed
+INC-2026-00872,GOV-003,Sadeem Public Procurement Office,Misconfigured cloud storage exposed data publicly,Critical,2026-07-07,Closed
+INC-2026-00873,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,High,2026-07-08,Contained
+INC-2026-00874,TEL-002,Majal Data Center Hosting,Advanced persistent threat (APT) lateral movement,Critical,2026-07-08,Contained
+INC-2026-00875,GOV-002,Najmah Civil Registry Agency,Phishing email led to credential compromise,High,2026-07-09,Contained
+INC-2026-00876,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,Critical,2026-07-11,Contained
+INC-2026-00877,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Low,2026-07-11,Closed
+INC-2026-00878,ENR-001,Dana Petrochemical Processing Co.,Delayed detection due to missing log monitoring,High,2026-07-12,Contained
+INC-2026-00879,TEL-001,Sahab Telecom Services,Insecure default configuration on servers,Medium,2026-07-12,Closed
+INC-2026-00880,GOV-001,Rawdah Municipal Services Authority,SQL injection in public web application,High,2026-07-13,Closed
+INC-2026-00881,EDU-004,Ilm E-Learning Platform,Business email compromise (invoice / payment fraud),Medium,2026-07-13,Open
+INC-2026-00882,GOV-003,Sadeem Public Procurement Office,Zero-day exploitation with no threat intelligence coverage,Critical,2026-07-14,Closed
+INC-2026-00883,RTL-003,Rihla Travel and Booking,End-of-life operating systems still in production,Low,2026-07-15,Open
+INC-2026-00884,GOV-001,Rawdah Municipal Services Authority,Insecure default configuration on servers,High,2026-07-16,Contained
+INC-2026-00885,FIN-003,Dirham Payments Gateway,Zero-day exploitation with no threat intelligence coverage,Critical,2026-07-16,Closed
+INC-2026-00886,TRN-002,Sikka Rail Operations,Insider data exfiltration,Critical,2026-07-16,Closed
+INC-2026-00887,GOV-003,Sadeem Public Procurement Office,Account takeover via credential stuffing,Medium,2026-07-17,Contained
+INC-2026-00888,ENR-001,Dana Petrochemical Processing Co.,Business email compromise (invoice / payment fraud),Medium,2026-07-17,Closed
+INC-2026-00889,UTL-002,Barq Electricity Distribution Co.,Flat network between IT and OT environments,High,2026-07-21,Closed
+INC-2026-00890,EDU-001,Qimam University,Website defacement,Low,2026-07-21,Closed
+INC-2026-00891,GOV-005,Masar Licensing and Permits Center,Ransomware encrypted file servers,Critical,2026-07-22,Open
+INC-2026-00892,ENR-001,Dana Petrochemical Processing Co.,Malware introduced via removable media (USB),Low,2026-07-22,Contained
+INC-2026-00893,TEL-001,Sahab Telecom Services,Default credentials on PLC / HMI devices,Critical,2026-07-22,Contained
+INC-2026-00894,EDU-001,Qimam University,Business email compromise (invoice / payment fraud),Medium,2026-07-22,Closed
+INC-2026-00895,GOV-006,Bayan Statistics and Planning Unit,Lost or stolen unencrypted laptop,Low,2026-07-23,Closed
+INC-2026-00896,HLT-001,Shifa Northern Health Cluster,Missing or untested incident response plan,High,2026-07-23,Closed
+INC-2026-00897,HLT-003,Nabd Medical Laboratories,Hard-coded secrets in source code repository,Medium,2026-07-23,Closed
+INC-2026-00898,TRN-002,Sikka Rail Operations,Business email compromise (invoice / payment fraud),Critical,2026-07-23,Closed
+INC-2026-00899,RTL-001,Souq Al-Nakheel E-commerce,Excessive privileges / privileged account misuse,Medium,2026-07-23,Closed
+INC-2026-00900,UTL-003,Ain Desalination Operations,Default credentials on PLC / HMI devices,High,2026-07-24,Contained
+INC-2026-00901,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,Medium,2026-07-27,Contained
+INC-2026-00902,GOV-003,Sadeem Public Procurement Office,Open management ports / permissive firewall rules,High,2026-07-27,Closed
+INC-2026-00903,GOV-006,Bayan Statistics and Planning Unit,Misconfigured cloud storage exposed data publicly,High,2026-07-27,Closed
+INC-2026-00904,GOV-004,Ufuq Housing Support Program,Ransomware encrypted file servers,Critical,2026-07-28,Closed
+INC-2026-00905,EDU-001,Qimam University,Business email compromise (invoice / payment fraud),Medium,2026-07-29,Closed
+INC-2026-00906,GOV-002,Najmah Civil Registry Agency,Exposed API with broken access control,Medium,2026-07-30,Contained
+INC-2026-00907,GOV-004,Ufuq Housing Support Program,Personal data breach not reported on time (PDPL),High,2026-07-30,Closed
+INC-2026-00908,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,High,2026-07-30,Closed
+INC-2026-00909,RTL-002,Zad Food Distribution Group,Delayed detection due to missing log monitoring,Critical,2026-07-31,Closed
+INC-2026-00910,GOV-001,Rawdah Municipal Services Authority,Missing MFA on VPN / remote access,High,2026-08-01,Open
+INC-2026-00911,GOV-004,Ufuq Housing Support Program,Business email compromise (invoice / payment fraud),Critical,2026-08-01,Closed
+INC-2026-00912,TRN-002,Sikka Rail Operations,Ransomware encrypted file servers,High,2026-08-02,Closed
+INC-2026-00913,ENR-001,Dana Petrochemical Processing Co.,Misconfigured cloud storage exposed data publicly,High,2026-08-03,Closed
+INC-2026-00914,GOV-004,Ufuq Housing Support Program,Unmanaged / shadow IT assets discovered,Low,2026-08-04,Open
+INC-2026-00915,GOV-004,Ufuq Housing Support Program,Website defacement,Medium,2026-08-04,Closed
+INC-2026-00916,GOV-004,Ufuq Housing Support Program,Misconfigured cloud storage exposed data publicly,Critical,2026-08-04,Closed
+INC-2026-00917,HLT-002,Rahma Specialist Hospital Group,Non-compliance with NCA ECC controls (audit finding),Medium,2026-08-05,Closed
+INC-2026-00918,TEL-001,Sahab Telecom Services,Insecure container / Kubernetes configuration,Medium,2026-08-05,Contained
+INC-2026-00919,TRN-001,Wasl Logistics and Freight,Ransomware encrypted file servers,Critical,2026-08-05,Contained
+INC-2026-00920,UTL-003,Ain Desalination Operations,Business email compromise (invoice / payment fraud),High,2026-08-07,Contained
+INC-2026-00921,RTL-002,Zad Food Distribution Group,Weak or default passwords on network devices,Critical,2026-08-08,Contained
+INC-2026-00922,HLT-003,Nabd Medical Laboratories,Misconfigured cloud storage exposed data publicly,Critical,2026-08-09,Closed
+INC-2026-00923,TEL-002,Majal Data Center Hosting,Weak or default passwords on network devices,Medium,2026-08-09,Open
+INC-2026-00924,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,High,2026-08-10,Closed
+INC-2026-00925,GOV-006,Bayan Statistics and Planning Unit,Open management ports / permissive firewall rules,High,2026-08-10,Contained
+INC-2026-00926,HLT-001,Shifa Northern Health Cluster,Ransomware encrypted file servers,Critical,2026-08-10,Closed
+INC-2026-00927,FIN-003,Dirham Payments Gateway,Exposed API with broken access control,High,2026-08-10,Contained
+INC-2026-00928,EDU-004,Ilm E-Learning Platform,Malware introduced via removable media (USB),Low,2026-08-10,Closed
+INC-2026-00929,GOV-006,Bayan Statistics and Planning Unit,Open management ports / permissive firewall rules,Medium,2026-08-13,Contained
+INC-2026-00930,FIN-002,Sanad Microfinance Company,DDoS attack disrupted public e-services,High,2026-08-13,Closed
+INC-2026-00931,ENR-003,Nawras Gas Distribution Co.,Zero-day exploitation with no threat intelligence coverage,Critical,2026-08-13,Contained
+INC-2026-00932,GOV-006,Bayan Statistics and Planning Unit,Ransomware encrypted file servers,Critical,2026-08-14,Open
+INC-2026-00933,FIN-001,Rimal Digital Bank,Exposed API with broken access control,High,2026-08-14,Contained
+INC-2026-00934,GOV-005,Masar Licensing and Permits Center,Insecure default configuration on servers,Medium,2026-08-16,Closed
+INC-2026-00935,HLT-001,Shifa Northern Health Cluster,Cross-site scripting (XSS) in customer portal,Medium,2026-08-17,Closed
+INC-2026-00936,RTL-002,Zad Food Distribution Group,Insecure container / Kubernetes configuration,Low,2026-08-17,Closed
+INC-2026-00937,GOV-004,Ufuq Housing Support Program,Advanced persistent threat (APT) lateral movement,Critical,2026-08-18,Closed
+INC-2026-00938,HLT-002,Rahma Specialist Hospital Group,Ransomware encrypted file servers,High,2026-08-18,Contained
+INC-2026-00939,TEL-002,Majal Data Center Hosting,Advanced persistent threat (APT) lateral movement,Critical,2026-08-18,Closed
+INC-2026-00940,GOV-003,Sadeem Public Procurement Office,DDoS attack disrupted public e-services,High,2026-08-19,Closed
+INC-2026-00941,UTL-002,Barq Electricity Distribution Co.,DDoS attack disrupted public e-services,Medium,2026-08-20,Contained
+INC-2026-00942,EDU-002,Manar Technical College,Misconfigured cloud storage exposed data publicly,Critical,2026-08-20,Closed
+INC-2026-00943,ENR-003,Nawras Gas Distribution Co.,Malware on ICS engineering workstation,High,2026-08-22,Closed
+INC-2026-00944,GOV-003,Sadeem Public Procurement Office,Open management ports / permissive firewall rules,High,2026-08-23,Closed
+INC-2026-00945,HLT-003,Nabd Medical Laboratories,Lost or stolen unencrypted laptop,Low,2026-08-23,Closed
+INC-2026-00946,HLT-003,Nabd Medical Laboratories,Personal data breach not reported on time (PDPL),Medium,2026-08-23,Contained
+INC-2026-00947,RTL-002,Zad Food Distribution Group,Website defacement,Medium,2026-08-23,Open
+INC-2026-00948,FIN-001,Rimal Digital Bank,Hard-coded secrets in source code repository,High,2026-08-25,Closed
+INC-2026-00949,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,Critical,2026-08-25,Closed
+INC-2026-00950,GOV-002,Najmah Civil Registry Agency,Malware introduced via removable media (USB),Medium,2026-08-26,Contained
+INC-2026-00951,TEL-003,Raqmi Cloud Solutions,Delayed detection due to missing log monitoring,High,2026-08-27,Closed
+INC-2026-00952,GOV-004,Ufuq Housing Support Program,Delayed detection due to missing log monitoring,High,2026-08-28,Closed
+INC-2026-00953,GOV-004,Ufuq Housing Support Program,Non-compliance with NCA ECC controls (audit finding),Low,2026-08-29,Closed
+INC-2026-00954,FIN-004,Waqar Takaful Insurance,Advanced persistent threat (APT) lateral movement,Critical,2026-08-29,Open
+INC-2026-00955,UTL-002,Barq Electricity Distribution Co.,Website defacement,Low,2026-08-29,Contained
+INC-2026-00956,HLT-004,Afiya Primary Care Network,Personal data breach not reported on time (PDPL),High,2026-08-30,Contained
+INC-2026-00957,GOV-002,Najmah Civil Registry Agency,Insecure default configuration on servers,High,2026-08-31,Closed
+INC-2026-00958,GOV-002,Najmah Civil Registry Agency,Missing MFA on VPN / remote access,High,2026-09-01,Closed
+INC-2026-00959,HLT-001,Shifa Northern Health Cluster,Personal data breach not reported on time (PDPL),Medium,2026-09-01,Contained
+INC-2026-00960,FIN-003,Dirham Payments Gateway,Weak or default passwords on network devices,Medium,2026-09-05,Contained
+INC-2026-00961,TRN-001,Wasl Logistics and Freight,Hard-coded secrets in source code repository,Medium,2026-09-05,Closed
+INC-2026-00962,HLT-001,Shifa Northern Health Cluster,Website defacement,High,2026-09-06,Closed
+INC-2026-00963,EDU-001,Qimam University,Business email compromise (invoice / payment fraud),Critical,2026-09-07,Contained
+INC-2026-00964,EDU-004,Ilm E-Learning Platform,Weak or default passwords on network devices,Medium,2026-09-07,Contained
+INC-2026-00965,TEL-001,Sahab Telecom Services,SQL injection in public web application,Medium,2026-09-08,Open
+INC-2026-00966,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,High,2026-09-09,Closed
+INC-2026-00967,HLT-002,Rahma Specialist Hospital Group,Lost or stolen unencrypted laptop,Medium,2026-09-09,Closed
+INC-2026-00968,FIN-003,Dirham Payments Gateway,Insider data exfiltration,Medium,2026-09-12,Closed
+INC-2026-00969,UTL-002,Barq Electricity Distribution Co.,Open management ports / permissive firewall rules,Medium,2026-09-12,Closed
+INC-2026-00970,RTL-001,Souq Al-Nakheel E-commerce,Weak TLS configuration / expired certificates,Low,2026-09-13,Contained
+INC-2026-00971,GOV-003,Sadeem Public Procurement Office,Malware introduced via removable media (USB),Medium,2026-09-14,Closed
+INC-2026-00972,TEL-001,Sahab Telecom Services,Zero-day exploitation with no threat intelligence coverage,High,2026-09-14,Contained
+INC-2026-00973,GOV-003,Sadeem Public Procurement Office,End-of-life operating systems still in production,Low,2026-09-16,Open
+INC-2026-00974,TRN-002,Sikka Rail Operations,Excessive privileges / privileged account misuse,High,2026-09-16,Contained
+INC-2026-00975,FIN-004,Waqar Takaful Insurance,Ransomware encrypted file servers,Critical,2026-09-17,Closed
+INC-2026-00976,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,High,2026-09-19,Closed
+INC-2026-00977,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2026-09-19,Closed
+INC-2026-00978,RTL-003,Rihla Travel and Booking,Weak TLS configuration / expired certificates,Low,2026-09-21,Closed
+INC-2026-00979,GOV-002,Najmah Civil Registry Agency,Account takeover via credential stuffing,Medium,2026-09-22,Closed
+INC-2026-00980,HLT-003,Nabd Medical Laboratories,Lost or stolen unencrypted laptop,Medium,2026-09-22,Contained
+INC-2026-00981,ENR-002,Shuaa Solar Power Plant Operator,Insecure default configuration on servers,Medium,2026-09-22,Contained
+INC-2026-00982,EDU-003,Nukhba International Schools,Hard-coded secrets in source code repository,High,2026-09-22,Closed
+INC-2026-00983,HLT-002,Rahma Specialist Hospital Group,Advanced persistent threat (APT) lateral movement,Critical,2026-09-23,Closed
+INC-2026-00984,HLT-003,Nabd Medical Laboratories,Ransomware encrypted file servers,Critical,2026-09-24,Open
+INC-2026-00985,HLT-004,Afiya Primary Care Network,Phishing email led to credential compromise,High,2026-09-24,Closed
+INC-2026-00986,GOV-005,Masar Licensing and Permits Center,Account takeover via credential stuffing,Medium,2026-09-25,Closed
+INC-2026-00987,RTL-001,Souq Al-Nakheel E-commerce,SQL injection in public web application,Medium,2026-09-25,Closed
+INC-2026-00988,UTL-003,Ain Desalination Operations,Third-party vendor breach affected entity systems,Medium,2026-09-26,Open
+INC-2026-00989,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Medium,2026-09-27,Closed
+INC-2026-00990,GOV-002,Najmah Civil Registry Agency,Insider data exfiltration,Medium,2026-09-28,Contained
+INC-2026-00991,TRN-001,Wasl Logistics and Freight,Exposed API with broken access control,High,2026-09-28,Contained
+INC-2026-00992,EDU-003,Nukhba International Schools,Weak or default passwords on network devices,Critical,2026-09-29,Closed
+INC-2026-00993,GOV-003,Sadeem Public Procurement Office,Insecure container / Kubernetes configuration,Medium,2026-09-30,Closed
+INC-2026-00994,GOV-005,Masar Licensing and Permits Center,Insecure default configuration on servers,Medium,2026-09-30,Open
+INC-2026-00995,TEL-002,Majal Data Center Hosting,DDoS attack disrupted public e-services,High,2026-09-30,Open
+INC-2026-00996,FIN-004,Waqar Takaful Insurance,Third-party vendor breach affected entity systems,High,2026-10-01,Closed
+INC-2026-00997,EDU-002,Manar Technical College,Non-compliance with NCA ECC controls (audit finding),Low,2026-10-02,Contained
+INC-2026-00998,FIN-004,Waqar Takaful Insurance,Cross-site scripting (XSS) in customer portal,Medium,2026-10-03,Open
+INC-2026-00999,RTL-001,Souq Al-Nakheel E-commerce,SQL injection in public web application,Critical,2026-10-04,Closed
+INC-2026-01000,FIN-003,Dirham Payments Gateway,Malware introduced via removable media (USB),Medium,2026-10-05,Contained
+INC-2026-01001,HLT-001,Shifa Northern Health Cluster,Personal data breach not reported on time (PDPL),High,2026-10-06,Closed
+INC-2026-01002,HLT-002,Rahma Specialist Hospital Group,Business email compromise (invoice / payment fraud),High,2026-10-06,Open
+INC-2026-01003,RTL-002,Zad Food Distribution Group,Hard-coded secrets in source code repository,High,2026-10-06,Contained
+INC-2026-01004,GOV-003,Sadeem Public Procurement Office,End-of-life operating systems still in production,High,2026-10-07,Closed
+INC-2026-01005,RTL-002,Zad Food Distribution Group,Open management ports / permissive firewall rules,High,2026-10-07,Closed
+INC-2026-01006,UTL-002,Barq Electricity Distribution Co.,DDoS attack disrupted public e-services,Medium,2026-10-10,Contained
+INC-2026-01007,RTL-003,Rihla Travel and Booking,Weak TLS configuration / expired certificates,Medium,2026-10-10,Closed
+INC-2026-01008,GOV-004,Ufuq Housing Support Program,End-of-life operating systems still in production,Medium,2026-10-11,Closed
+INC-2026-01009,ENR-001,Dana Petrochemical Processing Co.,Ransomware encrypted file servers,High,2026-10-11,Closed
+INC-2026-01010,GOV-004,Ufuq Housing Support Program,Non-compliance with NCA ECC controls (audit finding),Medium,2026-10-12,Contained
+INC-2026-01011,RTL-003,Rihla Travel and Booking,Hard-coded secrets in source code repository,Medium,2026-10-12,Open
+INC-2026-01012,GOV-004,Ufuq Housing Support Program,Delayed detection due to missing log monitoring,Medium,2026-10-13,Closed
+INC-2026-01013,GOV-005,Masar Licensing and Permits Center,Malware introduced via removable media (USB),Medium,2026-10-14,Closed
+INC-2026-01014,GOV-006,Bayan Statistics and Planning Unit,Account takeover via credential stuffing,Medium,2026-10-14,Contained
+INC-2026-01015,RTL-002,Zad Food Distribution Group,Website defacement,High,2026-10-14,Open
+INC-2026-01016,EDU-004,Ilm E-Learning Platform,Hard-coded secrets in source code repository,High,2026-10-15,Closed
+INC-2026-01017,GOV-005,Masar Licensing and Permits Center,End-of-life operating systems still in production,Medium,2026-10-16,Closed
+INC-2026-01018,HLT-003,Nabd Medical Laboratories,Lost or stolen unencrypted laptop,Medium,2026-10-18,Closed
+INC-2026-01019,HLT-003,Nabd Medical Laboratories,Insecure default configuration on servers,Medium,2026-10-19,Closed
+INC-2026-01020,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,High,2026-10-20,Closed
+INC-2026-01021,GOV-003,Sadeem Public Procurement Office,Phishing email led to credential compromise,Medium,2026-10-21,Contained
+INC-2026-01022,GOV-006,Bayan Statistics and Planning Unit,Phishing email led to credential compromise,Critical,2026-10-21,Closed
+INC-2026-01023,HLT-003,Nabd Medical Laboratories,Excessive privileges / privileged account misuse,Medium,2026-10-21,Closed
+INC-2026-01024,ENR-003,Nawras Gas Distribution Co.,DDoS attack disrupted public e-services,High,2026-10-21,Open
+INC-2026-01025,EDU-003,Nukhba International Schools,Third-party vendor breach affected entity systems,High,2026-10-21,Closed
+INC-2026-01026,GOV-003,Sadeem Public Procurement Office,End-of-life operating systems still in production,Low,2026-10-23,Contained
+INC-2026-01027,GOV-006,Bayan Statistics and Planning Unit,Website defacement,Medium,2026-10-23,Open
+INC-2026-01028,HLT-003,Nabd Medical Laboratories,Malware introduced via removable media (USB),Medium,2026-10-23,Contained
+INC-2026-01029,ENR-001,Dana Petrochemical Processing Co.,Missing or untested incident response plan,High,2026-10-23,Closed
+INC-2026-01030,FIN-002,Sanad Microfinance Company,Third-party vendor breach affected entity systems,Medium,2026-10-24,Contained
+INC-2026-01031,UTL-002,Barq Electricity Distribution Co.,Default credentials on PLC / HMI devices,Critical,2026-10-24,Closed
+INC-2026-01032,TRN-002,Sikka Rail Operations,Third-party vendor breach affected entity systems,Medium,2026-10-24,Closed
+INC-2026-01033,HLT-001,Shifa Northern Health Cluster,Insecure default configuration on servers,Medium,2026-10-25,Closed
+INC-2026-01034,FIN-004,Waqar Takaful Insurance,Non-compliance with NCA ECC controls (audit finding),Medium,2026-10-25,Open
+INC-2026-01035,ENR-001,Dana Petrochemical Processing Co.,Open management ports / permissive firewall rules,High,2026-10-25,Contained
+INC-2026-01036,EDU-004,Ilm E-Learning Platform,Account takeover via credential stuffing,Low,2026-10-25,Closed
+INC-2026-01037,RTL-002,Zad Food Distribution Group,Business email compromise (invoice / payment fraud),High,2026-10-25,Contained
+INC-2026-01038,HLT-003,Nabd Medical Laboratories,Missing MFA on VPN / remote access,Critical,2026-10-26,Closed
+INC-2026-01039,EDU-002,Manar Technical College,Unmanaged / shadow IT assets discovered,Low,2026-10-26,Closed
+INC-2026-01040,EDU-004,Ilm E-Learning Platform,Insecure container / Kubernetes configuration,Medium,2026-10-26,Open
+INC-2026-01041,TRN-002,Sikka Rail Operations,Open management ports / permissive firewall rules,High,2026-10-26,Open
+INC-2026-01042,RTL-001,Souq Al-Nakheel E-commerce,SQL injection in public web application,High,2026-10-27,Closed
+INC-2026-01043,ENR-001,Dana Petrochemical Processing Co.,End-of-life operating systems still in production,Medium,2026-10-31,Closed

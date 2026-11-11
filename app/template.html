@@ -1,0 +1,566 @@
+<title>SCyWF Gap Explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap">
+<style>
+/* Layout: an operations console. A sticky band holds the name and views; each view is
+   a summary strip, then a two-column work area that stacks on phones. */
+:root {
+  --bg: #f4f6f5;
+  --surface: #ffffff;
+  --sunk: #e9eeec;
+  --line: #d5ddd9;
+  --fg: #14201b;
+  --muted: #56655e;
+  --accent: #0b6e4f;          /* SCyWF green */
+  --accent-soft: #d8ede4;
+  --accent-fg: #ffffff;
+  --sev-low: #6b8f9e;
+  --sev-med: #c99a1e;
+  --sev-high: #d4652a;
+  --sev-crit: #b3203a;
+  --font-display: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1513; --surface: #161e1b; --sunk: #1d2723; --line: #2a3631; --fg: #e5ece9; --muted: #96a59e;
+    --accent: #3fbf8f; --accent-soft: #19362b; --accent-fg: #06120d;
+    --sev-low: #7fa3b2; --sev-med: #e0b440; --sev-high: #ec7d45; --sev-crit: #f0566f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1513; --surface: #161e1b; --sunk: #1d2723; --line: #2a3631; --fg: #e5ece9; --muted: #96a59e;
+  --accent: #3fbf8f; --accent-soft: #19362b; --accent-fg: #06120d;
+  --sev-low: #7fa3b2; --sev-med: #e0b440; --sev-high: #ec7d45; --sev-crit: #f0566f; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-block: 12px; }
+.brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.brand h1 { font-family: var(--font-display); font-weight: 800; font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+.brand .ver { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.dummy { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; color: var(--sev-med); border: 1px solid currentColor; border-radius: 4px; padding: 1px 6px; }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.tabs a { text-decoration: none; color: var(--muted); font-weight: 500; padding: 6px 12px; border-radius: 6px; }
+nav.tabs a:hover { color: var(--fg); background: var(--sunk); }
+nav.tabs a[aria-current="page"] { color: var(--accent-fg); background: var(--accent); }
+main { padding-block: 20px 48px; }
+h2 { font-family: var(--font-display); font-weight: 700; font-size: 16px; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--font-display); font-weight: 700; font-size: 22px; margin: 0; text-wrap: balance; }
+.label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+.mono { font-family: var(--font-mono); }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* search */
+.search { position: relative; max-width: 560px; }
+.search input { width: 100%; font: inherit; font-size: 15px; padding: 11px 14px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); color: var(--fg); }
+.search input:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: transparent; }
+.results { position: absolute; left: 0; right: 0; top: calc(100% + 4px); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: 0 8px 24px rgb(0 0 0 / 0.12); max-height: 320px; overflow-y: auto; z-index: 4; padding: 4px; margin: 0; list-style: none; }
+.results li { padding: 8px 10px; border-radius: 6px; cursor: pointer; display: flex; gap: 10px; align-items: baseline; }
+.results li[aria-selected="true"], .results li:hover { background: var(--accent-soft); }
+.results .code { font-family: var(--font-mono); font-size: 12px; color: var(--muted); min-width: 64px; }
+.results .sec { margin-left: auto; font-size: 12px; color: var(--muted); }
+
+/* entity summary */
+.summary { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: flex-end; padding-block: 20px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.summary .who { flex: 1 1 320px; min-width: 0; display: grid; gap: 4px; }
+.summary .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--sunk); color: var(--fg); white-space: nowrap; }
+.chip.code { font-family: var(--font-mono); }
+.stats { display: flex; flex-wrap: wrap; gap: 24px; }
+.stat .v { font-family: var(--font-display); font-weight: 800; font-size: 26px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.stat .v.crit { color: var(--sev-crit); }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 920px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; min-width: 0; display: grid; gap: 12px; }
+.panel-head { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+.stack { display: grid; gap: 20px; min-width: 0; }
+.hint { font-size: 12.5px; color: var(--muted); margin: 0; max-width: 65ch; }
+
+.seg { display: inline-flex; background: var(--sunk); border-radius: 6px; padding: 2px; }
+.seg button { font: inherit; font-size: 13px; border: 0; background: transparent; color: var(--muted); padding: 4px 10px; border-radius: 5px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); font-weight: 600; }
+
+/* incidents table */
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr.inc { cursor: pointer; }
+tr.inc:hover td { background: var(--sunk); }
+tr.inc[aria-expanded="true"] td { background: var(--accent-soft); }
+td.rank { color: var(--muted); font-variant-numeric: tabular-nums; width: 28px; }
+td.r { text-align: right; font-variant-numeric: tabular-nums; }
+td.date { white-space: nowrap; }
+.heatpanel { margin-bottom: 20px; }
+.heat { width: 100%; }
+.vt { font-weight: 500; }
+.cat { font-size: 12px; color: var(--muted); }
+.sevbar { display: flex; height: 8px; width: 90px; border-radius: 2px; overflow: hidden; background: var(--sunk); margin-top: 6px; }
+.sevbar span { display: block; height: 100%; }
+.pill { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 4px; color: #fff; white-space: nowrap; }
+.s0 { background: var(--sev-low); } .s1 { background: var(--sev-med); } .s2 { background: var(--sev-high); } .s3 { background: var(--sev-crit); }
+.pill.s1 { color: #2a1f00; }
+tr.detail td { background: var(--accent-soft); padding-top: 0; }
+.maplist { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.maplist li { display: grid; grid-template-columns: 56px 1fr; gap: 8px; font-size: 13px; }
+.rel { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; color: var(--accent); }
+
+/* tasks */
+.tasks { list-style: none; margin: 0; padding: 0; display: grid; }
+.task { display: grid; grid-template-columns: 22px 54px minmax(0, 1fr); gap: 4px 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.task:last-child { border-bottom: 0; }
+.task .n { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; padding-top: 2px; }
+.task .id { font-family: var(--font-mono); font-size: 12.5px; font-weight: 500; color: var(--accent); padding-top: 1px; }
+.task .body { display: grid; gap: 5px; min-width: 0; }
+.task .why { font-size: 12px; color: var(--muted); }
+.bar { height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.roles { display: flex; flex-wrap: wrap; gap: 4px; }
+.roles .chip { font-size: 11px; }
+button.more { font: inherit; font-size: 13px; color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; cursor: pointer; justify-self: start; }
+
+/* specialty bars */
+.hbars { display: grid; gap: 7px; }
+.hbar { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr) 44px; gap: 10px; align-items: center; font-size: 13px; }
+.hbar .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hbar .bar { height: 10px; }
+.hbar .p { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; }
+
+.rolelist, .proglist { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.rolelist li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; }
+.rolelist .rid { font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); }
+.rolelist .cov { font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.proglist li { display: grid; gap: 4px; padding-left: 12px; border-left: 3px solid var(--accent); }
+.proglist .pc { font-size: 12px; color: var(--muted); }
+.proglist ul { margin: 0; padding-left: 18px; }
+
+/* national */
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 16px; }
+select { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+.heat { border-collapse: separate; border-spacing: 2px; }
+.heat th { border: 0; font-size: 10.5px; text-transform: none; letter-spacing: 0; padding: 4px; vertical-align: bottom; white-space: normal; min-width: 64px; line-height: 1.25; }
+.heat th.rowh { text-align: right; font-size: 12px; white-space: nowrap; color: var(--fg); font-weight: 500; }
+.heat td { border: 0; padding: 0; height: 34px; text-align: center; font-size: 11.5px; font-variant-numeric: tabular-nums; border-radius: 3px; min-width: 64px; }
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--muted); align-items: center; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+
+/* mapping */
+.mapfilter { max-width: 420px; }
+.mapfilter input { width: 100%; font: inherit; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+.tcell { display: grid; gap: 3px; }
+.tcell div { font-size: 12.5px; }
+.tcell .mono { color: var(--accent); font-size: 12px; margin-right: 6px; }
+
+footer { font-size: 12px; color: var(--muted); padding-block: 24px; border-top: 1px solid var(--line); }
+footer p { margin: 0 0 6px; max-width: 90ch; }
+@media (max-width: 520px) {
+  .hbar { grid-template-columns: minmax(0, 120px) minmax(0, 1fr) 40px; }
+  .stats { gap: 16px; }
+  .stat .v { font-size: 22px; }
+  th:nth-child(4), td:nth-child(4):not([colspan]), th:nth-child(6), td.date { display: none; }
+  tr.detail td[colspan] { padding-left: 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar > span { transition: width 0.3s ease; }
+}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>SCyWF Gap Explorer</h1>
+      <span class="ver">SCyWF 1.5 : 2026</span>
+      <span class="dummy" title="All entities and incidents are generated dummy data">Dummy data</span>
+    </div>
+    <nav class="tabs" aria-label="Views">
+      <a href="#entity" data-view="entity">Entity lookup</a>
+      <a href="#national" data-view="national">National gaps</a>
+      <a href="#mapping" data-view="mapping">Task mapping</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- ENTITY VIEW -->
+  <section id="view-entity" data-view-panel="entity">
+    <div class="search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="results">
+      <label class="label" for="q">Search entity by code or name</label>
+      <input id="q" type="search" autocomplete="off" placeholder="e.g. HLT-002 or Rahma" aria-autocomplete="list" aria-controls="results">
+      <ul id="results" class="results" role="listbox" hidden></ul>
+    </div>
+
+    <div class="summary" id="summary"></div>
+
+    <div class="grid">
+      <div class="stack">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Incidents by vulnerability</h2>
+            <div class="seg" role="group" aria-label="Rank incidents by">
+              <button type="button" id="rank-freq" aria-pressed="true">Frequency</button>
+              <button type="button" id="rank-sev" aria-pressed="false">Severity</button>
+            </div>
+          </div>
+          <p class="hint" id="rank-hint"></p>
+          <div class="tablewrap">
+            <table>
+              <thead><tr><th>#</th><th>Vulnerability</th><th class="r">Count</th><th class="r">Sev. score</th><th>Highest</th><th>Last seen</th></tr></thead>
+              <tbody id="inc-body"></tbody>
+            </table>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Skill gap by SCyWF specialty area</h2>
+          <p class="hint">Share of the recommended-task score that falls in each specialty area. Areas come from the task numbering ranges in SCyWF Table 8.</p>
+          <div class="hbars" id="spec-bars"></div>
+        </section>
+      </div>
+      <div class="stack">
+        <section class="panel">
+          <div class="panel-head"><h2>Recommended SCyWF tasks</h2><span class="label" id="task-count"></span></div>
+          <p class="hint">Score = sum over incidents of severity weight (Low 1, Medium 2, High 3, Critical 4), times 1 for a primary task or 0.5 for a supporting task. Job roles are the SCyWF roles that list the task.</p>
+          <ol class="tasks" id="task-list"></ol>
+          <button type="button" class="more" id="task-more">Show all tasks</button>
+        </section>
+        <section class="panel">
+          <h2>Job roles to build</h2>
+          <p class="hint">SCyWF job roles ranked by how much of this entity's task score they cover.</p>
+          <ol class="rolelist" id="role-list"></ol>
+        </section>
+        <section class="panel">
+          <h2>Programs and practices</h2>
+          <p class="hint">Suggested from the entity's top three vulnerability categories.</p>
+          <ul class="proglist" id="prog-list"></ul>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- NATIONAL VIEW -->
+  <section id="view-national" data-view-panel="national" hidden>
+    <div class="toolbar">
+      <label class="label" for="sector">Sector</label>
+      <select id="sector"></select>
+      <div class="stats" id="nat-stats"></div>
+    </div>
+    <section class="panel heatpanel">
+      <h2>Gap heatmap: sector × specialty area</h2>
+      <p class="hint">Each cell is the share (%) of a sector's task score in that SCyWF specialty area. Darker cells show where a sector most needs skills.</p>
+      <div class="tablewrap"><table class="heat" id="heat"></table></div>
+    </section>
+    <div class="grid">
+      <div class="stack">
+        <section class="panel">
+          <h2>Most frequent vulnerabilities</h2>
+          <div class="hbars" id="nat-vulns"></div>
+        </section>
+      </div>
+      <div class="stack">
+        <section class="panel">
+          <h2>Most needed SCyWF tasks</h2>
+          <p class="hint">"Entities" counts how many entities have this task among their top 10 recommendations.</p>
+          <ol class="tasks" id="nat-tasks"></ol>
+        </section>
+        <section class="panel">
+          <h2>Job roles in demand</h2>
+          <ol class="rolelist" id="nat-roles"></ol>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPPING VIEW -->
+  <section id="view-mapping" data-view-panel="mapping" hidden>
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Vulnerability → SCyWF task mapping</h2>
+        <div class="mapfilter"><label class="label" for="mapq">Filter</label><input id="mapq" type="search" placeholder="Vulnerability, category or task ID"></div>
+      </div>
+      <p class="hint">The curated mapping the explorer uses. Primary tasks are the ones most needed to prevent or handle the vulnerability; supporting tasks close the rest of the gap.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Vulnerability</th><th>Primary tasks</th><th>Supporting tasks</th></tr></thead>
+          <tbody id="map-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Task IDs, descriptions, job roles and specialty areas come from the Saudi Cybersecurity Workforce Framework (SCyWF 1.5 : 2026) published by the National Cybersecurity Authority. Entities and incidents are fictional dummy data for a proof of concept.</p>
+</footer>
+
+<script>
+const DATA = /*__DATA__*/null;
+const SEV = DATA.severities, W = [1, 2, 3, 4];
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const SPECS = ["General", "Cybersecurity Architecture", "Cybersecurity Research and Development", "Leadership", "Workforce Development",
+  "Governance, Risk and Compliance", "Laws and Data Protection", "Defense", "Protection", "Vulnerability Assessment",
+  "Incident Response", "Threat Management", "ICS/OT"];
+const byEntity = {};
+for (const inc of DATA.incidents) (byEntity[inc[1]] ||= []).push(inc);
+const entityByCode = Object.fromEntries(DATA.entities.map((e) => [e.code, e]));
+
+/* ---------- analysis ---------- */
+function analyze(incs) {
+  const v = new Map();
+  for (const [, , vi, si, date, status] of incs) {
+    let r = v.get(vi);
+    if (!r) v.set(vi, (r = { vi, count: 0, sev: [0, 0, 0, 0], score: 0, max: 0, last: "", open: 0 }));
+    r.count++; r.sev[si]++; r.score += W[si]; r.max = Math.max(r.max, si);
+    if (date > r.last) r.last = date;
+    if (status !== "Closed") r.open++;
+  }
+  const vulns = [...v.values()];
+  const tasks = new Map();
+  for (const r of vulns) {
+    const m = DATA.vulns[r.vi];
+    const add = (t, f, rel) => {
+      let x = tasks.get(t);
+      if (!x) tasks.set(t, (x = { id: t, score: 0, from: new Set(), primary: false }));
+      x.score += r.score * f; x.from.add(r.vi); if (rel) x.primary = true;
+    };
+    m.p.forEach((t) => add(t, 1, true));
+    m.s.forEach((t) => add(t, 0.5, false));
+  }
+  const taskList = [...tasks.values()].sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+  const total = taskList.reduce((s, t) => s + t.score, 0) || 1;
+  const spec = Object.fromEntries(SPECS.map((s) => [s, 0]));
+  for (const t of taskList) spec[DATA.tasks[t.id].s] += t.score / total;
+  const roles = new Map();
+  for (const t of taskList) for (const rid of DATA.tasks[t.id].r) {
+    let x = roles.get(rid);
+    if (!x) roles.set(rid, (x = { id: rid, score: 0, n: 0 }));
+    x.score += t.score; x.n++;
+  }
+  const roleList = [...roles.values()].sort((a, b) => b.score - a.score);
+  const cats = new Map();
+  for (const r of vulns) { const c = DATA.vulns[r.vi].c; cats.set(c, (cats.get(c) || 0) + r.score); }
+  const catList = [...cats.entries()].sort((a, b) => b[1] - a[1]);
+  return { vulns, taskList, total, spec, roleList, catList };
+}
+
+/* ---------- entity view ---------- */
+const state = { code: null, rank: "freq", open: new Set(), showAll: false };
+
+function sevBar(sev, count) {
+  return `<div class="sevbar" title="${sev.map((n, i) => `${SEV[i]}: ${n}`).join(", ")}">` +
+    sev.map((n, i) => n ? `<span class="s${i}" style="width:${(n / count) * 100}%"></span>` : "").join("") + "</div>";
+}
+function roleChips(ids, max = 3) {
+  const extra = ids.length - max;
+  return ids.slice(0, max).map((r) => `<span class="chip" title="${esc(r)}">${esc(DATA.roles[r].n)}</span>`).join("") +
+    (extra > 0 ? `<span class="chip">+${extra}</span>` : "");
+}
+
+function renderEntity() {
+  const e = entityByCode[state.code];
+  const incs = byEntity[e.code] || [];
+  const a = analyze(incs);
+  const crit = incs.filter((i) => i[3] === 3).length, open = incs.filter((i) => i[5] !== "Closed").length;
+  $("#summary").innerHTML = `
+    <div class="who">
+      <span class="label">Entity</span>
+      <h3>${esc(e.name)}</h3>
+      <div class="meta"><span class="chip code">${esc(e.code)}</span><span class="chip">${esc(e.sector)}</span><span class="chip">${esc(e.region)}</span><span class="chip">Maturity: ${esc(e.maturity)}</span></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="label">Incidents</div><div class="v">${incs.length}</div></div>
+      <div class="stat"><div class="label">Critical</div><div class="v crit">${crit}</div></div>
+      <div class="stat"><div class="label">Not closed</div><div class="v">${open}</div></div>
+      <div class="stat"><div class="label">Vuln. types</div><div class="v">${a.vulns.length}</div></div>
+    </div>`;
+
+  const v = [...a.vulns];
+  if (state.rank === "freq") v.sort((x, y) => y.count - x.count || y.score - x.score);
+  else v.sort((x, y) => y.max - x.max || y.sev[y.max] - x.sev[x.max] || y.score - x.score);
+  $("#rank-hint").textContent = state.rank === "freq"
+    ? "Ranked by number of incidents, then severity score. Select a row to see the SCyWF tasks it maps to."
+    : "Ranked by highest severity, then incidents at that severity, then severity score. Select a row to see the SCyWF tasks it maps to.";
+  $("#inc-body").innerHTML = v.map((r, i) => {
+    const m = DATA.vulns[r.vi], isOpen = state.open.has(r.vi);
+    const row = `<tr class="inc" tabindex="0" data-vi="${r.vi}" aria-expanded="${isOpen}">
+      <td class="rank">${i + 1}</td>
+      <td><div class="vt">${esc(m.t)}</div><div class="cat">${esc(m.c)}</div>${sevBar(r.sev, r.count)}</td>
+      <td class="r">${r.count}</td><td class="r">${r.score}</td>
+      <td><span class="pill s${r.max}">${SEV[r.max]}</span></td>
+      <td class="num muted date">${r.last}</td></tr>`;
+    if (!isOpen) return row;
+    const li = (t, rel) => `<li><span class="mono">${t}</span><span><span class="rel">${rel}</span> ${esc(DATA.tasks[t].d)}</span></li>`;
+    return row + `<tr class="detail"><td></td><td colspan="5"><ul class="maplist">${m.p.map((t) => li(t, "Primary")).join("")}${m.s.map((t) => li(t, "Supporting")).join("")}</ul></td></tr>`;
+  }).join("");
+
+  const max = a.taskList[0]?.score || 1;
+  const shown = state.showAll ? a.taskList : a.taskList.slice(0, 10);
+  $("#task-count").textContent = `${a.taskList.length} tasks`;
+  $("#task-list").innerHTML = shown.map((t, i) => {
+    const T = DATA.tasks[t.id];
+    const from = [...t.from].map((vi) => DATA.vulns[vi].t);
+    return `<li class="task"><span class="n">${i + 1}</span><span class="id">${t.id}</span><div class="body">
+      <div>${esc(T.d)}</div>
+      <div class="bar" title="Score ${t.score.toFixed(1)}"><span style="width:${(t.score / max) * 100}%"></span></div>
+      <div class="why">${esc(T.s)} · score ${t.score.toFixed(1)} · from ${from.length === 1 ? esc(from[0]) : `${from.length} vulnerability types`}</div>
+      <div class="roles">${roleChips(T.r)}</div></div></li>`;
+  }).join("");
+  $("#task-more").hidden = a.taskList.length <= 10;
+  $("#task-more").textContent = state.showAll ? "Show top 10" : `Show all ${a.taskList.length} tasks`;
+
+  const specs = Object.entries(a.spec).filter(([, p]) => p > 0).sort((x, y) => y[1] - x[1]);
+  const smax = specs[0]?.[1] || 1;
+  $("#spec-bars").innerHTML = specs.map(([s, p]) => `<div class="hbar"><span class="t" title="${esc(s)}">${esc(s)}</span><div class="bar"><span style="width:${(p / smax) * 100}%"></span></div><span class="p">${Math.round(p * 100)}%</span></div>`).join("");
+
+  $("#role-list").innerHTML = a.roleList.slice(0, 6).map((r) => {
+    const R = DATA.roles[r.id];
+    return `<li><span><strong>${esc(R.n)}</strong></span><span class="cov">${Math.round((r.score / a.total) * 100)}% of score</span>
+      <span class="rid">${esc(r.id)} · ${esc(R.s)}</span><span class="cov">${r.n} matching tasks</span></li>`;
+  }).join("");
+
+  $("#prog-list").innerHTML = a.catList.slice(0, 3).map(([c]) => {
+    const C = DATA.categories[c];
+    return `<li><span class="label">${esc(c)}</span><div><strong>Programs</strong><ul>${C.programs.map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div>
+      <div><strong>Practices</strong><ul>${C.practices.map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div></li>`;
+  }).join("");
+}
+
+function selectEntity(code) {
+  state.code = code; state.open.clear(); state.showAll = false;
+  const e = entityByCode[code];
+  $("#q").value = `${e.code} · ${e.name}`;
+  renderEntity();
+}
+
+/* search combobox */
+let matches = [], active = -1;
+function showResults() {
+  const q = $("#q").value.trim().toLowerCase();
+  matches = DATA.entities.filter((e) => !q || e.code.toLowerCase().includes(q) || e.name.toLowerCase().includes(q) || e.sector.toLowerCase().includes(q));
+  active = matches.length ? 0 : -1;
+  const ul = $("#results");
+  ul.innerHTML = matches.length ? matches.map((e, i) => `<li role="option" id="opt-${i}" data-code="${e.code}" aria-selected="${i === active}"><span class="code">${e.code}</span><span>${esc(e.name)}</span><span class="sec">${esc(e.sector)} · ${(byEntity[e.code] || []).length}</span></li>`).join("")
+    : `<li aria-disabled="true">No entity matches "${esc(q)}". Try a code like GOV-001 or a sector.</li>`;
+  ul.hidden = false; $(".search").setAttribute("aria-expanded", "true");
+}
+function hideResults() { $("#results").hidden = true; $(".search").setAttribute("aria-expanded", "false"); }
+function moveActive(d) {
+  if (!matches.length) return;
+  active = (active + d + matches.length) % matches.length;
+  [...$("#results").children].forEach((li, i) => li.setAttribute("aria-selected", i === active));
+  $(`#opt-${active}`)?.scrollIntoView({ block: "nearest" });
+}
+$("#q").addEventListener("focus", () => { $("#q").select(); showResults(); });
+$("#q").addEventListener("input", showResults);
+$("#q").addEventListener("keydown", (ev) => {
+  if (ev.key === "ArrowDown") { ev.preventDefault(); moveActive(1); }
+  else if (ev.key === "ArrowUp") { ev.preventDefault(); moveActive(-1); }
+  else if (ev.key === "Enter" && active >= 0) { ev.preventDefault(); selectEntity(matches[active].code); hideResults(); $("#q").blur(); }
+  else if (ev.key === "Escape") { hideResults(); }
+});
+$("#results").addEventListener("mousedown", (ev) => {
+  const li = ev.target.closest("li[data-code]"); if (!li) return;
+  ev.preventDefault(); selectEntity(li.dataset.code); hideResults(); $("#q").blur();
+});
+$("#q").addEventListener("blur", () => setTimeout(hideResults, 100));
+
+const setRank = (r) => { state.rank = r; $("#rank-freq").setAttribute("aria-pressed", r === "freq"); $("#rank-sev").setAttribute("aria-pressed", r === "sev"); renderEntity(); };
+$("#rank-freq").addEventListener("click", () => setRank("freq"));
+$("#rank-sev").addEventListener("click", () => setRank("sev"));
+const toggleRow = (tr) => { const vi = +tr.dataset.vi; state.open.has(vi) ? state.open.delete(vi) : state.open.add(vi); renderEntity(); $(`tr.inc[data-vi="${vi}"]`)?.focus(); };
+$("#inc-body").addEventListener("click", (ev) => { const tr = ev.target.closest("tr.inc"); if (tr) toggleRow(tr); });
+$("#inc-body").addEventListener("keydown", (ev) => { const tr = ev.target.closest("tr.inc"); if (tr && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); toggleRow(tr); } });
+$("#task-more").addEventListener("click", () => { state.showAll = !state.showAll; renderEntity(); });
+
+/* ---------- national view ---------- */
+const SECTORS = [...new Set(DATA.entities.map((e) => e.sector))].sort();
+$("#sector").innerHTML = `<option value="">All sectors</option>` + SECTORS.map((s) => `<option>${esc(s)}</option>`).join("");
+const perEntity = Object.fromEntries(DATA.entities.map((e) => [e.code, analyze(byEntity[e.code] || [])]));
+
+function renderNational() {
+  const sector = $("#sector").value;
+  const ents = DATA.entities.filter((e) => !sector || e.sector === sector);
+  const incs = ents.flatMap((e) => byEntity[e.code] || []);
+  const a = analyze(incs);
+  $("#nat-stats").innerHTML = `
+    <div class="stat"><div class="label">Entities</div><div class="v">${ents.length}</div></div>
+    <div class="stat"><div class="label">Incidents</div><div class="v">${incs.length}</div></div>
+    <div class="stat"><div class="label">Critical</div><div class="v crit">${incs.filter((i) => i[3] === 3).length}</div></div>`;
+
+  // heatmap across all sectors (highlight the selected one)
+  const usedSpecs = SPECS.filter((s) => SECTORS.some((sec) => analyzeSector(sec).spec[s] > 0));
+  let html = `<thead><tr><th></th>${usedSpecs.map((s) => `<th>${esc(s)}</th>`).join("")}</tr></thead><tbody>`;
+  let hmax = 0;
+  for (const sec of SECTORS) for (const s of usedSpecs) hmax = Math.max(hmax, analyzeSector(sec).spec[s]);
+  for (const sec of SECTORS) {
+    const sp = analyzeSector(sec).spec;
+    html += `<tr${sector && sec !== sector ? ' style="opacity:.35"' : ""}><th class="rowh">${esc(sec)}</th>` + usedSpecs.map((s) => {
+      const p = sp[s], t = p / hmax;
+      return `<td title="${esc(sec)} · ${esc(s)}: ${Math.round(p * 100)}%" style="background:color-mix(in srgb, var(--accent) ${Math.round(t * 90)}%, var(--sunk));color:${t > 0.5 ? "var(--accent-fg)" : "var(--fg)"}">${p ? Math.round(p * 100) : ""}</td>`;
+    }).join("") + "</tr>";
+  }
+  $("#heat").innerHTML = html + "</tbody>";
+
+  const vmax = Math.max(...a.vulns.map((r) => r.count), 1);
+  $("#nat-vulns").innerHTML = [...a.vulns].sort((x, y) => y.count - x.count).slice(0, 12).map((r) =>
+    `<div class="hbar"><span class="t" title="${esc(DATA.vulns[r.vi].t)}">${esc(DATA.vulns[r.vi].t)}</span><div class="bar"><span style="width:${(r.count / vmax) * 100}%"></span></div><span class="p">${r.count}</span></div>`).join("");
+
+  const top10 = {};
+  for (const e of ents) for (const t of perEntity[e.code].taskList.slice(0, 10)) top10[t.id] = (top10[t.id] || 0) + 1;
+  const tmax = a.taskList[0]?.score || 1;
+  $("#nat-tasks").innerHTML = a.taskList.slice(0, 12).map((t, i) => {
+    const T = DATA.tasks[t.id];
+    return `<li class="task"><span class="n">${i + 1}</span><span class="id">${t.id}</span><div class="body">
+      <div>${esc(T.d)}</div><div class="bar"><span style="width:${(t.score / tmax) * 100}%"></span></div>
+      <div class="why">${esc(T.s)} · in top 10 for ${top10[t.id] || 0} of ${ents.length} entities</div>
+      <div class="roles">${roleChips(T.r)}</div></div></li>`;
+  }).join("");
+
+  const roleEnt = {};
+  for (const e of ents) for (const r of perEntity[e.code].roleList.slice(0, 3)) roleEnt[r.id] = (roleEnt[r.id] || 0) + 1;
+  $("#nat-roles").innerHTML = a.roleList.slice(0, 8).map((r) => {
+    const R = DATA.roles[r.id];
+    return `<li><span><strong>${esc(R.n)}</strong></span><span class="cov">${Math.round((r.score / a.total) * 100)}% of score</span>
+      <span class="rid">${esc(r.id)} · ${esc(R.s)}</span><span class="cov">top-3 role for ${roleEnt[r.id] || 0} entities</span></li>`;
+  }).join("");
+}
+const sectorCache = {};
+function analyzeSector(sec) { return (sectorCache[sec] ||= analyze(DATA.entities.filter((e) => e.sector === sec).flatMap((e) => byEntity[e.code] || []))); }
+$("#sector").addEventListener("change", renderNational);
+
+/* ---------- mapping view ---------- */
+function renderMapping() {
+  const q = $("#mapq").value.trim().toLowerCase();
+  const cell = (ids) => `<div class="tcell">${ids.map((t) => `<div><span class="mono">${t}</span>${esc(DATA.tasks[t].d)}</div>`).join("")}</div>`;
+  $("#map-body").innerHTML = DATA.vulns.filter((v) => !q || (v.t + " " + v.c + " " + v.p.join(" ") + " " + v.s.join(" ") + " " + [...v.p, ...v.s].map((t) => DATA.tasks[t].d).join(" ")).toLowerCase().includes(q))
+    .map((v) => `<tr><td><div class="vt">${esc(v.t)}</div><div class="cat">${esc(v.c)}</div></td><td>${cell(v.p)}</td><td>${cell(v.s)}</td></tr>`).join("")
+    || `<tr><td colspan="3" class="muted">Nothing matches "${esc(q)}".</td></tr>`;
+}
+$("#mapq").addEventListener("input", renderMapping);
+
+/* ---------- routing ---------- */
+const VIEWS = ["entity", "national", "mapping"];
+function route() {
+  const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "entity";
+  document.querySelectorAll("[data-view-panel]").forEach((p) => (p.hidden = p.dataset.viewPanel !== v));
+  document.querySelectorAll("nav.tabs a").forEach((a) => (a.dataset.view === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current")));
+  if (v === "national") renderNational();
+  if (v === "mapping") renderMapping();
+}
+window.addEventListener("hashchange", route);
+
+// Start on the entity with the most incidents so the first view is populated
+const first = DATA.entities.reduce((b, e) => ((byEntity[e.code] || []).length > (byEntity[b.code] || []).length ? e : b));
+selectEntity(first.code);
+route();
+</script>

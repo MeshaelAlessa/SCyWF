@@ -1,0 +1,34 @@
+entity_code,entity_name,sector,region,maturity_level
+GOV-001,Rawdah Municipal Services Authority,Government,Makkah,Defined
+GOV-002,Najmah Civil Registry Agency,Government,Eastern Province,Developing
+GOV-003,Sadeem Public Procurement Office,Government,Eastern Province,Initial
+GOV-004,Ufuq Housing Support Program,Government,Jazan,Initial
+GOV-005,Masar Licensing and Permits Center,Government,Makkah,Initial
+GOV-006,Bayan Statistics and Planning Unit,Government,Jazan,Initial
+HLT-001,Shifa Northern Health Cluster,Health,Madinah,Developing
+HLT-002,Rahma Specialist Hospital Group,Health,Al-Jouf,Initial
+HLT-003,Nabd Medical Laboratories,Health,Qassim,Initial
+HLT-004,Afiya Primary Care Network,Health,Tabuk,Defined
+FIN-001,Rimal Digital Bank,Finance,Asir,Managed
+FIN-002,Sanad Microfinance Company,Finance,Al-Jouf,Managed
+FIN-003,Dirham Payments Gateway,Finance,Asir,Defined
+FIN-004,Waqar Takaful Insurance,Finance,Qassim,Developing
+ENR-001,Dana Petrochemical Processing Co.,Energy,Najran,Developing
+ENR-002,Shuaa Solar Power Plant Operator,Energy,Asir,Managed
+ENR-003,Nawras Gas Distribution Co.,Energy,Najran,Defined
+UTL-001,Ghadeer Regional Water Utility,Water & Utilities,Tabuk,Managed
+UTL-002,Barq Electricity Distribution Co.,Water & Utilities,Hail,Initial
+UTL-003,Ain Desalination Operations,Water & Utilities,Hail,Developing
+TEL-001,Sahab Telecom Services,Telecom & ICT,Jazan,Developing
+TEL-002,Majal Data Center Hosting,Telecom & ICT,Al-Jouf,Managed
+TEL-003,Raqmi Cloud Solutions,Telecom & ICT,Asir,Managed
+EDU-001,Qimam University,Education,Northern Borders,Defined
+EDU-002,Manar Technical College,Education,Hail,Managed
+EDU-003,Nukhba International Schools,Education,Madinah,Managed
+EDU-004,Ilm E-Learning Platform,Education,Al-Baha,Initial
+TRN-001,Wasl Logistics and Freight,Transport,Tabuk,Defined
+TRN-002,Sikka Rail Operations,Transport,Riyadh,Developing
+TRN-003,Marsa Port Services,Transport,Northern Borders,Managed
+RTL-001,Souq Al-Nakheel E-commerce,Retail & Services,Makkah,Defined
+RTL-002,Zad Food Distribution Group,Retail & Services,Najran,Initial
+RTL-003,Rihla Travel and Booking,Retail & Services,Al-Baha,Developing
