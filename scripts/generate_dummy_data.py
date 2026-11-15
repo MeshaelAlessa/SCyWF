@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MAPPING = ROOT / "data" / "mapping" / "vulnerability_task_mapping.json"
+CATALOG = ROOT / "data" / "mapping" / "source_catalog.json"
 OUT = ROOT / "data" / "generated"
 
 SEVERITIES = ["Low", "Medium", "High", "Critical"]
@@ -146,6 +147,49 @@ def main():
         w = csv.DictWriter(f, fieldnames=list(incident_rows[0]))
         w.writeheader(); w.writerows(incident_rows)
     print(f"Wrote {len(entity_rows)} entities and {len(incident_rows)} incidents to {OUT}")
+
+    # ---- Vulnerability findings and threat intelligence (separate random streams so incidents stay stable)
+    catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    vrng, trng = random.Random(args.seed + 1), random.Random(args.seed + 2)
+    vuln_rows, threat_rows = [], []
+    for e in entity_rows:
+        profile = SECTOR_PROFILE.get(e["sector"], {})
+        # Vulnerability scan findings: less mature entities carry more open findings
+        n = vrng.randint(*{"Initial": (60, 110), "Developing": (40, 75), "Defined": (25, 50), "Managed": (12, 30)}[e["maturity_level"]])
+        fw = [profile.get(f["category"], 1.0) * vrng.uniform(0.3, 1.0) for f in catalog["vulnerability_findings"]]
+        open_rate = {"Initial": 0.75, "Developing": 0.6, "Defined": 0.45, "Managed": 0.3}[e["maturity_level"]]
+        for _ in range(n):
+            f = weighted_choice(vrng, catalog["vulnerability_findings"], fw)
+            cvss = round(vrng.uniform(*f["cvss"]), 1)
+            d = start + timedelta(days=vrng.randint(200, span))
+            vuln_rows.append({
+                "finding_id": "", "entity_code": e["entity_code"], "finding_title": f["title"], "cvss_score": cvss,
+                "exposure": "Internet-facing" if vrng.random() < 0.35 else "Internal",
+                "status": "Open" if vrng.random() < open_rate else "Remediated", "detected_date": d.isoformat(),
+            })
+        # Threat intelligence: driven by sector, not by entity maturity
+        n = trng.randint(8, 22)
+        tw = [profile.get(t["category"], 1.0) * trng.uniform(0.4, 1.0) for t in catalog["threats"]]
+        for _ in range(n):
+            t = weighted_choice(trng, catalog["threats"], tw)
+            base = SEVERITIES.index(t["level"])
+            level = SEVERITIES[max(0, min(3, base + weighted_choice(trng, [-1, 0, 1], [0.2, 0.7, 0.1])))]
+            d = start + timedelta(days=trng.randint(250, span))
+            threat_rows.append({
+                "threat_id": "", "entity_code": e["entity_code"], "threat_title": t["title"], "threat_level": level,
+                "relevance": weighted_choice(trng, ["Entity-specific", "Sector-targeted", "General"], [0.15, 0.5, 0.35]),
+                "confidence": weighted_choice(trng, ["High", "Medium", "Low"], [0.35, 0.45, 0.2]),
+                "reported_date": d.isoformat(),
+            })
+    for rows, key, prefix, dkey in ((vuln_rows, "finding_id", "VUL", "detected_date"), (threat_rows, "threat_id", "THR", "reported_date")):
+        rows.sort(key=lambda r: (r[dkey], r["entity_code"]))
+        for i, r in enumerate(rows, 1):
+            r[key] = f"{prefix}-{r[dkey][:4]}-{i:05d}"
+    for name, rows in (("vulnerabilities.csv", vuln_rows), ("threats.csv", threat_rows)):
+        with open(OUT / name, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0]))
+            w.writeheader(); w.writerows(rows)
+    print(f"Wrote {len(vuln_rows)} vulnerability findings and {len(threat_rows)} threat records")
 
 
 if __name__ == "__main__":

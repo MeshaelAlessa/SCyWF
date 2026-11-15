@@ -1,0 +1,526 @@
+threat_id,entity_code,threat_title,threat_level,relevance,confidence,reported_date
+THR-2025-00001,ENR-002,Ransomware group actively targeting the sector,Critical,General,High,2025-09-09
+THR-2025-00002,EDU-002,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Low,2025-09-10
+THR-2025-00003,TRN-003,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2025-09-10
+THR-2025-00004,EDU-004,Leaked credentials on dark-web markets,High,Entity-specific,Medium,2025-09-11
+THR-2025-00005,UTL-001,Hacktivist DDoS campaign,Medium,Sector-targeted,Medium,2025-09-12
+THR-2025-00006,HLT-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Low,2025-09-13
+THR-2025-00007,HLT-004,Phishing campaign targeting the sector,Medium,Sector-targeted,Medium,2025-09-14
+THR-2025-00008,EDU-003,Info-stealer malware campaign,Low,General,High,2025-09-15
+THR-2025-00009,TEL-001,Website defacement campaign,Medium,Sector-targeted,Low,2025-09-16
+THR-2025-00010,HLT-002,Business email compromise campaign,High,Sector-targeted,Low,2025-09-18
+THR-2025-00011,HLT-004,Zero-day in widely used software,High,Sector-targeted,High,2025-09-19
+THR-2025-00012,HLT-004,Data-leak extortion group activity,Medium,Sector-targeted,Low,2025-09-20
+THR-2025-00013,TEL-002,Insider threat advisory for privileged staff,Medium,General,High,2025-09-20
+THR-2025-00014,RTL-002,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2025-09-21
+THR-2025-00015,TEL-002,Website defacement campaign,Low,General,High,2025-09-21
+THR-2025-00016,GOV-002,Supply-chain compromise of a common vendor,High,Sector-targeted,High,2025-09-23
+THR-2025-00017,HLT-002,Business email compromise campaign,Critical,Sector-targeted,High,2025-09-23
+THR-2025-00018,RTL-001,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2025-09-23
+THR-2025-00019,RTL-003,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,High,2025-09-23
+THR-2025-00020,FIN-001,Phishing campaign targeting the sector,High,Sector-targeted,High,2025-09-24
+THR-2025-00021,TEL-003,Data-leak extortion group activity,High,General,Low,2025-09-24
+THR-2025-00022,RTL-003,Data-leak extortion group activity,High,Entity-specific,Low,2025-09-26
+THR-2025-00023,EDU-002,Supply-chain compromise of a common vendor,Medium,General,Medium,2025-09-27
+THR-2025-00024,HLT-004,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2025-09-27
+THR-2025-00025,HLT-001,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2025-09-28
+THR-2025-00026,TEL-003,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2025-09-28
+THR-2025-00027,EDU-004,Log-tampering and detection-evasion techniques trending,Medium,Entity-specific,Low,2025-09-29
+THR-2025-00028,GOV-003,Hacktivist DDoS campaign,High,General,High,2025-09-29
+THR-2025-00029,UTL-001,ICS-targeting malware advisory,Critical,Sector-targeted,Low,2025-09-29
+THR-2025-00030,TEL-001,Insider threat advisory for privileged staff,Low,General,Medium,2025-10-01
+THR-2025-00031,TEL-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,High,2025-10-02
+THR-2025-00032,GOV-003,Supply-chain compromise of a common vendor,Critical,Entity-specific,High,2025-10-03
+THR-2025-00033,FIN-002,Log-tampering and detection-evasion techniques trending,Low,Sector-targeted,High,2025-10-04
+THR-2025-00034,HLT-001,Exploited web application injection campaign,High,Sector-targeted,Medium,2025-10-04
+THR-2025-00035,HLT-002,Insider threat advisory for privileged staff,Medium,General,High,2025-10-04
+THR-2025-00036,TEL-001,Supply-chain compromise of a common vendor,High,Entity-specific,Medium,2025-10-06
+THR-2025-00037,RTL-002,Data-leak extortion group activity,High,Sector-targeted,High,2025-10-07
+THR-2025-00038,GOV-006,Info-stealer malware campaign,Medium,Entity-specific,Low,2025-10-08
+THR-2025-00039,RTL-003,Data-leak extortion group activity,High,General,High,2025-10-08
+THR-2025-00040,EDU-002,Regional incident prompting IR readiness advisory,Medium,Entity-specific,High,2025-10-09
+THR-2025-00041,UTL-003,ICS-targeting malware advisory,Critical,Entity-specific,Low,2025-10-09
+THR-2025-00042,GOV-002,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2025-10-10
+THR-2025-00043,GOV-003,Phishing campaign targeting the sector,Medium,General,High,2025-10-10
+THR-2025-00044,GOV-005,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2025-10-10
+THR-2025-00045,TRN-003,Exploited web application injection campaign,High,Sector-targeted,Low,2025-10-11
+THR-2025-00046,TRN-003,Data-leak extortion group activity,High,General,High,2025-10-13
+THR-2025-00047,EDU-003,Insider threat advisory for privileged staff,Medium,Sector-targeted,High,2025-10-14
+THR-2025-00048,ENR-001,Regulatory control update requiring new evidence,Low,Entity-specific,Low,2025-10-15
+THR-2025-00049,FIN-001,Hacktivist DDoS campaign,High,General,Medium,2025-10-15
+THR-2025-00050,UTL-003,Hacktivist DDoS campaign,High,Entity-specific,Medium,2025-10-15
+THR-2025-00051,EDU-004,Regional incident prompting IR readiness advisory,Low,General,Medium,2025-10-17
+THR-2025-00052,GOV-004,Exploited web application injection campaign,Critical,Sector-targeted,Medium,2025-10-20
+THR-2025-00053,HLT-003,Business email compromise campaign,Critical,General,Low,2025-10-20
+THR-2025-00054,ENR-003,Regulatory control update requiring new evidence,Low,Sector-targeted,Medium,2025-10-21
+THR-2025-00055,EDU-002,Info-stealer malware campaign,Medium,General,High,2025-10-22
+THR-2025-00056,FIN-004,Exploited web application injection campaign,Medium,General,Medium,2025-10-22
+THR-2025-00057,TRN-002,Zero-day in widely used software,Critical,Sector-targeted,Medium,2025-10-23
+THR-2025-00058,EDU-004,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2025-10-24
+THR-2025-00059,HLT-002,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,High,2025-10-24
+THR-2025-00060,TEL-003,Business email compromise campaign,High,Entity-specific,Medium,2025-10-24
+THR-2025-00061,UTL-003,Hacktivist DDoS campaign,High,Sector-targeted,High,2025-10-24
+THR-2025-00062,ENR-002,Regulatory control update requiring new evidence,Low,Sector-targeted,Medium,2025-10-27
+THR-2025-00063,FIN-003,Supply-chain compromise of a common vendor,Medium,Sector-targeted,Low,2025-10-27
+THR-2025-00064,HLT-002,Info-stealer malware campaign,Medium,Sector-targeted,Low,2025-10-27
+THR-2025-00065,TRN-003,Exploited web application injection campaign,Medium,Sector-targeted,Medium,2025-10-28
+THR-2025-00066,EDU-001,Exploited web application injection campaign,High,Sector-targeted,Low,2025-10-29
+THR-2025-00067,HLT-004,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2025-10-29
+THR-2025-00068,EDU-004,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2025-10-30
+THR-2025-00069,HLT-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Low,2025-10-30
+THR-2025-00070,ENR-001,Regulatory control update requiring new evidence,Low,General,Low,2025-10-31
+THR-2025-00071,ENR-002,Data-leak extortion group activity,Medium,General,High,2025-11-01
+THR-2025-00072,HLT-002,Info-stealer malware campaign,Medium,Sector-targeted,Low,2025-11-01
+THR-2025-00073,TEL-001,Log-tampering and detection-evasion techniques trending,High,General,Medium,2025-11-01
+THR-2025-00074,UTL-003,Info-stealer malware campaign,Low,Sector-targeted,Medium,2025-11-01
+THR-2025-00075,GOV-006,Business email compromise campaign,Medium,Sector-targeted,High,2025-11-02
+THR-2025-00076,HLT-004,Data-leak extortion group activity,Medium,General,High,2025-11-02
+THR-2025-00077,TEL-002,Business email compromise campaign,Medium,Sector-targeted,Medium,2025-11-02
+THR-2025-00078,EDU-004,Hacktivist DDoS campaign,Critical,Sector-targeted,High,2025-11-03
+THR-2025-00079,GOV-005,Log-tampering and detection-evasion techniques trending,Medium,General,Medium,2025-11-03
+THR-2025-00080,HLT-002,Ransomware group actively targeting the sector,Critical,General,Low,2025-11-03
+THR-2025-00081,ENR-001,Leaked credentials on dark-web markets,Critical,General,High,2025-11-06
+THR-2025-00082,FIN-004,Zero-day in widely used software,High,General,Low,2025-11-07
+THR-2025-00083,UTL-002,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2025-11-07
+THR-2025-00084,EDU-004,Website defacement campaign,Medium,General,Medium,2025-11-08
+THR-2025-00085,ENR-002,APT espionage activity targeting the sector,High,Entity-specific,High,2025-11-08
+THR-2025-00086,TEL-002,Ransomware group actively targeting the sector,High,Sector-targeted,Low,2025-11-09
+THR-2025-00087,EDU-001,APT espionage activity targeting the sector,Critical,Entity-specific,Low,2025-11-11
+THR-2025-00088,EDU-003,Leaked credentials on dark-web markets,High,Entity-specific,High,2025-11-11
+THR-2025-00089,EDU-004,Zero-day in widely used software,High,Entity-specific,Medium,2025-11-11
+THR-2025-00090,GOV-002,Business email compromise campaign,Critical,General,Medium,2025-11-11
+THR-2025-00091,TEL-002,Mass exploitation of edge-device vulnerability,Critical,General,High,2025-11-11
+THR-2025-00092,ENR-002,Hacktivist DDoS campaign,High,Sector-targeted,High,2025-11-13
+THR-2025-00093,FIN-004,Exploited web application injection campaign,Medium,Entity-specific,Low,2025-11-13
+THR-2025-00094,GOV-002,Phishing campaign targeting the sector,Medium,Entity-specific,Low,2025-11-16
+THR-2025-00095,TEL-002,Data-leak extortion group activity,Medium,General,Medium,2025-11-16
+THR-2025-00096,TRN-001,Ransomware group actively targeting the sector,Critical,General,Medium,2025-11-16
+THR-2025-00097,FIN-004,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2025-11-19
+THR-2025-00098,GOV-001,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Medium,2025-11-20
+THR-2025-00099,UTL-001,Leaked credentials on dark-web markets,High,General,High,2025-11-20
+THR-2025-00100,EDU-001,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,High,2025-11-21
+THR-2025-00101,FIN-001,Ransomware group actively targeting the sector,Critical,General,Low,2025-11-21
+THR-2025-00102,HLT-003,Data-leak extortion group activity,High,Sector-targeted,Medium,2025-11-22
+THR-2025-00103,GOV-003,Phishing campaign targeting the sector,Medium,Sector-targeted,Low,2025-11-25
+THR-2025-00104,HLT-001,Insider threat advisory for privileged staff,Medium,General,Medium,2025-11-26
+THR-2025-00105,GOV-006,Business email compromise campaign,High,Sector-targeted,Medium,2025-11-27
+THR-2025-00106,UTL-003,ICS-targeting malware advisory,Critical,Entity-specific,Low,2025-11-27
+THR-2025-00107,ENR-002,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2025-11-28
+THR-2025-00108,UTL-001,Info-stealer malware campaign,Medium,Sector-targeted,High,2025-11-28
+THR-2025-00109,GOV-002,Data-leak extortion group activity,Medium,General,Medium,2025-11-29
+THR-2025-00110,GOV-001,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,High,2025-11-30
+THR-2025-00111,RTL-001,APT espionage activity targeting the sector,Critical,Entity-specific,High,2025-11-30
+THR-2025-00112,UTL-003,ICS-targeting malware advisory,Critical,Sector-targeted,High,2025-11-30
+THR-2025-00113,TRN-001,Data-leak extortion group activity,High,Sector-targeted,Low,2025-12-04
+THR-2025-00114,UTL-003,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Medium,2025-12-04
+THR-2025-00115,FIN-002,Phishing campaign targeting the sector,High,Entity-specific,Medium,2025-12-05
+THR-2025-00116,TRN-002,APT espionage activity targeting the sector,Critical,Sector-targeted,Low,2025-12-05
+THR-2025-00117,UTL-002,APT espionage activity targeting the sector,Critical,General,Medium,2025-12-06
+THR-2025-00118,HLT-003,Ransomware group actively targeting the sector,High,Sector-targeted,High,2025-12-08
+THR-2025-00119,EDU-001,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2025-12-12
+THR-2025-00120,FIN-002,Zero-day in widely used software,Medium,Sector-targeted,Medium,2025-12-12
+THR-2025-00121,UTL-001,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2025-12-12
+THR-2025-00122,UTL-003,ICS-targeting malware advisory,High,General,Low,2025-12-12
+THR-2025-00123,GOV-001,Website defacement campaign,Medium,Sector-targeted,Medium,2025-12-13
+THR-2025-00124,UTL-002,Hacktivist DDoS campaign,High,Entity-specific,Medium,2025-12-13
+THR-2025-00125,RTL-001,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2025-12-14
+THR-2025-00126,TRN-002,Regional incident prompting IR readiness advisory,High,Entity-specific,High,2025-12-15
+THR-2025-00127,GOV-006,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2025-12-17
+THR-2025-00128,FIN-004,Exploited web application injection campaign,High,Entity-specific,High,2025-12-21
+THR-2025-00129,FIN-003,Leaked credentials on dark-web markets,Medium,Sector-targeted,Medium,2025-12-23
+THR-2025-00130,UTL-002,ICS-targeting malware advisory,Critical,Sector-targeted,Medium,2025-12-23
+THR-2025-00131,ENR-002,Insider threat advisory for privileged staff,Medium,General,Low,2025-12-24
+THR-2025-00132,FIN-001,Leaked credentials on dark-web markets,High,Sector-targeted,High,2025-12-24
+THR-2025-00133,TRN-003,Phishing campaign targeting the sector,Medium,Sector-targeted,Medium,2025-12-24
+THR-2025-00134,TRN-001,Phishing campaign targeting the sector,Critical,Sector-targeted,High,2025-12-25
+THR-2025-00135,UTL-001,Info-stealer malware campaign,Low,Entity-specific,Low,2025-12-25
+THR-2025-00136,FIN-004,Exploited web application injection campaign,High,Sector-targeted,Low,2025-12-26
+THR-2025-00137,HLT-001,Hacktivist DDoS campaign,High,Entity-specific,High,2025-12-26
+THR-2025-00138,TRN-002,Leaked credentials on dark-web markets,High,Sector-targeted,High,2025-12-26
+THR-2025-00139,HLT-002,Info-stealer malware campaign,Medium,General,High,2025-12-27
+THR-2025-00140,FIN-002,Business email compromise campaign,High,Sector-targeted,Medium,2025-12-28
+THR-2025-00141,FIN-003,Zero-day in widely used software,Critical,Sector-targeted,Medium,2025-12-28
+THR-2025-00142,GOV-006,Website defacement campaign,High,Sector-targeted,High,2025-12-28
+THR-2025-00143,HLT-003,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Medium,2025-12-28
+THR-2025-00144,HLT-003,Info-stealer malware campaign,Medium,General,High,2025-12-28
+THR-2025-00145,TRN-002,Ransomware group actively targeting the sector,Critical,Sector-targeted,Medium,2025-12-28
+THR-2025-00146,EDU-004,Cloud misconfiguration exploitation trend,High,General,Medium,2025-12-29
+THR-2025-00147,GOV-005,Mass exploitation of edge-device vulnerability,High,Entity-specific,Medium,2025-12-29
+THR-2025-00148,HLT-002,Exploited web application injection campaign,High,Sector-targeted,Medium,2025-12-29
+THR-2025-00149,TRN-002,Ransomware group actively targeting the sector,High,Sector-targeted,Low,2025-12-30
+THR-2025-00150,GOV-005,Mass exploitation of edge-device vulnerability,High,General,High,2025-12-31
+THR-2025-00151,HLT-002,Mass exploitation of edge-device vulnerability,Critical,General,High,2025-12-31
+THR-2026-00152,RTL-003,Insider threat advisory for privileged staff,Medium,Sector-targeted,Medium,2026-01-01
+THR-2026-00153,UTL-002,Website defacement campaign,Medium,General,High,2026-01-02
+THR-2026-00154,FIN-003,Business email compromise campaign,High,Sector-targeted,Low,2026-01-03
+THR-2026-00155,GOV-006,Website defacement campaign,Medium,Sector-targeted,Medium,2026-01-03
+THR-2026-00156,GOV-003,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-01-04
+THR-2026-00157,HLT-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Medium,2026-01-05
+THR-2026-00158,HLT-001,Website defacement campaign,Medium,Entity-specific,Medium,2026-01-08
+THR-2026-00159,TEL-003,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-01-08
+THR-2026-00160,GOV-004,Regulatory control update requiring new evidence,Low,General,Medium,2026-01-09
+THR-2026-00161,TRN-002,Info-stealer malware campaign,Medium,Sector-targeted,Low,2026-01-09
+THR-2026-00162,ENR-003,Cloud misconfiguration exploitation trend,High,Sector-targeted,Medium,2026-01-10
+THR-2026-00163,GOV-004,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2026-01-10
+THR-2026-00164,GOV-004,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-01-12
+THR-2026-00165,HLT-004,Info-stealer malware campaign,Low,General,Medium,2026-01-13
+THR-2026-00166,TEL-002,Website defacement campaign,Medium,Entity-specific,Low,2026-01-16
+THR-2026-00167,GOV-004,Ransomware group actively targeting the sector,Critical,Sector-targeted,Medium,2026-01-17
+THR-2026-00168,EDU-001,Data-leak extortion group activity,High,General,Medium,2026-01-19
+THR-2026-00169,ENR-002,ICS-targeting malware advisory,Critical,Sector-targeted,Medium,2026-01-19
+THR-2026-00170,GOV-005,Business email compromise campaign,Medium,Entity-specific,Medium,2026-01-19
+THR-2026-00171,HLT-001,Hacktivist DDoS campaign,Medium,Sector-targeted,Medium,2026-01-22
+THR-2026-00172,ENR-003,Hacktivist DDoS campaign,High,Sector-targeted,High,2026-01-23
+THR-2026-00173,GOV-005,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-01-24
+THR-2026-00174,UTL-001,Regulatory control update requiring new evidence,Medium,Sector-targeted,Low,2026-01-24
+THR-2026-00175,EDU-004,Business email compromise campaign,Medium,Sector-targeted,Medium,2026-01-25
+THR-2026-00176,HLT-003,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Low,2026-01-25
+THR-2026-00177,HLT-003,APT espionage activity targeting the sector,High,Sector-targeted,High,2026-01-29
+THR-2026-00178,TRN-002,Cloud misconfiguration exploitation trend,Low,General,Medium,2026-01-29
+THR-2026-00179,FIN-003,Supply-chain compromise of a common vendor,High,General,Low,2026-01-31
+THR-2026-00180,GOV-001,Phishing campaign targeting the sector,Critical,General,High,2026-02-01
+THR-2026-00181,GOV-002,Regulatory control update requiring new evidence,Low,General,High,2026-02-01
+THR-2026-00182,HLT-003,Supply-chain compromise of a common vendor,High,Sector-targeted,Medium,2026-02-01
+THR-2026-00183,TEL-002,Insider threat advisory for privileged staff,High,General,Medium,2026-02-02
+THR-2026-00184,TRN-002,Hacktivist DDoS campaign,High,Sector-targeted,High,2026-02-02
+THR-2026-00185,EDU-004,Business email compromise campaign,High,General,High,2026-02-04
+THR-2026-00186,GOV-005,Business email compromise campaign,High,Sector-targeted,Medium,2026-02-04
+THR-2026-00187,TRN-002,Cloud misconfiguration exploitation trend,Medium,Entity-specific,Medium,2026-02-05
+THR-2026-00188,ENR-001,Cloud misconfiguration exploitation trend,Low,Entity-specific,Medium,2026-02-06
+THR-2026-00189,FIN-001,Zero-day in widely used software,High,Sector-targeted,High,2026-02-06
+THR-2026-00190,FIN-004,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2026-02-11
+THR-2026-00191,TRN-002,Business email compromise campaign,High,General,High,2026-02-12
+THR-2026-00192,HLT-003,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2026-02-13
+THR-2026-00193,EDU-002,Data-leak extortion group activity,High,Sector-targeted,High,2026-02-16
+THR-2026-00194,TRN-001,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2026-02-17
+THR-2026-00195,HLT-004,Mass exploitation of edge-device vulnerability,Critical,Entity-specific,High,2026-02-18
+THR-2026-00196,RTL-003,Zero-day in widely used software,Medium,Sector-targeted,Medium,2026-02-19
+THR-2026-00197,ENR-001,Insider threat advisory for privileged staff,Medium,General,Medium,2026-02-20
+THR-2026-00198,EDU-002,Website defacement campaign,Low,General,High,2026-02-22
+THR-2026-00199,HLT-001,Exploited web application injection campaign,Medium,Sector-targeted,Medium,2026-02-22
+THR-2026-00200,EDU-003,Data-leak extortion group activity,High,Sector-targeted,Low,2026-02-24
+THR-2026-00201,TRN-003,Supply-chain compromise of a common vendor,High,Sector-targeted,Medium,2026-02-25
+THR-2026-00202,GOV-005,Ransomware group actively targeting the sector,High,Sector-targeted,Low,2026-02-26
+THR-2026-00203,TRN-003,Leaked credentials on dark-web markets,Medium,Sector-targeted,High,2026-02-26
+THR-2026-00204,FIN-004,Zero-day in widely used software,High,General,Medium,2026-02-28
+THR-2026-00205,HLT-001,Mass exploitation of edge-device vulnerability,Critical,General,High,2026-03-01
+THR-2026-00206,TRN-002,Ransomware group actively targeting the sector,Critical,General,Medium,2026-03-02
+THR-2026-00207,UTL-003,Regulatory control update requiring new evidence,Low,Sector-targeted,High,2026-03-03
+THR-2026-00208,EDU-001,APT espionage activity targeting the sector,High,Sector-targeted,Medium,2026-03-04
+THR-2026-00209,TEL-003,Zero-day in widely used software,High,Entity-specific,Medium,2026-03-04
+THR-2026-00210,TRN-001,Insider threat advisory for privileged staff,Low,Sector-targeted,Medium,2026-03-04
+THR-2026-00211,RTL-003,APT espionage activity targeting the sector,High,Sector-targeted,Medium,2026-03-07
+THR-2026-00212,HLT-003,Ransomware group actively targeting the sector,Critical,General,High,2026-03-08
+THR-2026-00213,TEL-002,Zero-day in widely used software,Medium,Entity-specific,Medium,2026-03-09
+THR-2026-00214,FIN-002,Supply-chain compromise of a common vendor,Medium,Sector-targeted,High,2026-03-10
+THR-2026-00215,GOV-002,Business email compromise campaign,High,General,Medium,2026-03-10
+THR-2026-00216,ENR-002,Info-stealer malware campaign,Medium,Sector-targeted,High,2026-03-12
+THR-2026-00217,HLT-002,Regulatory control update requiring new evidence,Medium,Entity-specific,Medium,2026-03-12
+THR-2026-00218,RTL-001,Business email compromise campaign,High,General,Medium,2026-03-13
+THR-2026-00219,RTL-003,Insider threat advisory for privileged staff,Low,Entity-specific,Medium,2026-03-14
+THR-2026-00220,TEL-002,Cloud misconfiguration exploitation trend,Medium,Entity-specific,Medium,2026-03-15
+THR-2026-00221,HLT-004,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,High,2026-03-16
+THR-2026-00222,EDU-003,Log-tampering and detection-evasion techniques trending,Medium,General,High,2026-03-17
+THR-2026-00223,ENR-003,Data-leak extortion group activity,High,General,Medium,2026-03-17
+THR-2026-00224,EDU-001,APT espionage activity targeting the sector,Critical,General,Medium,2026-03-18
+THR-2026-00225,GOV-006,Regulatory control update requiring new evidence,Medium,General,Medium,2026-03-18
+THR-2026-00226,TEL-002,Supply-chain compromise of a common vendor,High,Sector-targeted,Medium,2026-03-18
+THR-2026-00227,ENR-002,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2026-03-19
+THR-2026-00228,FIN-003,Business email compromise campaign,High,General,Low,2026-03-21
+THR-2026-00229,FIN-004,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2026-03-23
+THR-2026-00230,HLT-002,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-03-23
+THR-2026-00231,EDU-003,Mass exploitation of edge-device vulnerability,High,Sector-targeted,High,2026-03-24
+THR-2026-00232,GOV-003,Phishing campaign targeting the sector,High,General,Medium,2026-03-24
+THR-2026-00233,GOV-006,Exploited web application injection campaign,High,Entity-specific,Medium,2026-03-24
+THR-2026-00234,ENR-002,Data-leak extortion group activity,Medium,Entity-specific,High,2026-03-25
+THR-2026-00235,GOV-001,Regulatory control update requiring new evidence,Low,General,Medium,2026-03-25
+THR-2026-00236,UTL-003,Website defacement campaign,Medium,General,Medium,2026-03-25
+THR-2026-00237,GOV-003,Phishing campaign targeting the sector,Medium,General,High,2026-03-26
+THR-2026-00238,RTL-001,Website defacement campaign,Low,Sector-targeted,High,2026-03-26
+THR-2026-00239,FIN-004,Supply-chain compromise of a common vendor,High,General,Medium,2026-03-27
+THR-2026-00240,FIN-001,Mass exploitation of edge-device vulnerability,Critical,Entity-specific,High,2026-03-29
+THR-2026-00241,TRN-002,Supply-chain compromise of a common vendor,Medium,General,High,2026-03-29
+THR-2026-00242,ENR-003,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-03-30
+THR-2026-00243,GOV-002,Exploited web application injection campaign,High,Sector-targeted,High,2026-03-30
+THR-2026-00244,HLT-003,Data-leak extortion group activity,Medium,Sector-targeted,Low,2026-03-30
+THR-2026-00245,TEL-002,Cloud misconfiguration exploitation trend,Medium,General,High,2026-04-01
+THR-2026-00246,HLT-001,Website defacement campaign,Low,General,Medium,2026-04-02
+THR-2026-00247,TEL-001,Regional incident prompting IR readiness advisory,Low,General,High,2026-04-04
+THR-2026-00248,UTL-001,ICS-targeting malware advisory,Critical,Sector-targeted,Medium,2026-04-04
+THR-2026-00249,HLT-004,Business email compromise campaign,High,General,High,2026-04-05
+THR-2026-00250,TRN-001,Cloud misconfiguration exploitation trend,Medium,General,Medium,2026-04-06
+THR-2026-00251,EDU-004,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Medium,2026-04-07
+THR-2026-00252,FIN-002,Business email compromise campaign,High,Sector-targeted,High,2026-04-07
+THR-2026-00253,RTL-002,Business email compromise campaign,High,Entity-specific,High,2026-04-10
+THR-2026-00254,TEL-003,Zero-day in widely used software,Medium,Sector-targeted,High,2026-04-10
+THR-2026-00255,TRN-001,Supply-chain compromise of a common vendor,Medium,General,Low,2026-04-11
+THR-2026-00256,TRN-003,APT espionage activity targeting the sector,Critical,General,High,2026-04-11
+THR-2026-00257,GOV-001,Cloud misconfiguration exploitation trend,Medium,Entity-specific,Low,2026-04-12
+THR-2026-00258,HLT-004,Business email compromise campaign,High,General,Medium,2026-04-12
+THR-2026-00259,EDU-003,Zero-day in widely used software,High,General,Medium,2026-04-13
+THR-2026-00260,TRN-003,Cloud misconfiguration exploitation trend,High,Sector-targeted,Low,2026-04-13
+THR-2026-00261,FIN-004,Hacktivist DDoS campaign,Critical,Sector-targeted,High,2026-04-15
+THR-2026-00262,GOV-004,Business email compromise campaign,High,Sector-targeted,Medium,2026-04-15
+THR-2026-00263,UTL-001,Mass exploitation of edge-device vulnerability,High,Sector-targeted,Medium,2026-04-15
+THR-2026-00264,ENR-002,Info-stealer malware campaign,Medium,Sector-targeted,High,2026-04-16
+THR-2026-00265,FIN-003,Leaked credentials on dark-web markets,High,General,Medium,2026-04-18
+THR-2026-00266,GOV-004,Exploited web application injection campaign,High,Sector-targeted,Medium,2026-04-18
+THR-2026-00267,FIN-002,Regulatory control update requiring new evidence,Low,General,High,2026-04-20
+THR-2026-00268,GOV-005,Business email compromise campaign,Medium,Sector-targeted,High,2026-04-21
+THR-2026-00269,RTL-003,Website defacement campaign,Medium,General,Medium,2026-04-21
+THR-2026-00270,HLT-004,Data-leak extortion group activity,High,Sector-targeted,High,2026-04-23
+THR-2026-00271,UTL-002,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-04-24
+THR-2026-00272,EDU-002,Business email compromise campaign,High,General,Medium,2026-04-26
+THR-2026-00273,RTL-003,Business email compromise campaign,High,General,Medium,2026-04-26
+THR-2026-00274,EDU-001,Regulatory control update requiring new evidence,Low,Sector-targeted,Low,2026-04-28
+THR-2026-00275,GOV-002,Website defacement campaign,Medium,General,Medium,2026-04-28
+THR-2026-00276,TEL-002,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-04-28
+THR-2026-00277,UTL-002,Ransomware group actively targeting the sector,High,General,Low,2026-04-29
+THR-2026-00278,ENR-002,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2026-04-30
+THR-2026-00279,TRN-002,APT espionage activity targeting the sector,Critical,Entity-specific,Medium,2026-05-01
+THR-2026-00280,FIN-004,Log-tampering and detection-evasion techniques trending,Medium,Entity-specific,Medium,2026-05-03
+THR-2026-00281,HLT-004,Supply-chain compromise of a common vendor,High,General,Medium,2026-05-04
+THR-2026-00282,TRN-002,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-05-05
+THR-2026-00283,TRN-003,APT espionage activity targeting the sector,Critical,General,Low,2026-05-05
+THR-2026-00284,UTL-002,ICS-targeting malware advisory,Critical,General,Medium,2026-05-05
+THR-2026-00285,GOV-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Low,2026-05-06
+THR-2026-00286,GOV-002,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2026-05-07
+THR-2026-00287,HLT-003,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Low,2026-05-07
+THR-2026-00288,TRN-003,Leaked credentials on dark-web markets,High,General,High,2026-05-07
+THR-2026-00289,ENR-002,Business email compromise campaign,Critical,General,High,2026-05-10
+THR-2026-00290,TEL-003,Phishing campaign targeting the sector,Medium,Sector-targeted,Low,2026-05-10
+THR-2026-00291,ENR-002,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,High,2026-05-11
+THR-2026-00292,FIN-001,Leaked credentials on dark-web markets,High,General,Medium,2026-05-11
+THR-2026-00293,EDU-003,Mass exploitation of edge-device vulnerability,Critical,General,Medium,2026-05-12
+THR-2026-00294,HLT-001,Insider threat advisory for privileged staff,Low,Sector-targeted,Medium,2026-05-13
+THR-2026-00295,RTL-003,Data-leak extortion group activity,High,Sector-targeted,Low,2026-05-14
+THR-2026-00296,HLT-003,Leaked credentials on dark-web markets,Medium,Sector-targeted,Medium,2026-05-17
+THR-2026-00297,HLT-004,Supply-chain compromise of a common vendor,High,Sector-targeted,Low,2026-05-17
+THR-2026-00298,TEL-002,APT espionage activity targeting the sector,Critical,General,High,2026-05-17
+THR-2026-00299,EDU-003,Hacktivist DDoS campaign,Medium,General,Medium,2026-05-19
+THR-2026-00300,RTL-001,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Medium,2026-05-21
+THR-2026-00301,TEL-002,Cloud misconfiguration exploitation trend,Low,Sector-targeted,Low,2026-05-21
+THR-2026-00302,GOV-001,Website defacement campaign,Medium,General,Medium,2026-05-22
+THR-2026-00303,TEL-003,Hacktivist DDoS campaign,High,Entity-specific,Medium,2026-05-23
+THR-2026-00304,HLT-004,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Medium,2026-05-25
+THR-2026-00305,RTL-001,Business email compromise campaign,High,Sector-targeted,Medium,2026-05-25
+THR-2026-00306,GOV-006,Cloud misconfiguration exploitation trend,Low,Sector-targeted,Medium,2026-05-26
+THR-2026-00307,TEL-001,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,Medium,2026-05-26
+THR-2026-00308,GOV-005,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Medium,2026-05-27
+THR-2026-00309,HLT-002,Insider threat advisory for privileged staff,Medium,Sector-targeted,Medium,2026-05-28
+THR-2026-00310,RTL-003,Zero-day in widely used software,Critical,Sector-targeted,High,2026-05-28
+THR-2026-00311,FIN-002,Leaked credentials on dark-web markets,High,General,Medium,2026-05-29
+THR-2026-00312,GOV-002,Data-leak extortion group activity,High,Sector-targeted,High,2026-05-29
+THR-2026-00313,RTL-002,Exploited web application injection campaign,Medium,Entity-specific,Low,2026-05-29
+THR-2026-00314,RTL-003,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-05-31
+THR-2026-00315,RTL-002,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2026-06-01
+THR-2026-00316,GOV-004,Hacktivist DDoS campaign,High,General,Medium,2026-06-02
+THR-2026-00317,HLT-001,Website defacement campaign,Low,General,High,2026-06-02
+THR-2026-00318,RTL-003,Business email compromise campaign,High,Sector-targeted,Medium,2026-06-02
+THR-2026-00319,RTL-003,Supply-chain compromise of a common vendor,High,Sector-targeted,High,2026-06-02
+THR-2026-00320,TRN-002,Zero-day in widely used software,Medium,Sector-targeted,Low,2026-06-02
+THR-2026-00321,RTL-003,Insider threat advisory for privileged staff,Low,General,Low,2026-06-04
+THR-2026-00322,HLT-003,APT espionage activity targeting the sector,Critical,General,High,2026-06-05
+THR-2026-00323,FIN-002,Zero-day in widely used software,Critical,Entity-specific,Medium,2026-06-06
+THR-2026-00324,GOV-006,Insider threat advisory for privileged staff,Medium,Entity-specific,Medium,2026-06-06
+THR-2026-00325,GOV-002,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-06-07
+THR-2026-00326,GOV-006,Log-tampering and detection-evasion techniques trending,Medium,General,Medium,2026-06-09
+THR-2026-00327,HLT-002,Ransomware group actively targeting the sector,Critical,General,Medium,2026-06-09
+THR-2026-00328,RTL-002,Insider threat advisory for privileged staff,Low,Sector-targeted,High,2026-06-09
+THR-2026-00329,GOV-004,Insider threat advisory for privileged staff,Medium,General,High,2026-06-10
+THR-2026-00330,EDU-001,APT espionage activity targeting the sector,Critical,General,Medium,2026-06-11
+THR-2026-00331,HLT-002,Ransomware group actively targeting the sector,Critical,Entity-specific,Medium,2026-06-12
+THR-2026-00332,RTL-001,Business email compromise campaign,High,General,Medium,2026-06-13
+THR-2026-00333,UTL-003,ICS-targeting malware advisory,Critical,Sector-targeted,Low,2026-06-13
+THR-2026-00334,TRN-003,Supply-chain compromise of a common vendor,Critical,Sector-targeted,Medium,2026-06-15
+THR-2026-00335,HLT-001,Leaked credentials on dark-web markets,Medium,Sector-targeted,Low,2026-06-18
+THR-2026-00336,TEL-003,Hacktivist DDoS campaign,High,General,Low,2026-06-18
+THR-2026-00337,ENR-003,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-06-19
+THR-2026-00338,TRN-001,Ransomware group actively targeting the sector,Critical,General,High,2026-06-20
+THR-2026-00339,ENR-002,Zero-day in widely used software,Medium,Entity-specific,High,2026-06-22
+THR-2026-00340,GOV-002,APT espionage activity targeting the sector,Critical,General,Medium,2026-06-22
+THR-2026-00341,RTL-003,APT espionage activity targeting the sector,Critical,Sector-targeted,High,2026-06-22
+THR-2026-00342,EDU-003,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-06-23
+THR-2026-00343,EDU-001,Regional incident prompting IR readiness advisory,Low,Sector-targeted,Medium,2026-06-24
+THR-2026-00344,FIN-001,Insider threat advisory for privileged staff,Low,Sector-targeted,High,2026-06-25
+THR-2026-00345,GOV-004,Mass exploitation of edge-device vulnerability,Critical,Entity-specific,Low,2026-06-25
+THR-2026-00346,TRN-002,Business email compromise campaign,Medium,Sector-targeted,Medium,2026-06-25
+THR-2026-00347,TEL-002,Phishing campaign targeting the sector,High,General,High,2026-06-26
+THR-2026-00348,FIN-003,Supply-chain compromise of a common vendor,Medium,General,Medium,2026-06-28
+THR-2026-00349,RTL-003,Info-stealer malware campaign,Medium,Entity-specific,High,2026-06-28
+THR-2026-00350,FIN-004,Exploited web application injection campaign,High,General,Medium,2026-06-29
+THR-2026-00351,RTL-001,Zero-day in widely used software,Medium,Sector-targeted,High,2026-06-29
+THR-2026-00352,EDU-001,Exploited web application injection campaign,High,Sector-targeted,High,2026-06-30
+THR-2026-00353,TRN-001,Phishing campaign targeting the sector,High,Sector-targeted,High,2026-07-02
+THR-2026-00354,ENR-001,Info-stealer malware campaign,Low,Sector-targeted,High,2026-07-06
+THR-2026-00355,HLT-002,Data-leak extortion group activity,Medium,General,Medium,2026-07-06
+THR-2026-00356,TEL-001,Regional incident prompting IR readiness advisory,Medium,General,Low,2026-07-06
+THR-2026-00357,FIN-001,Supply-chain compromise of a common vendor,High,General,Medium,2026-07-07
+THR-2026-00358,RTL-001,Phishing campaign targeting the sector,Medium,Sector-targeted,Medium,2026-07-07
+THR-2026-00359,GOV-006,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Medium,2026-07-08
+THR-2026-00360,UTL-003,Zero-day in widely used software,Critical,Sector-targeted,Medium,2026-07-09
+THR-2026-00361,RTL-001,Data-leak extortion group activity,High,Sector-targeted,Low,2026-07-11
+THR-2026-00362,FIN-004,Supply-chain compromise of a common vendor,High,Sector-targeted,High,2026-07-12
+THR-2026-00363,TEL-002,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-07-12
+THR-2026-00364,GOV-002,Phishing campaign targeting the sector,High,Sector-targeted,High,2026-07-13
+THR-2026-00365,HLT-003,Insider threat advisory for privileged staff,High,General,Low,2026-07-13
+THR-2026-00366,EDU-004,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Low,2026-07-15
+THR-2026-00367,TEL-001,Zero-day in widely used software,High,General,Medium,2026-07-15
+THR-2026-00368,GOV-003,Info-stealer malware campaign,Medium,Sector-targeted,High,2026-07-16
+THR-2026-00369,HLT-003,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2026-07-16
+THR-2026-00370,GOV-002,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,High,2026-07-17
+THR-2026-00371,GOV-006,Mass exploitation of edge-device vulnerability,Critical,General,Medium,2026-07-17
+THR-2026-00372,GOV-005,Log-tampering and detection-evasion techniques trending,Medium,Entity-specific,Medium,2026-07-18
+THR-2026-00373,RTL-001,Data-leak extortion group activity,Critical,Sector-targeted,Low,2026-07-20
+THR-2026-00374,TEL-003,Website defacement campaign,Medium,Entity-specific,High,2026-07-20
+THR-2026-00375,RTL-001,Leaked credentials on dark-web markets,High,General,Medium,2026-07-21
+THR-2026-00376,FIN-002,Zero-day in widely used software,High,Sector-targeted,High,2026-07-22
+THR-2026-00377,GOV-005,Regulatory control update requiring new evidence,Low,General,High,2026-07-23
+THR-2026-00378,GOV-001,APT espionage activity targeting the sector,Critical,General,High,2026-07-25
+THR-2026-00379,EDU-004,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2026-07-28
+THR-2026-00380,ENR-001,Insider threat advisory for privileged staff,Low,General,High,2026-07-28
+THR-2026-00381,GOV-006,Exploited web application injection campaign,High,Sector-targeted,Medium,2026-07-28
+THR-2026-00382,UTL-002,APT espionage activity targeting the sector,Critical,General,Low,2026-07-28
+THR-2026-00383,FIN-002,Leaked credentials on dark-web markets,High,General,Low,2026-07-29
+THR-2026-00384,TEL-001,Phishing campaign targeting the sector,High,General,Medium,2026-07-29
+THR-2026-00385,HLT-004,Regional incident prompting IR readiness advisory,Medium,Sector-targeted,Low,2026-07-30
+THR-2026-00386,UTL-003,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,High,2026-07-30
+THR-2026-00387,RTL-001,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-07-31
+THR-2026-00388,RTL-003,Regional incident prompting IR readiness advisory,Low,Entity-specific,Medium,2026-07-31
+THR-2026-00389,TEL-001,Regulatory control update requiring new evidence,Medium,General,Medium,2026-07-31
+THR-2026-00390,EDU-003,Exploited web application injection campaign,High,General,Medium,2026-08-01
+THR-2026-00391,TEL-002,Website defacement campaign,High,Sector-targeted,Low,2026-08-02
+THR-2026-00392,FIN-002,Business email compromise campaign,Medium,General,High,2026-08-04
+THR-2026-00393,HLT-001,Insider threat advisory for privileged staff,High,Entity-specific,High,2026-08-04
+THR-2026-00394,GOV-005,Supply-chain compromise of a common vendor,High,Sector-targeted,Medium,2026-08-05
+THR-2026-00395,FIN-003,Regulatory control update requiring new evidence,Low,Sector-targeted,Medium,2026-08-06
+THR-2026-00396,RTL-003,Exploited web application injection campaign,High,General,Medium,2026-08-06
+THR-2026-00397,GOV-004,Ransomware group actively targeting the sector,Critical,General,Low,2026-08-07
+THR-2026-00398,UTL-002,Hacktivist DDoS campaign,High,Sector-targeted,High,2026-08-07
+THR-2026-00399,GOV-004,Data-leak extortion group activity,High,General,High,2026-08-08
+THR-2026-00400,EDU-002,Leaked credentials on dark-web markets,High,Sector-targeted,High,2026-08-09
+THR-2026-00401,EDU-002,Hacktivist DDoS campaign,High,General,Low,2026-08-09
+THR-2026-00402,FIN-003,Info-stealer malware campaign,Low,Sector-targeted,Medium,2026-08-09
+THR-2026-00403,RTL-002,Leaked credentials on dark-web markets,High,Sector-targeted,Low,2026-08-09
+THR-2026-00404,GOV-001,Data-leak extortion group activity,High,Sector-targeted,High,2026-08-10
+THR-2026-00405,UTL-003,Mass exploitation of edge-device vulnerability,Critical,General,Low,2026-08-10
+THR-2026-00406,FIN-002,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,High,2026-08-11
+THR-2026-00407,GOV-004,Business email compromise campaign,High,General,High,2026-08-11
+THR-2026-00408,FIN-004,Regulatory control update requiring new evidence,Low,Sector-targeted,Medium,2026-08-12
+THR-2026-00409,TEL-001,Zero-day in widely used software,Medium,General,Low,2026-08-12
+THR-2026-00410,TEL-003,Supply-chain compromise of a common vendor,High,General,Medium,2026-08-13
+THR-2026-00411,HLT-003,Info-stealer malware campaign,Medium,General,Medium,2026-08-14
+THR-2026-00412,RTL-001,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-08-14
+THR-2026-00413,EDU-003,Phishing campaign targeting the sector,High,Sector-targeted,High,2026-08-15
+THR-2026-00414,HLT-003,Insider threat advisory for privileged staff,Medium,General,Low,2026-08-15
+THR-2026-00415,ENR-003,Regional incident prompting IR readiness advisory,Medium,Entity-specific,Medium,2026-08-17
+THR-2026-00416,UTL-003,ICS-targeting malware advisory,Critical,Entity-specific,Medium,2026-08-17
+THR-2026-00417,HLT-001,Cloud misconfiguration exploitation trend,Medium,Sector-targeted,Medium,2026-08-19
+THR-2026-00418,EDU-003,Phishing campaign targeting the sector,Medium,General,Medium,2026-08-20
+THR-2026-00419,FIN-002,Leaked credentials on dark-web markets,High,Sector-targeted,Low,2026-08-20
+THR-2026-00420,ENR-003,Info-stealer malware campaign,Low,General,Medium,2026-08-21
+THR-2026-00421,GOV-002,Leaked credentials on dark-web markets,High,General,Low,2026-08-21
+THR-2026-00422,GOV-005,Hacktivist DDoS campaign,High,Sector-targeted,High,2026-08-22
+THR-2026-00423,UTL-003,Regional incident prompting IR readiness advisory,Low,Sector-targeted,High,2026-08-22
+THR-2026-00424,UTL-003,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-08-22
+THR-2026-00425,FIN-001,Website defacement campaign,Medium,Sector-targeted,High,2026-08-23
+THR-2026-00426,HLT-002,Ransomware group actively targeting the sector,Critical,General,High,2026-08-23
+THR-2026-00427,TEL-002,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-08-23
+THR-2026-00428,GOV-001,Hacktivist DDoS campaign,High,Sector-targeted,High,2026-08-24
+THR-2026-00429,HLT-004,Insider threat advisory for privileged staff,Medium,Entity-specific,High,2026-08-24
+THR-2026-00430,RTL-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Medium,2026-08-25
+THR-2026-00431,FIN-001,Insider threat advisory for privileged staff,Low,General,Medium,2026-08-26
+THR-2026-00432,ENR-001,Hacktivist DDoS campaign,High,General,Medium,2026-08-27
+THR-2026-00433,TEL-002,Log-tampering and detection-evasion techniques trending,Medium,General,Medium,2026-08-27
+THR-2026-00434,FIN-002,Exploited web application injection campaign,High,Sector-targeted,High,2026-08-28
+THR-2026-00435,EDU-004,Business email compromise campaign,High,General,High,2026-08-29
+THR-2026-00436,FIN-002,Supply-chain compromise of a common vendor,High,Sector-targeted,High,2026-08-29
+THR-2026-00437,EDU-003,Leaked credentials on dark-web markets,Critical,Entity-specific,High,2026-08-30
+THR-2026-00438,FIN-004,APT espionage activity targeting the sector,Critical,General,Low,2026-08-30
+THR-2026-00439,HLT-003,Insider threat advisory for privileged staff,Medium,Sector-targeted,High,2026-08-30
+THR-2026-00440,EDU-004,Mass exploitation of edge-device vulnerability,Critical,General,High,2026-08-31
+THR-2026-00441,FIN-001,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-08-31
+THR-2026-00442,FIN-003,Phishing campaign targeting the sector,High,Sector-targeted,Low,2026-08-31
+THR-2026-00443,GOV-006,Insider threat advisory for privileged staff,Low,General,Low,2026-09-01
+THR-2026-00444,HLT-003,Info-stealer malware campaign,Medium,Sector-targeted,High,2026-09-02
+THR-2026-00445,FIN-004,Insider threat advisory for privileged staff,Low,General,Medium,2026-09-03
+THR-2026-00446,FIN-003,Leaked credentials on dark-web markets,High,Sector-targeted,High,2026-09-04
+THR-2026-00447,GOV-001,Leaked credentials on dark-web markets,High,General,High,2026-09-05
+THR-2026-00448,FIN-001,Regional incident prompting IR readiness advisory,Low,Sector-targeted,Medium,2026-09-06
+THR-2026-00449,FIN-002,Phishing campaign targeting the sector,Critical,Sector-targeted,Medium,2026-09-06
+THR-2026-00450,GOV-003,Log-tampering and detection-evasion techniques trending,Medium,Sector-targeted,High,2026-09-06
+THR-2026-00451,HLT-002,Data-leak extortion group activity,High,General,High,2026-09-06
+THR-2026-00452,FIN-003,Hacktivist DDoS campaign,High,General,Medium,2026-09-07
+THR-2026-00453,HLT-002,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-09-07
+THR-2026-00454,TEL-002,APT espionage activity targeting the sector,Critical,General,Low,2026-09-07
+THR-2026-00455,EDU-002,Business email compromise campaign,High,Sector-targeted,Low,2026-09-08
+THR-2026-00456,GOV-006,Log-tampering and detection-evasion techniques trending,Medium,General,Low,2026-09-08
+THR-2026-00457,TRN-003,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2026-09-08
+THR-2026-00458,UTL-001,ICS-targeting malware advisory,Critical,Sector-targeted,Low,2026-09-08
+THR-2026-00459,ENR-002,Regulatory control update requiring new evidence,Low,Sector-targeted,Low,2026-09-09
+THR-2026-00460,FIN-003,Leaked credentials on dark-web markets,High,Sector-targeted,High,2026-09-09
+THR-2026-00461,HLT-002,Ransomware group actively targeting the sector,High,General,Low,2026-09-09
+THR-2026-00462,UTL-003,Hacktivist DDoS campaign,Medium,General,High,2026-09-10
+THR-2026-00463,GOV-001,Business email compromise campaign,Medium,Sector-targeted,Low,2026-09-12
+THR-2026-00464,HLT-001,Exploited web application injection campaign,High,Sector-targeted,Medium,2026-09-12
+THR-2026-00465,TEL-001,Supply-chain compromise of a common vendor,Critical,General,High,2026-09-12
+THR-2026-00466,HLT-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Low,2026-09-13
+THR-2026-00467,HLT-004,Ransomware group actively targeting the sector,Critical,Sector-targeted,High,2026-09-13
+THR-2026-00468,RTL-002,Insider threat advisory for privileged staff,Low,Sector-targeted,High,2026-09-15
+THR-2026-00469,UTL-001,ICS-targeting malware advisory,High,Sector-targeted,Medium,2026-09-15
+THR-2026-00470,UTL-003,Zero-day in widely used software,High,Sector-targeted,Medium,2026-09-15
+THR-2026-00471,GOV-002,Phishing campaign targeting the sector,High,Sector-targeted,High,2026-09-17
+THR-2026-00472,TRN-001,Insider threat advisory for privileged staff,Medium,Sector-targeted,Medium,2026-09-19
+THR-2026-00473,TRN-003,Exploited web application injection campaign,Critical,Sector-targeted,High,2026-09-19
+THR-2026-00474,RTL-001,Exploited web application injection campaign,High,General,Medium,2026-09-21
+THR-2026-00475,EDU-002,Phishing campaign targeting the sector,High,Entity-specific,High,2026-09-22
+THR-2026-00476,EDU-004,Exploited web application injection campaign,High,Sector-targeted,Medium,2026-09-22
+THR-2026-00477,FIN-001,Leaked credentials on dark-web markets,High,General,Medium,2026-09-22
+THR-2026-00478,FIN-003,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2026-09-24
+THR-2026-00479,TEL-001,Cloud misconfiguration exploitation trend,Low,General,Medium,2026-09-24
+THR-2026-00480,UTL-003,Mass exploitation of edge-device vulnerability,Critical,Sector-targeted,Medium,2026-09-24
+THR-2026-00481,FIN-001,Leaked credentials on dark-web markets,High,Sector-targeted,High,2026-09-25
+THR-2026-00482,TRN-002,Hacktivist DDoS campaign,High,Entity-specific,High,2026-09-25
+THR-2026-00483,ENR-002,ICS-targeting malware advisory,Critical,General,Medium,2026-09-26
+THR-2026-00484,EDU-001,Business email compromise campaign,Medium,Entity-specific,Low,2026-09-27
+THR-2026-00485,FIN-001,Regional incident prompting IR readiness advisory,Medium,General,High,2026-09-27
+THR-2026-00486,FIN-003,Regional incident prompting IR readiness advisory,Medium,Entity-specific,High,2026-09-27
+THR-2026-00487,HLT-002,Ransomware group actively targeting the sector,Critical,General,Medium,2026-09-27
+THR-2026-00488,TEL-002,Business email compromise campaign,Medium,Sector-targeted,High,2026-09-27
+THR-2026-00489,TRN-003,Data-leak extortion group activity,High,Sector-targeted,High,2026-09-27
+THR-2026-00490,GOV-002,Zero-day in widely used software,High,Sector-targeted,High,2026-09-28
+THR-2026-00491,RTL-003,Website defacement campaign,Medium,Sector-targeted,Low,2026-09-28
+THR-2026-00492,EDU-004,Mass exploitation of edge-device vulnerability,High,General,Low,2026-09-29
+THR-2026-00493,RTL-003,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-09-29
+THR-2026-00494,EDU-001,Phishing campaign targeting the sector,High,Entity-specific,Medium,2026-09-30
+THR-2026-00495,FIN-002,Supply-chain compromise of a common vendor,Critical,General,High,2026-09-30
+THR-2026-00496,FIN-001,Business email compromise campaign,High,Sector-targeted,Low,2026-10-02
+THR-2026-00497,HLT-001,Business email compromise campaign,Medium,Sector-targeted,Medium,2026-10-02
+THR-2026-00498,TRN-002,Phishing campaign targeting the sector,Medium,Entity-specific,Medium,2026-10-02
+THR-2026-00499,HLT-004,Data-leak extortion group activity,High,General,High,2026-10-03
+THR-2026-00500,TEL-003,Phishing campaign targeting the sector,High,Entity-specific,Medium,2026-10-04
+THR-2026-00501,FIN-001,Hacktivist DDoS campaign,High,General,High,2026-10-05
+THR-2026-00502,FIN-004,Leaked credentials on dark-web markets,High,Sector-targeted,Medium,2026-10-06
+THR-2026-00503,HLT-003,Info-stealer malware campaign,High,Sector-targeted,Medium,2026-10-06
+THR-2026-00504,FIN-002,Mass exploitation of edge-device vulnerability,High,General,Low,2026-10-07
+THR-2026-00505,TRN-001,Mass exploitation of edge-device vulnerability,Critical,General,Medium,2026-10-10
+THR-2026-00506,TRN-003,Mass exploitation of edge-device vulnerability,Critical,Entity-specific,High,2026-10-11
+THR-2026-00507,GOV-005,Business email compromise campaign,High,General,Medium,2026-10-14
+THR-2026-00508,HLT-001,Regulatory control update requiring new evidence,Low,Entity-specific,Low,2026-10-16
+THR-2026-00509,HLT-004,Cloud misconfiguration exploitation trend,Low,General,Medium,2026-10-16
+THR-2026-00510,GOV-002,Business email compromise campaign,High,Sector-targeted,Medium,2026-10-17
+THR-2026-00511,EDU-003,Phishing campaign targeting the sector,Medium,Sector-targeted,High,2026-10-18
+THR-2026-00512,RTL-002,Data-leak extortion group activity,High,General,High,2026-10-19
+THR-2026-00513,UTL-001,Data-leak extortion group activity,High,Sector-targeted,Medium,2026-10-19
+THR-2026-00514,GOV-002,Hacktivist DDoS campaign,High,Sector-targeted,Medium,2026-10-20
+THR-2026-00515,GOV-004,Website defacement campaign,Medium,General,High,2026-10-20
+THR-2026-00516,EDU-003,Exploited web application injection campaign,High,Sector-targeted,High,2026-10-23
+THR-2026-00517,FIN-001,Exploited web application injection campaign,High,General,Medium,2026-10-23
+THR-2026-00518,GOV-003,Website defacement campaign,Medium,General,Low,2026-10-23
+THR-2026-00519,RTL-001,Data-leak extortion group activity,High,General,Low,2026-10-24
+THR-2026-00520,EDU-003,Business email compromise campaign,Medium,Sector-targeted,Medium,2026-10-26
+THR-2026-00521,HLT-004,Info-stealer malware campaign,Medium,Sector-targeted,Medium,2026-10-26
+THR-2026-00522,ENR-001,APT espionage activity targeting the sector,Critical,Sector-targeted,Medium,2026-10-29
+THR-2026-00523,FIN-004,Phishing campaign targeting the sector,High,Sector-targeted,Medium,2026-10-30
+THR-2026-00524,TEL-003,Log-tampering and detection-evasion techniques trending,Medium,General,Medium,2026-10-31
+THR-2026-00525,UTL-003,Leaked credentials on dark-web markets,High,General,Medium,2026-10-31

@@ -28,6 +28,40 @@ Open `app/index.html` in a browser. It is a single self-contained file that work
 - **Role score** = sum of the scores of the tasks that SCyWF assigns to that job role (Appendix A).
 - **Ranking incidents:** *Frequency* sorts by count, then severity score. *Severity* sorts by highest severity, then the count at that severity, then severity score.
 
+## Excel model: `excel/SCyWF_Training_Priority_Model.xlsx`
+
+A formula-driven workbook that combines **three data sources** per entity and ranks **training programs**.
+
+| Sheet | Purpose |
+|---|---|
+| **Overview** | Type an entity code or part of its name. It shows a summary card, KPIs, how much each data source contributes, the top 5 gap categories and the top 5 programs, with charts. |
+| **Entity Detail** | The full calculation for the selected entity: category gaps, all 15 programs ranked (split into incident-, vulnerability- and threat-driven parts), and the top 10 records from each source. |
+| **National View** | Every entity and sector side by side: gap heatmap, program scores, top gap and top program, and national averages. |
+| **How It Works** | Explains the method in plain language. |
+| **Weights** | Source weights and scoring factors (inputs). |
+| **Programs** | Program catalog and coverage matrix (inputs). |
+| **Categories**, **Catalog** | Maps every incident, finding and threat title to a gap category and its SCyWF tasks. |
+| **Incidents**, **Vulnerabilities**, **Threats** | Data, with calculated scoring columns. |
+| **SCyWF Tasks**, **SCyWF Roles** | Framework reference. |
+
+### Weighting system
+
+1. **Record score** (signal strength of one record):
+   - Incident = severity × recency × status
+   - Vulnerability = severity from CVSS × exposure (internet-facing 1.5) × status (remediated 0.2)
+   - Threat = level × relevance (entity-specific 1.5, sector 1.2, general 0.8) × confidence × recency
+2. **Source share**: for each source, the share of an entity's record score that falls in each gap category. This makes sources with very different volumes comparable.
+3. **Gap index** = (0.5 × incident share + 0.3 × vulnerability share + 0.2 × threat share) ÷ (sum of the weights of sources that have data).
+   - Incidents weigh most because they are proven harm.
+   - Vulnerabilities are current exposure.
+   - Threats are likelihood and the least entity-specific.
+4. **Program priority** = Σ gap index × program coverage (1.0 primary focus, 0.5 secondary).
+
+Every weight and factor is an editable cell on the Weights sheet, and every score recalculates when one changes.
+
+Rebuild with `python3 scripts/generate_dummy_data.py && python3 scripts/build_excel.py`. This needs `openpyxl`.
+Open the file in Excel to calculate formulas. The committed copy already has its values calculated.
+
 ## Repository layout
 
 ```
@@ -38,10 +72,14 @@ data/
                                          grouped into 14 categories, each with programs and practices
   generated/entities.csv                 dummy entities (code, name, sector, region, maturity)
   generated/incidents.csv                dummy incidents (entity code/name, vulnerability title, severity, date, status)
+  generated/vulnerabilities.csv          dummy vulnerability findings (title, CVSS, exposure, status, date)
+  generated/threats.csv                  dummy threat intelligence (title, level, relevance, confidence, date)
+  mapping/source_catalog.json            finding and threat types -> gap category + SCyWF tasks; training program catalog
   generated/vulnerability_task_mapping.csv flat mapping (one row per vulnerability-task pair) for BI tools
 scripts/
   generate_dummy_data.py                 deterministic dummy data generator (--seed)
   build_app.py                           builds app/index.html and the flat CSV
+  build_excel.py                         builds excel/SCyWF_Training_Priority_Model.xlsx
 app/
   template.html                          UI source
   index.html                             built app with data embedded
