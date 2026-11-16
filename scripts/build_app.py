@@ -73,9 +73,9 @@ def main():
         "vulns": [{"t": v["title"], "c": v["category"], "p": v["primary"], "s": v["supporting"]} for v in vulns],
         "entities": [{"code": e["entity_code"], "name": e["entity_name"], "sector": e["sector"],
                       "region": e["region"], "maturity": e["maturity_level"]} for e in entities],
-        # compact incidents: [id, entity_code, vuln_index, severity_index, date, status]
+        # compact incidents: [id, entity_code, vuln_index, severity_index, date]
         "incidents": [[i["incident_id"], i["entity_code"], vidx[i["vulnerability_title"]],
-                       SEVERITIES.index(i["severity"]), i["reported_date"], i["status"]] for i in incidents],
+                       SEVERITIES.index(i["severity"]), i["reported_date"]] for i in incidents],
     }
     template = (ROOT / "app/template.html").read_text(encoding="utf-8")
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

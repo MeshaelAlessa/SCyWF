@@ -312,17 +312,17 @@ const SPECS = ["General", "Cybersecurity Architecture", "Cybersecurity Research 
   "Incident Response", "Threat Management", "ICS/OT"];
 const byEntity = {};
 for (const inc of DATA.incidents) (byEntity[inc[1]] ||= []).push(inc);
+const LATEST = DATA.incidents.reduce((m, i) => (i[4] > m ? i[4] : m), "");
 const entityByCode = Object.fromEntries(DATA.entities.map((e) => [e.code, e]));
 
 /* ---------- analysis ---------- */
 function analyze(incs) {
   const v = new Map();
-  for (const [, , vi, si, date, status] of incs) {
+  for (const [, , vi, si, date] of incs) {
     let r = v.get(vi);
-    if (!r) v.set(vi, (r = { vi, count: 0, sev: [0, 0, 0, 0], score: 0, max: 0, last: "", open: 0 }));
+    if (!r) v.set(vi, (r = { vi, count: 0, sev: [0, 0, 0, 0], score: 0, max: 0, last: "" }));
     r.count++; r.sev[si]++; r.score += W[si]; r.max = Math.max(r.max, si);
     if (date > r.last) r.last = date;
-    if (status !== "Closed") r.open++;
   }
   const vulns = [...v.values()];
   const tasks = new Map();
@@ -370,7 +370,7 @@ function renderEntity() {
   const e = entityByCode[state.code];
   const incs = byEntity[e.code] || [];
   const a = analyze(incs);
-  const crit = incs.filter((i) => i[3] === 3).length, open = incs.filter((i) => i[5] !== "Closed").length;
+  const crit = incs.filter((i) => i[3] === 3).length, yearAgo = new Date(new Date(LATEST) - 365 * 864e5).toISOString().slice(0, 10), recent = incs.filter((i) => i[4] > yearAgo).length;
   $("#summary").innerHTML = `
     <div class="who">
       <span class="label">Entity</span>
@@ -380,7 +380,7 @@ function renderEntity() {
     <div class="stats">
       <div class="stat"><div class="label">Incidents</div><div class="v">${incs.length}</div></div>
       <div class="stat"><div class="label">Critical</div><div class="v crit">${crit}</div></div>
-      <div class="stat"><div class="label">Not closed</div><div class="v">${open}</div></div>
+      <div class="stat"><div class="label">Last 12 months</div><div class="v">${recent}</div></div>
       <div class="stat"><div class="label">Vuln. types</div><div class="v">${a.vulns.length}</div></div>
     </div>`;
 

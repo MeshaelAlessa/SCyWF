@@ -30,34 +30,43 @@ Open `app/index.html` in a browser. It is a single self-contained file that work
 
 ## Excel model: `excel/SCyWF_Training_Priority_Model.xlsx`
 
-A formula-driven workbook that combines **three data sources** per entity and ranks **training programs**.
+A formula-driven, **task-based** workbook. Every incident, vulnerability finding and threat record maps directly to
+SCyWF tasks, with no categories in between. The model ranks the tasks an entity most needs, the job roles and
+specialty areas behind them, and the training programs that teach them.
+Each record needs only four fields: **entity code, title, severity (or threat level), date**.
 
 | Sheet | Purpose |
 |---|---|
-| **Overview** | Type an entity code or part of its name. It shows a summary card, KPIs, how much each data source contributes, the top 5 gap categories and the top 5 programs, with charts. |
-| **Entity Detail** | The full calculation for the selected entity: category gaps, all 15 programs ranked (split into incident-, vulnerability- and threat-driven parts), and the top 10 records from each source. |
-| **National View** | Every entity and sector side by side: gap heatmap, program scores, top gap and top program, and national averages. |
-| **How It Works** | Explains the method in plain language. |
-| **Weights** | Source weights and scoring factors (inputs). |
-| **Programs** | Program catalog and coverage matrix (inputs). |
-| **Categories**, **Catalog** | Maps every incident, finding and threat title to a gap category and its SCyWF tasks. |
+| **Overview** | Type an entity code or part of its name. Shows a summary card, KPIs, how much each data source counts, the top 10 SCyWF tasks, the top 5 programs and the top specialty areas, with charts. |
+| **Entity Detail** | The full calculation for the selected entity: all programs, specialty areas, job roles and tasks ranked, plus the top 10 records from each source. |
+| **National View** | Every entity and sector side by side: specialty-area gaps, program scores, top items and national averages. |
+| **How It Works** | The method in plain language. |
+| **Weights** | Source evidence strength, minimum records, severity scale, recency half-lives, task relevance (inputs). |
+| **Task Map** | Record title → SCyWF tasks, each Primary or Supporting (input). |
+| **Programs**, **Program Tasks** | Program catalog, and the SCyWF tasks each program teaches (input). |
 | **Incidents**, **Vulnerabilities**, **Threats** | Data, with calculated scoring columns. |
+| **Catalog**, **Title Matrix**, **Role Tasks** | Helpers. |
 | **SCyWF Tasks**, **SCyWF Roles** | Framework reference. |
 
 ### Weighting system
 
-1. **Record score** (signal strength of one record):
-   - Incident = severity × recency × status
-   - Vulnerability = severity from CVSS × exposure (internet-facing 1.5) × status (remediated 0.2)
-   - Threat = level × relevance (entity-specific 1.5, sector 1.2, general 0.8) × confidence × recency
-2. **Source share**: for each source, the share of an entity's record score that falls in each gap category. This makes sources with very different volumes comparable.
-3. **Gap index** = (0.5 × incident share + 0.3 × vulnerability share + 0.2 × threat share) ÷ (sum of the weights of sources that have data).
-   - Incidents weigh most because they are proven harm.
-   - Vulnerabilities are current exposure.
-   - Threats are likelihood and the least entity-specific.
-4. **Program priority** = Σ gap index × program coverage (1.0 primary focus, 0.5 secondary).
+1. **Record score** = severity weight × recency weight.
+   - Severity doubles at each level: Low 1, Medium 2, High 4, Critical 8. The same scale applies to all three sources.
+   - Recency = 0.5 ^ (age ÷ half-life). The half-life is 365 days for incidents and 180 days for threats. Vulnerabilities have no decay, because a current finding is current exposure.
+2. **Spread over tasks**: each record's score is split over its mapped tasks in proportion to relevance (Primary 1.0, Supporting 0.5), so every record counts exactly once.
+3. **Source weights** come from evidence strength:
+   - Incidents 3: proven harm in this entity.
+   - Vulnerabilities 2: exposure here, not yet exploited.
+   - Threats 1: external and often sector-wide.
 
-Every weight and factor is an editable cell on the Weights sheet, and every score recalculates when one changes.
+   That normalizes to 50% / 33% / 17%. A source with fewer than 10 records gets proportionally less weight (data sufficiency), and a source with none drops out.
+4. **Task gap index** = Σ over sources of normalized weight × (task score ÷ the entity's total score from that source). The index sums to 100% across tasks.
+5. **Rollups:**
+   - Program gap covered = Σ gap index of the tasks the program teaches. Programs are ranked on this.
+   - Job role = Σ gap index of its SCyWF tasks.
+   - Specialty area = Σ gap index of the tasks in its ID range.
+
+Every weight is an editable cell, and every score recalculates when one changes.
 
 Rebuild with `python3 scripts/generate_dummy_data.py && python3 scripts/build_excel.py`. This needs `openpyxl`.
 Open the file in Excel to calculate formulas. The committed copy already has its values calculated.
@@ -71,10 +80,10 @@ data/
   mapping/vulnerability_task_mapping.json  34 vulnerability titles -> primary/supporting SCyWF tasks,
                                          grouped into 14 categories, each with programs and practices
   generated/entities.csv                 dummy entities (code, name, sector, region, maturity)
-  generated/incidents.csv                dummy incidents (entity code/name, vulnerability title, severity, date, status)
-  generated/vulnerabilities.csv          dummy vulnerability findings (title, CVSS, exposure, status, date)
-  generated/threats.csv                  dummy threat intelligence (title, level, relevance, confidence, date)
-  mapping/source_catalog.json            finding and threat types -> gap category + SCyWF tasks; training program catalog
+  generated/incidents.csv                dummy incidents (entity code/name, vulnerability title, severity, date)
+  generated/vulnerabilities.csv          dummy vulnerability findings (entity code, finding title, severity, date)
+  generated/threats.csv                  dummy threat intelligence (entity code, threat title, threat level, date)
+  mapping/source_catalog.json            finding and threat types -> SCyWF tasks; training programs with the tasks they teach
   generated/vulnerability_task_mapping.csv flat mapping (one row per vulnerability-task pair) for BI tools
 scripts/
   generate_dummy_data.py                 deterministic dummy data generator (--seed)

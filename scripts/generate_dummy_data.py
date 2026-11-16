@@ -125,7 +125,7 @@ def main():
             shift = weighted_choice(rng, [-1, 0, 1], [0.25, 0.6, 0.15])
             sev = SEVERITIES[max(0, min(3, base + shift))]
             d = start + timedelta(days=rng.randint(0, span))
-            status = weighted_choice(rng, [s for s, _ in STATUSES], [w for _, w in STATUSES])
+            weighted_choice(rng, [s for s, _ in STATUSES], [w for _, w in STATUSES])  # keeps the random stream stable
             incident_rows.append({
                 "incident_id": f"INC-{d.year}-{inc_no:05d}",
                 "entity_code": code,
@@ -133,7 +133,6 @@ def main():
                 "vulnerability_title": v["title"],
                 "severity": sev,
                 "reported_date": d.isoformat(),
-                "status": status,
             })
             inc_no += 1
 
@@ -157,15 +156,14 @@ def main():
         # Vulnerability scan findings: less mature entities carry more open findings
         n = vrng.randint(*{"Initial": (60, 110), "Developing": (40, 75), "Defined": (25, 50), "Managed": (12, 30)}[e["maturity_level"]])
         fw = [profile.get(f["category"], 1.0) * vrng.uniform(0.3, 1.0) for f in catalog["vulnerability_findings"]]
-        open_rate = {"Initial": 0.75, "Developing": 0.6, "Defined": 0.45, "Managed": 0.3}[e["maturity_level"]]
         for _ in range(n):
             f = weighted_choice(vrng, catalog["vulnerability_findings"], fw)
-            cvss = round(vrng.uniform(*f["cvss"]), 1)
+            cvss = vrng.uniform(*f["cvss"])  # internal only: turned into the scanner's severity label
+            severity = "Critical" if cvss >= 9 else "High" if cvss >= 7 else "Medium" if cvss >= 4 else "Low"
             d = start + timedelta(days=vrng.randint(200, span))
             vuln_rows.append({
-                "finding_id": "", "entity_code": e["entity_code"], "finding_title": f["title"], "cvss_score": cvss,
-                "exposure": "Internet-facing" if vrng.random() < 0.35 else "Internal",
-                "status": "Open" if vrng.random() < open_rate else "Remediated", "detected_date": d.isoformat(),
+                "finding_id": "", "entity_code": e["entity_code"], "finding_title": f["title"],
+                "severity": severity, "detected_date": d.isoformat(),
             })
         # Threat intelligence: driven by sector, not by entity maturity
         n = trng.randint(8, 22)
@@ -177,8 +175,6 @@ def main():
             d = start + timedelta(days=trng.randint(250, span))
             threat_rows.append({
                 "threat_id": "", "entity_code": e["entity_code"], "threat_title": t["title"], "threat_level": level,
-                "relevance": weighted_choice(trng, ["Entity-specific", "Sector-targeted", "General"], [0.15, 0.5, 0.35]),
-                "confidence": weighted_choice(trng, ["High", "Medium", "Low"], [0.35, 0.45, 0.2]),
                 "reported_date": d.isoformat(),
             })
     for rows, key, prefix, dkey in ((vuln_rows, "finding_id", "VUL", "detected_date"), (threat_rows, "threat_id", "THR", "reported_date")):
