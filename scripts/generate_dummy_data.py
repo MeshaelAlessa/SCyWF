@@ -147,13 +147,13 @@ def main():
         w.writeheader(); w.writerows(incident_rows)
     print(f"Wrote {len(entity_rows)} entities and {len(incident_rows)} incidents to {OUT}")
 
-    # ---- Vulnerability findings and threat intelligence (separate random streams so incidents stay stable)
+    # ---- Vulnerability findings and ECC compliance results (separate random streams so incidents stay stable)
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-    vrng, trng = random.Random(args.seed + 1), random.Random(args.seed + 2)
-    vuln_rows, threat_rows = [], []
+    vrng, crng = random.Random(args.seed + 1), random.Random(args.seed + 2)
+    vuln_rows, ecc_rows = [], []
     for e in entity_rows:
         profile = SECTOR_PROFILE.get(e["sector"], {})
-        # Vulnerability scan findings: less mature entities carry more open findings
+        # Vulnerability scan findings: less mature entities carry more findings
         n = vrng.randint(*{"Initial": (60, 110), "Developing": (40, 75), "Defined": (25, 50), "Managed": (12, 30)}[e["maturity_level"]])
         fw = [profile.get(f["category"], 1.0) * vrng.uniform(0.3, 1.0) for f in catalog["vulnerability_findings"]]
         for _ in range(n):
@@ -165,28 +165,26 @@ def main():
                 "finding_id": "", "entity_code": e["entity_code"], "finding_title": f["title"],
                 "severity": severity, "detected_date": d.isoformat(),
             })
-        # Threat intelligence: driven by sector, not by entity maturity
-        n = trng.randint(8, 22)
-        tw = [profile.get(t["category"], 1.0) * trng.uniform(0.4, 1.0) for t in catalog["threats"]]
-        for _ in range(n):
-            t = weighted_choice(trng, catalog["threats"], tw)
-            base = SEVERITIES.index(t["level"])
-            level = SEVERITIES[max(0, min(3, base + weighted_choice(trng, [-1, 0, 1], [0.2, 0.7, 0.1])))]
-            d = start + timedelta(days=trng.randint(250, span))
-            threat_rows.append({
-                "threat_id": "", "entity_code": e["entity_code"], "threat_title": t["title"], "threat_level": level,
-                "reported_date": d.isoformat(),
-            })
-    for rows, key, prefix, dkey in ((vuln_rows, "finding_id", "VUL", "detected_date"), (threat_rows, "threat_id", "THR", "reported_date")):
-        rows.sort(key=lambda r: (r[dkey], r["entity_code"]))
-        for i, r in enumerate(rows, 1):
-            r[key] = f"{prefix}-{r[dkey][:4]}-{i:05d}"
-    for name, rows in (("vulnerabilities.csv", vuln_rows), ("threats.csv", threat_rows)):
+        # ECC compliance assessment: one result per ECC subdomain; ICS (5-1) applies only to OT-heavy sectors
+        mix = {"Initial": [40, 40, 20], "Developing": [25, 40, 35], "Defined": [15, 30, 55], "Managed": [5, 20, 75]}[e["maturity_level"]]
+        d = start + timedelta(days=crng.randint(400, span))
+        for ctl in catalog["ecc_controls"]:
+            if ctl["category"] == "ICS/OT Security" and e["sector"] not in ("Energy", "Water & Utilities", "Transport"):
+                status = "Not applicable"
+            else:
+                weak = profile.get(ctl["category"], 1.0) > 1.5  # sector weak spots are more often non-compliant
+                status = weighted_choice(crng, ["Not compliant", "Partially compliant", "Compliant"],
+                                         [mix[0] * (1.6 if weak else 1), mix[1], mix[2]])
+            ecc_rows.append({"entity_code": e["entity_code"], "ecc_control": ctl["title"],
+                             "compliance_status": status, "assessment_date": d.isoformat()})
+    vuln_rows.sort(key=lambda r: (r["detected_date"], r["entity_code"]))
+    for i, r in enumerate(vuln_rows, 1):
+        r["finding_id"] = f"VUL-{r['detected_date'][:4]}-{i:05d}"
+    for name, rows in (("vulnerabilities.csv", vuln_rows), ("compliance.csv", ecc_rows)):
         with open(OUT / name, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0]))
             w.writeheader(); w.writerows(rows)
-    print(f"Wrote {len(vuln_rows)} vulnerability findings and {len(threat_rows)} threat records")
-
+    print(f"Wrote {len(vuln_rows)} vulnerability findings and {len(ecc_rows)} ECC compliance results")
 
 if __name__ == "__main__":
     main()

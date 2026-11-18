@@ -1,0 +1,958 @@
+entity_code,ecc_control,compliance_status,assessment_date
+GOV-001,ECC 1-1 Cybersecurity Strategy,Compliant,2026-08-05
+GOV-001,ECC 1-2 Cybersecurity Management,Compliant,2026-08-05
+GOV-001,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-08-05
+GOV-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-08-05
+GOV-001,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-08-05
+GOV-001,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-08-05
+GOV-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-08-05
+GOV-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-08-05
+GOV-001,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-08-05
+GOV-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-08-05
+GOV-001,ECC 2-1 Asset Management,Compliant,2026-08-05
+GOV-001,ECC 2-2 Identity and Access Management,Compliant,2026-08-05
+GOV-001,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-08-05
+GOV-001,ECC 2-4 Email Protection,Compliant,2026-08-05
+GOV-001,ECC 2-5 Networks Security Management,Not compliant,2026-08-05
+GOV-001,ECC 2-6 Mobile Devices Security,Not compliant,2026-08-05
+GOV-001,ECC 2-7 Data and Information Protection,Compliant,2026-08-05
+GOV-001,ECC 2-8 Cryptography,Not compliant,2026-08-05
+GOV-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-08-05
+GOV-001,ECC 2-10 Vulnerabilities Management,Compliant,2026-08-05
+GOV-001,ECC 2-11 Penetration Testing,Compliant,2026-08-05
+GOV-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-08-05
+GOV-001,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-08-05
+GOV-001,ECC 2-14 Physical Security,Compliant,2026-08-05
+GOV-001,ECC 2-15 Web Application Security,Compliant,2026-08-05
+GOV-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-08-05
+GOV-001,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-08-05
+GOV-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-08-05
+GOV-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-08-05
+GOV-002,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-06-02
+GOV-002,ECC 1-2 Cybersecurity Management,Compliant,2026-06-02
+GOV-002,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-06-02
+GOV-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-06-02
+GOV-002,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-06-02
+GOV-002,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-06-02
+GOV-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-06-02
+GOV-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-06-02
+GOV-002,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-06-02
+GOV-002,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-06-02
+GOV-002,ECC 2-1 Asset Management,Partially compliant,2026-06-02
+GOV-002,ECC 2-2 Identity and Access Management,Compliant,2026-06-02
+GOV-002,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-06-02
+GOV-002,ECC 2-4 Email Protection,Compliant,2026-06-02
+GOV-002,ECC 2-5 Networks Security Management,Partially compliant,2026-06-02
+GOV-002,ECC 2-6 Mobile Devices Security,Compliant,2026-06-02
+GOV-002,ECC 2-7 Data and Information Protection,Compliant,2026-06-02
+GOV-002,ECC 2-8 Cryptography,Not compliant,2026-06-02
+GOV-002,ECC 2-9 Backup and Recovery Management,Compliant,2026-06-02
+GOV-002,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-06-02
+GOV-002,ECC 2-11 Penetration Testing,Compliant,2026-06-02
+GOV-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-06-02
+GOV-002,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-06-02
+GOV-002,ECC 2-14 Physical Security,Not compliant,2026-06-02
+GOV-002,ECC 2-15 Web Application Security,Partially compliant,2026-06-02
+GOV-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-06-02
+GOV-002,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-06-02
+GOV-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-06-02
+GOV-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-06-02
+GOV-003,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-04-19
+GOV-003,ECC 1-2 Cybersecurity Management,Partially compliant,2026-04-19
+GOV-003,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-04-19
+GOV-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-04-19
+GOV-003,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-04-19
+GOV-003,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-04-19
+GOV-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-04-19
+GOV-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-04-19
+GOV-003,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-04-19
+GOV-003,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-04-19
+GOV-003,ECC 2-1 Asset Management,Partially compliant,2026-04-19
+GOV-003,ECC 2-2 Identity and Access Management,Partially compliant,2026-04-19
+GOV-003,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-04-19
+GOV-003,ECC 2-4 Email Protection,Not compliant,2026-04-19
+GOV-003,ECC 2-5 Networks Security Management,Compliant,2026-04-19
+GOV-003,ECC 2-6 Mobile Devices Security,Not compliant,2026-04-19
+GOV-003,ECC 2-7 Data and Information Protection,Compliant,2026-04-19
+GOV-003,ECC 2-8 Cryptography,Partially compliant,2026-04-19
+GOV-003,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-04-19
+GOV-003,ECC 2-10 Vulnerabilities Management,Not compliant,2026-04-19
+GOV-003,ECC 2-11 Penetration Testing,Not compliant,2026-04-19
+GOV-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-04-19
+GOV-003,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-04-19
+GOV-003,ECC 2-14 Physical Security,Compliant,2026-04-19
+GOV-003,ECC 2-15 Web Application Security,Not compliant,2026-04-19
+GOV-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-04-19
+GOV-003,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-04-19
+GOV-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-04-19
+GOV-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-04-19
+GOV-004,ECC 1-1 Cybersecurity Strategy,Compliant,2026-05-12
+GOV-004,ECC 1-2 Cybersecurity Management,Partially compliant,2026-05-12
+GOV-004,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-05-12
+GOV-004,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-05-12
+GOV-004,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-05-12
+GOV-004,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-05-12
+GOV-004,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-05-12
+GOV-004,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-05-12
+GOV-004,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-05-12
+GOV-004,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-05-12
+GOV-004,ECC 2-1 Asset Management,Partially compliant,2026-05-12
+GOV-004,ECC 2-2 Identity and Access Management,Not compliant,2026-05-12
+GOV-004,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-05-12
+GOV-004,ECC 2-4 Email Protection,Partially compliant,2026-05-12
+GOV-004,ECC 2-5 Networks Security Management,Not compliant,2026-05-12
+GOV-004,ECC 2-6 Mobile Devices Security,Not compliant,2026-05-12
+GOV-004,ECC 2-7 Data and Information Protection,Partially compliant,2026-05-12
+GOV-004,ECC 2-8 Cryptography,Partially compliant,2026-05-12
+GOV-004,ECC 2-9 Backup and Recovery Management,Compliant,2026-05-12
+GOV-004,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-05-12
+GOV-004,ECC 2-11 Penetration Testing,Partially compliant,2026-05-12
+GOV-004,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-05-12
+GOV-004,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-05-12
+GOV-004,ECC 2-14 Physical Security,Not compliant,2026-05-12
+GOV-004,ECC 2-15 Web Application Security,Partially compliant,2026-05-12
+GOV-004,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-05-12
+GOV-004,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-05-12
+GOV-004,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-05-12
+GOV-004,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-05-12
+GOV-005,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-04-15
+GOV-005,ECC 1-2 Cybersecurity Management,Not compliant,2026-04-15
+GOV-005,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-04-15
+GOV-005,ECC 1-4 Cybersecurity Roles and Responsibilities,Not compliant,2026-04-15
+GOV-005,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-04-15
+GOV-005,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-04-15
+GOV-005,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-04-15
+GOV-005,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-04-15
+GOV-005,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-04-15
+GOV-005,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-04-15
+GOV-005,ECC 2-1 Asset Management,Compliant,2026-04-15
+GOV-005,ECC 2-2 Identity and Access Management,Not compliant,2026-04-15
+GOV-005,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-04-15
+GOV-005,ECC 2-4 Email Protection,Not compliant,2026-04-15
+GOV-005,ECC 2-5 Networks Security Management,Not compliant,2026-04-15
+GOV-005,ECC 2-6 Mobile Devices Security,Partially compliant,2026-04-15
+GOV-005,ECC 2-7 Data and Information Protection,Partially compliant,2026-04-15
+GOV-005,ECC 2-8 Cryptography,Partially compliant,2026-04-15
+GOV-005,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-04-15
+GOV-005,ECC 2-10 Vulnerabilities Management,Compliant,2026-04-15
+GOV-005,ECC 2-11 Penetration Testing,Partially compliant,2026-04-15
+GOV-005,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-04-15
+GOV-005,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-04-15
+GOV-005,ECC 2-14 Physical Security,Partially compliant,2026-04-15
+GOV-005,ECC 2-15 Web Application Security,Partially compliant,2026-04-15
+GOV-005,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-04-15
+GOV-005,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-04-15
+GOV-005,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-04-15
+GOV-005,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-04-15
+GOV-006,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-03-09
+GOV-006,ECC 1-2 Cybersecurity Management,Partially compliant,2026-03-09
+GOV-006,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-03-09
+GOV-006,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-03-09
+GOV-006,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-03-09
+GOV-006,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-03-09
+GOV-006,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-03-09
+GOV-006,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-03-09
+GOV-006,ECC 1-9 Cybersecurity in Human Resources,Not compliant,2026-03-09
+GOV-006,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-03-09
+GOV-006,ECC 2-1 Asset Management,Compliant,2026-03-09
+GOV-006,ECC 2-2 Identity and Access Management,Partially compliant,2026-03-09
+GOV-006,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-03-09
+GOV-006,ECC 2-4 Email Protection,Compliant,2026-03-09
+GOV-006,ECC 2-5 Networks Security Management,Compliant,2026-03-09
+GOV-006,ECC 2-6 Mobile Devices Security,Partially compliant,2026-03-09
+GOV-006,ECC 2-7 Data and Information Protection,Not compliant,2026-03-09
+GOV-006,ECC 2-8 Cryptography,Not compliant,2026-03-09
+GOV-006,ECC 2-9 Backup and Recovery Management,Not compliant,2026-03-09
+GOV-006,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-03-09
+GOV-006,ECC 2-11 Penetration Testing,Not compliant,2026-03-09
+GOV-006,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-03-09
+GOV-006,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-03-09
+GOV-006,ECC 2-14 Physical Security,Partially compliant,2026-03-09
+GOV-006,ECC 2-15 Web Application Security,Partially compliant,2026-03-09
+GOV-006,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-03-09
+GOV-006,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-03-09
+GOV-006,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-03-09
+GOV-006,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-03-09
+HLT-001,ECC 1-1 Cybersecurity Strategy,Compliant,2026-06-27
+HLT-001,ECC 1-2 Cybersecurity Management,Compliant,2026-06-27
+HLT-001,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-06-27
+HLT-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-06-27
+HLT-001,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-06-27
+HLT-001,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-06-27
+HLT-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-06-27
+HLT-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-06-27
+HLT-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-06-27
+HLT-001,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-06-27
+HLT-001,ECC 2-1 Asset Management,Compliant,2026-06-27
+HLT-001,ECC 2-2 Identity and Access Management,Partially compliant,2026-06-27
+HLT-001,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-06-27
+HLT-001,ECC 2-4 Email Protection,Partially compliant,2026-06-27
+HLT-001,ECC 2-5 Networks Security Management,Not compliant,2026-06-27
+HLT-001,ECC 2-6 Mobile Devices Security,Not compliant,2026-06-27
+HLT-001,ECC 2-7 Data and Information Protection,Not compliant,2026-06-27
+HLT-001,ECC 2-8 Cryptography,Compliant,2026-06-27
+HLT-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-06-27
+HLT-001,ECC 2-10 Vulnerabilities Management,Compliant,2026-06-27
+HLT-001,ECC 2-11 Penetration Testing,Compliant,2026-06-27
+HLT-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-06-27
+HLT-001,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-06-27
+HLT-001,ECC 2-14 Physical Security,Not compliant,2026-06-27
+HLT-001,ECC 2-15 Web Application Security,Not compliant,2026-06-27
+HLT-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-06-27
+HLT-001,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-06-27
+HLT-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-06-27
+HLT-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-06-27
+HLT-002,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-02-24
+HLT-002,ECC 1-2 Cybersecurity Management,Not compliant,2026-02-24
+HLT-002,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-02-24
+HLT-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-02-24
+HLT-002,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-02-24
+HLT-002,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-02-24
+HLT-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-02-24
+HLT-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-02-24
+HLT-002,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-02-24
+HLT-002,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-02-24
+HLT-002,ECC 2-1 Asset Management,Not compliant,2026-02-24
+HLT-002,ECC 2-2 Identity and Access Management,Partially compliant,2026-02-24
+HLT-002,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-02-24
+HLT-002,ECC 2-4 Email Protection,Partially compliant,2026-02-24
+HLT-002,ECC 2-5 Networks Security Management,Partially compliant,2026-02-24
+HLT-002,ECC 2-6 Mobile Devices Security,Not compliant,2026-02-24
+HLT-002,ECC 2-7 Data and Information Protection,Partially compliant,2026-02-24
+HLT-002,ECC 2-8 Cryptography,Compliant,2026-02-24
+HLT-002,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-02-24
+HLT-002,ECC 2-10 Vulnerabilities Management,Not compliant,2026-02-24
+HLT-002,ECC 2-11 Penetration Testing,Partially compliant,2026-02-24
+HLT-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-02-24
+HLT-002,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-02-24
+HLT-002,ECC 2-14 Physical Security,Partially compliant,2026-02-24
+HLT-002,ECC 2-15 Web Application Security,Partially compliant,2026-02-24
+HLT-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-02-24
+HLT-002,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-02-24
+HLT-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-02-24
+HLT-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-02-24
+HLT-003,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-03-31
+HLT-003,ECC 1-2 Cybersecurity Management,Partially compliant,2026-03-31
+HLT-003,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-03-31
+HLT-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-03-31
+HLT-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-03-31
+HLT-003,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-03-31
+HLT-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-03-31
+HLT-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-03-31
+HLT-003,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-03-31
+HLT-003,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-03-31
+HLT-003,ECC 2-1 Asset Management,Not compliant,2026-03-31
+HLT-003,ECC 2-2 Identity and Access Management,Not compliant,2026-03-31
+HLT-003,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-03-31
+HLT-003,ECC 2-4 Email Protection,Not compliant,2026-03-31
+HLT-003,ECC 2-5 Networks Security Management,Compliant,2026-03-31
+HLT-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-03-31
+HLT-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-03-31
+HLT-003,ECC 2-8 Cryptography,Not compliant,2026-03-31
+HLT-003,ECC 2-9 Backup and Recovery Management,Not compliant,2026-03-31
+HLT-003,ECC 2-10 Vulnerabilities Management,Not compliant,2026-03-31
+HLT-003,ECC 2-11 Penetration Testing,Not compliant,2026-03-31
+HLT-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-03-31
+HLT-003,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-03-31
+HLT-003,ECC 2-14 Physical Security,Not compliant,2026-03-31
+HLT-003,ECC 2-15 Web Application Security,Partially compliant,2026-03-31
+HLT-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-03-31
+HLT-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-03-31
+HLT-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-03-31
+HLT-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-03-31
+HLT-004,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-10-17
+HLT-004,ECC 1-2 Cybersecurity Management,Compliant,2026-10-17
+HLT-004,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-10-17
+HLT-004,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-10-17
+HLT-004,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-10-17
+HLT-004,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-10-17
+HLT-004,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-10-17
+HLT-004,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-10-17
+HLT-004,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-10-17
+HLT-004,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-10-17
+HLT-004,ECC 2-1 Asset Management,Compliant,2026-10-17
+HLT-004,ECC 2-2 Identity and Access Management,Not compliant,2026-10-17
+HLT-004,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-10-17
+HLT-004,ECC 2-4 Email Protection,Compliant,2026-10-17
+HLT-004,ECC 2-5 Networks Security Management,Compliant,2026-10-17
+HLT-004,ECC 2-6 Mobile Devices Security,Compliant,2026-10-17
+HLT-004,ECC 2-7 Data and Information Protection,Not compliant,2026-10-17
+HLT-004,ECC 2-8 Cryptography,Compliant,2026-10-17
+HLT-004,ECC 2-9 Backup and Recovery Management,Compliant,2026-10-17
+HLT-004,ECC 2-10 Vulnerabilities Management,Compliant,2026-10-17
+HLT-004,ECC 2-11 Penetration Testing,Compliant,2026-10-17
+HLT-004,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-10-17
+HLT-004,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-10-17
+HLT-004,ECC 2-14 Physical Security,Not compliant,2026-10-17
+HLT-004,ECC 2-15 Web Application Security,Compliant,2026-10-17
+HLT-004,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-10-17
+HLT-004,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-10-17
+HLT-004,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-10-17
+HLT-004,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-10-17
+FIN-001,ECC 1-1 Cybersecurity Strategy,Compliant,2026-09-16
+FIN-001,ECC 1-2 Cybersecurity Management,Partially compliant,2026-09-16
+FIN-001,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-09-16
+FIN-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-09-16
+FIN-001,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-09-16
+FIN-001,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-09-16
+FIN-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-09-16
+FIN-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-09-16
+FIN-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-09-16
+FIN-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-09-16
+FIN-001,ECC 2-1 Asset Management,Compliant,2026-09-16
+FIN-001,ECC 2-2 Identity and Access Management,Compliant,2026-09-16
+FIN-001,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-09-16
+FIN-001,ECC 2-4 Email Protection,Compliant,2026-09-16
+FIN-001,ECC 2-5 Networks Security Management,Partially compliant,2026-09-16
+FIN-001,ECC 2-6 Mobile Devices Security,Compliant,2026-09-16
+FIN-001,ECC 2-7 Data and Information Protection,Compliant,2026-09-16
+FIN-001,ECC 2-8 Cryptography,Compliant,2026-09-16
+FIN-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-09-16
+FIN-001,ECC 2-10 Vulnerabilities Management,Compliant,2026-09-16
+FIN-001,ECC 2-11 Penetration Testing,Compliant,2026-09-16
+FIN-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-09-16
+FIN-001,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-09-16
+FIN-001,ECC 2-14 Physical Security,Compliant,2026-09-16
+FIN-001,ECC 2-15 Web Application Security,Compliant,2026-09-16
+FIN-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-09-16
+FIN-001,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-09-16
+FIN-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-09-16
+FIN-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-09-16
+FIN-002,ECC 1-1 Cybersecurity Strategy,Compliant,2026-09-03
+FIN-002,ECC 1-2 Cybersecurity Management,Compliant,2026-09-03
+FIN-002,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-09-03
+FIN-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-09-03
+FIN-002,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-09-03
+FIN-002,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-09-03
+FIN-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-09-03
+FIN-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-09-03
+FIN-002,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-09-03
+FIN-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-09-03
+FIN-002,ECC 2-1 Asset Management,Compliant,2026-09-03
+FIN-002,ECC 2-2 Identity and Access Management,Compliant,2026-09-03
+FIN-002,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-09-03
+FIN-002,ECC 2-4 Email Protection,Partially compliant,2026-09-03
+FIN-002,ECC 2-5 Networks Security Management,Compliant,2026-09-03
+FIN-002,ECC 2-6 Mobile Devices Security,Compliant,2026-09-03
+FIN-002,ECC 2-7 Data and Information Protection,Compliant,2026-09-03
+FIN-002,ECC 2-8 Cryptography,Compliant,2026-09-03
+FIN-002,ECC 2-9 Backup and Recovery Management,Compliant,2026-09-03
+FIN-002,ECC 2-10 Vulnerabilities Management,Compliant,2026-09-03
+FIN-002,ECC 2-11 Penetration Testing,Compliant,2026-09-03
+FIN-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-09-03
+FIN-002,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-09-03
+FIN-002,ECC 2-14 Physical Security,Compliant,2026-09-03
+FIN-002,ECC 2-15 Web Application Security,Partially compliant,2026-09-03
+FIN-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-09-03
+FIN-002,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-09-03
+FIN-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-09-03
+FIN-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-09-03
+FIN-003,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-05-11
+FIN-003,ECC 1-2 Cybersecurity Management,Compliant,2026-05-11
+FIN-003,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-05-11
+FIN-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-05-11
+FIN-003,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-05-11
+FIN-003,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-05-11
+FIN-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-05-11
+FIN-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-05-11
+FIN-003,ECC 1-9 Cybersecurity in Human Resources,Not compliant,2026-05-11
+FIN-003,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-05-11
+FIN-003,ECC 2-1 Asset Management,Partially compliant,2026-05-11
+FIN-003,ECC 2-2 Identity and Access Management,Partially compliant,2026-05-11
+FIN-003,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-05-11
+FIN-003,ECC 2-4 Email Protection,Compliant,2026-05-11
+FIN-003,ECC 2-5 Networks Security Management,Compliant,2026-05-11
+FIN-003,ECC 2-6 Mobile Devices Security,Compliant,2026-05-11
+FIN-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-05-11
+FIN-003,ECC 2-8 Cryptography,Compliant,2026-05-11
+FIN-003,ECC 2-9 Backup and Recovery Management,Compliant,2026-05-11
+FIN-003,ECC 2-10 Vulnerabilities Management,Compliant,2026-05-11
+FIN-003,ECC 2-11 Penetration Testing,Not compliant,2026-05-11
+FIN-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-05-11
+FIN-003,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-05-11
+FIN-003,ECC 2-14 Physical Security,Compliant,2026-05-11
+FIN-003,ECC 2-15 Web Application Security,Not compliant,2026-05-11
+FIN-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-05-11
+FIN-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-05-11
+FIN-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-05-11
+FIN-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-05-11
+FIN-004,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-06-23
+FIN-004,ECC 1-2 Cybersecurity Management,Partially compliant,2026-06-23
+FIN-004,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-06-23
+FIN-004,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-06-23
+FIN-004,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-06-23
+FIN-004,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-06-23
+FIN-004,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-06-23
+FIN-004,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-06-23
+FIN-004,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-06-23
+FIN-004,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-06-23
+FIN-004,ECC 2-1 Asset Management,Compliant,2026-06-23
+FIN-004,ECC 2-2 Identity and Access Management,Partially compliant,2026-06-23
+FIN-004,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-06-23
+FIN-004,ECC 2-4 Email Protection,Not compliant,2026-06-23
+FIN-004,ECC 2-5 Networks Security Management,Partially compliant,2026-06-23
+FIN-004,ECC 2-6 Mobile Devices Security,Partially compliant,2026-06-23
+FIN-004,ECC 2-7 Data and Information Protection,Partially compliant,2026-06-23
+FIN-004,ECC 2-8 Cryptography,Partially compliant,2026-06-23
+FIN-004,ECC 2-9 Backup and Recovery Management,Not compliant,2026-06-23
+FIN-004,ECC 2-10 Vulnerabilities Management,Not compliant,2026-06-23
+FIN-004,ECC 2-11 Penetration Testing,Partially compliant,2026-06-23
+FIN-004,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-06-23
+FIN-004,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-06-23
+FIN-004,ECC 2-14 Physical Security,Partially compliant,2026-06-23
+FIN-004,ECC 2-15 Web Application Security,Partially compliant,2026-06-23
+FIN-004,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-06-23
+FIN-004,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-06-23
+FIN-004,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-06-23
+FIN-004,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-06-23
+ENR-001,ECC 1-1 Cybersecurity Strategy,Compliant,2026-04-02
+ENR-001,ECC 1-2 Cybersecurity Management,Compliant,2026-04-02
+ENR-001,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-04-02
+ENR-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-04-02
+ENR-001,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-04-02
+ENR-001,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-04-02
+ENR-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-04-02
+ENR-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-04-02
+ENR-001,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-04-02
+ENR-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-04-02
+ENR-001,ECC 2-1 Asset Management,Partially compliant,2026-04-02
+ENR-001,ECC 2-2 Identity and Access Management,Not compliant,2026-04-02
+ENR-001,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-04-02
+ENR-001,ECC 2-4 Email Protection,Compliant,2026-04-02
+ENR-001,ECC 2-5 Networks Security Management,Not compliant,2026-04-02
+ENR-001,ECC 2-6 Mobile Devices Security,Partially compliant,2026-04-02
+ENR-001,ECC 2-7 Data and Information Protection,Partially compliant,2026-04-02
+ENR-001,ECC 2-8 Cryptography,Partially compliant,2026-04-02
+ENR-001,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-04-02
+ENR-001,ECC 2-10 Vulnerabilities Management,Not compliant,2026-04-02
+ENR-001,ECC 2-11 Penetration Testing,Partially compliant,2026-04-02
+ENR-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-04-02
+ENR-001,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-04-02
+ENR-001,ECC 2-14 Physical Security,Partially compliant,2026-04-02
+ENR-001,ECC 2-15 Web Application Security,Not compliant,2026-04-02
+ENR-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-04-02
+ENR-001,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-04-02
+ENR-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-04-02
+ENR-001,ECC 5-1 Industrial Control Systems Protection,Not compliant,2026-04-02
+ENR-002,ECC 1-1 Cybersecurity Strategy,Compliant,2026-02-08
+ENR-002,ECC 1-2 Cybersecurity Management,Compliant,2026-02-08
+ENR-002,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-02-08
+ENR-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-02-08
+ENR-002,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-02-08
+ENR-002,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-02-08
+ENR-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-02-08
+ENR-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-02-08
+ENR-002,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-02-08
+ENR-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-02-08
+ENR-002,ECC 2-1 Asset Management,Compliant,2026-02-08
+ENR-002,ECC 2-2 Identity and Access Management,Compliant,2026-02-08
+ENR-002,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-02-08
+ENR-002,ECC 2-4 Email Protection,Compliant,2026-02-08
+ENR-002,ECC 2-5 Networks Security Management,Compliant,2026-02-08
+ENR-002,ECC 2-6 Mobile Devices Security,Compliant,2026-02-08
+ENR-002,ECC 2-7 Data and Information Protection,Compliant,2026-02-08
+ENR-002,ECC 2-8 Cryptography,Compliant,2026-02-08
+ENR-002,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-02-08
+ENR-002,ECC 2-10 Vulnerabilities Management,Compliant,2026-02-08
+ENR-002,ECC 2-11 Penetration Testing,Compliant,2026-02-08
+ENR-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-02-08
+ENR-002,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-02-08
+ENR-002,ECC 2-14 Physical Security,Compliant,2026-02-08
+ENR-002,ECC 2-15 Web Application Security,Compliant,2026-02-08
+ENR-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-02-08
+ENR-002,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-02-08
+ENR-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-02-08
+ENR-002,ECC 5-1 Industrial Control Systems Protection,Compliant,2026-02-08
+ENR-003,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-06-08
+ENR-003,ECC 1-2 Cybersecurity Management,Partially compliant,2026-06-08
+ENR-003,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-06-08
+ENR-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-06-08
+ENR-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-06-08
+ENR-003,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-06-08
+ENR-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-06-08
+ENR-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-06-08
+ENR-003,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-06-08
+ENR-003,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-06-08
+ENR-003,ECC 2-1 Asset Management,Not compliant,2026-06-08
+ENR-003,ECC 2-2 Identity and Access Management,Compliant,2026-06-08
+ENR-003,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-06-08
+ENR-003,ECC 2-4 Email Protection,Compliant,2026-06-08
+ENR-003,ECC 2-5 Networks Security Management,Compliant,2026-06-08
+ENR-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-06-08
+ENR-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-06-08
+ENR-003,ECC 2-8 Cryptography,Partially compliant,2026-06-08
+ENR-003,ECC 2-9 Backup and Recovery Management,Compliant,2026-06-08
+ENR-003,ECC 2-10 Vulnerabilities Management,Compliant,2026-06-08
+ENR-003,ECC 2-11 Penetration Testing,Compliant,2026-06-08
+ENR-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-06-08
+ENR-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-06-08
+ENR-003,ECC 2-14 Physical Security,Compliant,2026-06-08
+ENR-003,ECC 2-15 Web Application Security,Partially compliant,2026-06-08
+ENR-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-06-08
+ENR-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-06-08
+ENR-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-06-08
+ENR-003,ECC 5-1 Industrial Control Systems Protection,Compliant,2026-06-08
+UTL-001,ECC 1-1 Cybersecurity Strategy,Compliant,2026-09-18
+UTL-001,ECC 1-2 Cybersecurity Management,Compliant,2026-09-18
+UTL-001,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-09-18
+UTL-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-09-18
+UTL-001,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-09-18
+UTL-001,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-09-18
+UTL-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-09-18
+UTL-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-09-18
+UTL-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-09-18
+UTL-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-09-18
+UTL-001,ECC 2-1 Asset Management,Compliant,2026-09-18
+UTL-001,ECC 2-2 Identity and Access Management,Compliant,2026-09-18
+UTL-001,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-09-18
+UTL-001,ECC 2-4 Email Protection,Compliant,2026-09-18
+UTL-001,ECC 2-5 Networks Security Management,Compliant,2026-09-18
+UTL-001,ECC 2-6 Mobile Devices Security,Compliant,2026-09-18
+UTL-001,ECC 2-7 Data and Information Protection,Partially compliant,2026-09-18
+UTL-001,ECC 2-8 Cryptography,Compliant,2026-09-18
+UTL-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-09-18
+UTL-001,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-09-18
+UTL-001,ECC 2-11 Penetration Testing,Partially compliant,2026-09-18
+UTL-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-09-18
+UTL-001,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-09-18
+UTL-001,ECC 2-14 Physical Security,Compliant,2026-09-18
+UTL-001,ECC 2-15 Web Application Security,Compliant,2026-09-18
+UTL-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-09-18
+UTL-001,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-09-18
+UTL-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-09-18
+UTL-001,ECC 5-1 Industrial Control Systems Protection,Partially compliant,2026-09-18
+UTL-002,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-05-29
+UTL-002,ECC 1-2 Cybersecurity Management,Partially compliant,2026-05-29
+UTL-002,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-05-29
+UTL-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-05-29
+UTL-002,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-05-29
+UTL-002,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-05-29
+UTL-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-05-29
+UTL-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-05-29
+UTL-002,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-05-29
+UTL-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-05-29
+UTL-002,ECC 2-1 Asset Management,Partially compliant,2026-05-29
+UTL-002,ECC 2-2 Identity and Access Management,Compliant,2026-05-29
+UTL-002,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-05-29
+UTL-002,ECC 2-4 Email Protection,Not compliant,2026-05-29
+UTL-002,ECC 2-5 Networks Security Management,Not compliant,2026-05-29
+UTL-002,ECC 2-6 Mobile Devices Security,Partially compliant,2026-05-29
+UTL-002,ECC 2-7 Data and Information Protection,Partially compliant,2026-05-29
+UTL-002,ECC 2-8 Cryptography,Not compliant,2026-05-29
+UTL-002,ECC 2-9 Backup and Recovery Management,Not compliant,2026-05-29
+UTL-002,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-05-29
+UTL-002,ECC 2-11 Penetration Testing,Partially compliant,2026-05-29
+UTL-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-05-29
+UTL-002,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-05-29
+UTL-002,ECC 2-14 Physical Security,Partially compliant,2026-05-29
+UTL-002,ECC 2-15 Web Application Security,Partially compliant,2026-05-29
+UTL-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-05-29
+UTL-002,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-05-29
+UTL-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-05-29
+UTL-002,ECC 5-1 Industrial Control Systems Protection,Not compliant,2026-05-29
+UTL-003,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-05-28
+UTL-003,ECC 1-2 Cybersecurity Management,Not compliant,2026-05-28
+UTL-003,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-05-28
+UTL-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-05-28
+UTL-003,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-05-28
+UTL-003,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-05-28
+UTL-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-05-28
+UTL-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-05-28
+UTL-003,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-05-28
+UTL-003,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-05-28
+UTL-003,ECC 2-1 Asset Management,Compliant,2026-05-28
+UTL-003,ECC 2-2 Identity and Access Management,Partially compliant,2026-05-28
+UTL-003,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-05-28
+UTL-003,ECC 2-4 Email Protection,Partially compliant,2026-05-28
+UTL-003,ECC 2-5 Networks Security Management,Partially compliant,2026-05-28
+UTL-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-05-28
+UTL-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-05-28
+UTL-003,ECC 2-8 Cryptography,Compliant,2026-05-28
+UTL-003,ECC 2-9 Backup and Recovery Management,Not compliant,2026-05-28
+UTL-003,ECC 2-10 Vulnerabilities Management,Compliant,2026-05-28
+UTL-003,ECC 2-11 Penetration Testing,Not compliant,2026-05-28
+UTL-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-05-28
+UTL-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-05-28
+UTL-003,ECC 2-14 Physical Security,Partially compliant,2026-05-28
+UTL-003,ECC 2-15 Web Application Security,Compliant,2026-05-28
+UTL-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-05-28
+UTL-003,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-05-28
+UTL-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-05-28
+UTL-003,ECC 5-1 Industrial Control Systems Protection,Partially compliant,2026-05-28
+TEL-001,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-09-21
+TEL-001,ECC 1-2 Cybersecurity Management,Not compliant,2026-09-21
+TEL-001,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-09-21
+TEL-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-09-21
+TEL-001,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-09-21
+TEL-001,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-09-21
+TEL-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-09-21
+TEL-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-09-21
+TEL-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-09-21
+TEL-001,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-09-21
+TEL-001,ECC 2-1 Asset Management,Compliant,2026-09-21
+TEL-001,ECC 2-2 Identity and Access Management,Compliant,2026-09-21
+TEL-001,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-09-21
+TEL-001,ECC 2-4 Email Protection,Partially compliant,2026-09-21
+TEL-001,ECC 2-5 Networks Security Management,Compliant,2026-09-21
+TEL-001,ECC 2-6 Mobile Devices Security,Compliant,2026-09-21
+TEL-001,ECC 2-7 Data and Information Protection,Partially compliant,2026-09-21
+TEL-001,ECC 2-8 Cryptography,Not compliant,2026-09-21
+TEL-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-09-21
+TEL-001,ECC 2-10 Vulnerabilities Management,Compliant,2026-09-21
+TEL-001,ECC 2-11 Penetration Testing,Partially compliant,2026-09-21
+TEL-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-09-21
+TEL-001,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-09-21
+TEL-001,ECC 2-14 Physical Security,Compliant,2026-09-21
+TEL-001,ECC 2-15 Web Application Security,Not compliant,2026-09-21
+TEL-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-09-21
+TEL-001,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-09-21
+TEL-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-09-21
+TEL-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-09-21
+TEL-002,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-02-11
+TEL-002,ECC 1-2 Cybersecurity Management,Compliant,2026-02-11
+TEL-002,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-02-11
+TEL-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-02-11
+TEL-002,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-02-11
+TEL-002,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-02-11
+TEL-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-02-11
+TEL-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-02-11
+TEL-002,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-02-11
+TEL-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-02-11
+TEL-002,ECC 2-1 Asset Management,Compliant,2026-02-11
+TEL-002,ECC 2-2 Identity and Access Management,Compliant,2026-02-11
+TEL-002,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-02-11
+TEL-002,ECC 2-4 Email Protection,Compliant,2026-02-11
+TEL-002,ECC 2-5 Networks Security Management,Compliant,2026-02-11
+TEL-002,ECC 2-6 Mobile Devices Security,Compliant,2026-02-11
+TEL-002,ECC 2-7 Data and Information Protection,Compliant,2026-02-11
+TEL-002,ECC 2-8 Cryptography,Partially compliant,2026-02-11
+TEL-002,ECC 2-9 Backup and Recovery Management,Compliant,2026-02-11
+TEL-002,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-02-11
+TEL-002,ECC 2-11 Penetration Testing,Compliant,2026-02-11
+TEL-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-02-11
+TEL-002,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-02-11
+TEL-002,ECC 2-14 Physical Security,Compliant,2026-02-11
+TEL-002,ECC 2-15 Web Application Security,Partially compliant,2026-02-11
+TEL-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-02-11
+TEL-002,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-02-11
+TEL-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-02-11
+TEL-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-02-11
+TEL-003,ECC 1-1 Cybersecurity Strategy,Compliant,2026-08-11
+TEL-003,ECC 1-2 Cybersecurity Management,Compliant,2026-08-11
+TEL-003,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-08-11
+TEL-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-08-11
+TEL-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-08-11
+TEL-003,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-08-11
+TEL-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-08-11
+TEL-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-08-11
+TEL-003,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-08-11
+TEL-003,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-08-11
+TEL-003,ECC 2-1 Asset Management,Compliant,2026-08-11
+TEL-003,ECC 2-2 Identity and Access Management,Compliant,2026-08-11
+TEL-003,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-08-11
+TEL-003,ECC 2-4 Email Protection,Compliant,2026-08-11
+TEL-003,ECC 2-5 Networks Security Management,Compliant,2026-08-11
+TEL-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-08-11
+TEL-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-08-11
+TEL-003,ECC 2-8 Cryptography,Compliant,2026-08-11
+TEL-003,ECC 2-9 Backup and Recovery Management,Not compliant,2026-08-11
+TEL-003,ECC 2-10 Vulnerabilities Management,Not compliant,2026-08-11
+TEL-003,ECC 2-11 Penetration Testing,Compliant,2026-08-11
+TEL-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-08-11
+TEL-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-08-11
+TEL-003,ECC 2-14 Physical Security,Compliant,2026-08-11
+TEL-003,ECC 2-15 Web Application Security,Compliant,2026-08-11
+TEL-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-08-11
+TEL-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-08-11
+TEL-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-08-11
+TEL-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-08-11
+EDU-001,ECC 1-1 Cybersecurity Strategy,Not compliant,2026-09-05
+EDU-001,ECC 1-2 Cybersecurity Management,Partially compliant,2026-09-05
+EDU-001,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-09-05
+EDU-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-09-05
+EDU-001,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-09-05
+EDU-001,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-09-05
+EDU-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-09-05
+EDU-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-09-05
+EDU-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-09-05
+EDU-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-09-05
+EDU-001,ECC 2-1 Asset Management,Partially compliant,2026-09-05
+EDU-001,ECC 2-2 Identity and Access Management,Partially compliant,2026-09-05
+EDU-001,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-09-05
+EDU-001,ECC 2-4 Email Protection,Partially compliant,2026-09-05
+EDU-001,ECC 2-5 Networks Security Management,Compliant,2026-09-05
+EDU-001,ECC 2-6 Mobile Devices Security,Not compliant,2026-09-05
+EDU-001,ECC 2-7 Data and Information Protection,Not compliant,2026-09-05
+EDU-001,ECC 2-8 Cryptography,Partially compliant,2026-09-05
+EDU-001,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-09-05
+EDU-001,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-09-05
+EDU-001,ECC 2-11 Penetration Testing,Compliant,2026-09-05
+EDU-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-09-05
+EDU-001,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-09-05
+EDU-001,ECC 2-14 Physical Security,Partially compliant,2026-09-05
+EDU-001,ECC 2-15 Web Application Security,Partially compliant,2026-09-05
+EDU-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-09-05
+EDU-001,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-09-05
+EDU-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-09-05
+EDU-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-09-05
+EDU-002,ECC 1-1 Cybersecurity Strategy,Compliant,2026-05-31
+EDU-002,ECC 1-2 Cybersecurity Management,Compliant,2026-05-31
+EDU-002,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-05-31
+EDU-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Partially compliant,2026-05-31
+EDU-002,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-05-31
+EDU-002,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-05-31
+EDU-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-05-31
+EDU-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-05-31
+EDU-002,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-05-31
+EDU-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-05-31
+EDU-002,ECC 2-1 Asset Management,Compliant,2026-05-31
+EDU-002,ECC 2-2 Identity and Access Management,Compliant,2026-05-31
+EDU-002,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-05-31
+EDU-002,ECC 2-4 Email Protection,Partially compliant,2026-05-31
+EDU-002,ECC 2-5 Networks Security Management,Partially compliant,2026-05-31
+EDU-002,ECC 2-6 Mobile Devices Security,Compliant,2026-05-31
+EDU-002,ECC 2-7 Data and Information Protection,Not compliant,2026-05-31
+EDU-002,ECC 2-8 Cryptography,Compliant,2026-05-31
+EDU-002,ECC 2-9 Backup and Recovery Management,Compliant,2026-05-31
+EDU-002,ECC 2-10 Vulnerabilities Management,Compliant,2026-05-31
+EDU-002,ECC 2-11 Penetration Testing,Compliant,2026-05-31
+EDU-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-05-31
+EDU-002,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-05-31
+EDU-002,ECC 2-14 Physical Security,Partially compliant,2026-05-31
+EDU-002,ECC 2-15 Web Application Security,Compliant,2026-05-31
+EDU-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-05-31
+EDU-002,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-05-31
+EDU-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-05-31
+EDU-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-05-31
+EDU-003,ECC 1-1 Cybersecurity Strategy,Compliant,2026-04-06
+EDU-003,ECC 1-2 Cybersecurity Management,Compliant,2026-04-06
+EDU-003,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-04-06
+EDU-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-04-06
+EDU-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-04-06
+EDU-003,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-04-06
+EDU-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-04-06
+EDU-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-04-06
+EDU-003,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-04-06
+EDU-003,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-04-06
+EDU-003,ECC 2-1 Asset Management,Partially compliant,2026-04-06
+EDU-003,ECC 2-2 Identity and Access Management,Compliant,2026-04-06
+EDU-003,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-04-06
+EDU-003,ECC 2-4 Email Protection,Compliant,2026-04-06
+EDU-003,ECC 2-5 Networks Security Management,Partially compliant,2026-04-06
+EDU-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-04-06
+EDU-003,ECC 2-7 Data and Information Protection,Compliant,2026-04-06
+EDU-003,ECC 2-8 Cryptography,Compliant,2026-04-06
+EDU-003,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-04-06
+EDU-003,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-04-06
+EDU-003,ECC 2-11 Penetration Testing,Compliant,2026-04-06
+EDU-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-04-06
+EDU-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-04-06
+EDU-003,ECC 2-14 Physical Security,Compliant,2026-04-06
+EDU-003,ECC 2-15 Web Application Security,Compliant,2026-04-06
+EDU-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-04-06
+EDU-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-04-06
+EDU-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-04-06
+EDU-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-04-06
+EDU-004,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-03-04
+EDU-004,ECC 1-2 Cybersecurity Management,Not compliant,2026-03-04
+EDU-004,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-03-04
+EDU-004,ECC 1-4 Cybersecurity Roles and Responsibilities,Not compliant,2026-03-04
+EDU-004,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-03-04
+EDU-004,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-03-04
+EDU-004,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-03-04
+EDU-004,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-03-04
+EDU-004,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-03-04
+EDU-004,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-03-04
+EDU-004,ECC 2-1 Asset Management,Not compliant,2026-03-04
+EDU-004,ECC 2-2 Identity and Access Management,Not compliant,2026-03-04
+EDU-004,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-03-04
+EDU-004,ECC 2-4 Email Protection,Not compliant,2026-03-04
+EDU-004,ECC 2-5 Networks Security Management,Partially compliant,2026-03-04
+EDU-004,ECC 2-6 Mobile Devices Security,Compliant,2026-03-04
+EDU-004,ECC 2-7 Data and Information Protection,Partially compliant,2026-03-04
+EDU-004,ECC 2-8 Cryptography,Partially compliant,2026-03-04
+EDU-004,ECC 2-9 Backup and Recovery Management,Not compliant,2026-03-04
+EDU-004,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-03-04
+EDU-004,ECC 2-11 Penetration Testing,Partially compliant,2026-03-04
+EDU-004,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-03-04
+EDU-004,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-03-04
+EDU-004,ECC 2-14 Physical Security,Partially compliant,2026-03-04
+EDU-004,ECC 2-15 Web Application Security,Partially compliant,2026-03-04
+EDU-004,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-03-04
+EDU-004,ECC 4-1 Third-Party Cybersecurity,Not compliant,2026-03-04
+EDU-004,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-03-04
+EDU-004,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-03-04
+TRN-001,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-05-18
+TRN-001,ECC 1-2 Cybersecurity Management,Partially compliant,2026-05-18
+TRN-001,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-05-18
+TRN-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-05-18
+TRN-001,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-05-18
+TRN-001,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-05-18
+TRN-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-05-18
+TRN-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-05-18
+TRN-001,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-05-18
+TRN-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-05-18
+TRN-001,ECC 2-1 Asset Management,Partially compliant,2026-05-18
+TRN-001,ECC 2-2 Identity and Access Management,Partially compliant,2026-05-18
+TRN-001,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-05-18
+TRN-001,ECC 2-4 Email Protection,Partially compliant,2026-05-18
+TRN-001,ECC 2-5 Networks Security Management,Compliant,2026-05-18
+TRN-001,ECC 2-6 Mobile Devices Security,Partially compliant,2026-05-18
+TRN-001,ECC 2-7 Data and Information Protection,Compliant,2026-05-18
+TRN-001,ECC 2-8 Cryptography,Compliant,2026-05-18
+TRN-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-05-18
+TRN-001,ECC 2-10 Vulnerabilities Management,Compliant,2026-05-18
+TRN-001,ECC 2-11 Penetration Testing,Not compliant,2026-05-18
+TRN-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-05-18
+TRN-001,ECC 2-13 Cybersecurity Incident and Threat Management,Partially compliant,2026-05-18
+TRN-001,ECC 2-14 Physical Security,Compliant,2026-05-18
+TRN-001,ECC 2-15 Web Application Security,Compliant,2026-05-18
+TRN-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-05-18
+TRN-001,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-05-18
+TRN-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-05-18
+TRN-001,ECC 5-1 Industrial Control Systems Protection,Not compliant,2026-05-18
+TRN-002,ECC 1-1 Cybersecurity Strategy,Compliant,2026-06-30
+TRN-002,ECC 1-2 Cybersecurity Management,Not compliant,2026-06-30
+TRN-002,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-06-30
+TRN-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-06-30
+TRN-002,ECC 1-5 Cybersecurity Risk Management,Compliant,2026-06-30
+TRN-002,ECC 1-6 Cybersecurity in Information Technology Projects,Partially compliant,2026-06-30
+TRN-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-06-30
+TRN-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Not compliant,2026-06-30
+TRN-002,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-06-30
+TRN-002,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-06-30
+TRN-002,ECC 2-1 Asset Management,Compliant,2026-06-30
+TRN-002,ECC 2-2 Identity and Access Management,Partially compliant,2026-06-30
+TRN-002,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-06-30
+TRN-002,ECC 2-4 Email Protection,Partially compliant,2026-06-30
+TRN-002,ECC 2-5 Networks Security Management,Compliant,2026-06-30
+TRN-002,ECC 2-6 Mobile Devices Security,Compliant,2026-06-30
+TRN-002,ECC 2-7 Data and Information Protection,Partially compliant,2026-06-30
+TRN-002,ECC 2-8 Cryptography,Compliant,2026-06-30
+TRN-002,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-06-30
+TRN-002,ECC 2-10 Vulnerabilities Management,Compliant,2026-06-30
+TRN-002,ECC 2-11 Penetration Testing,Compliant,2026-06-30
+TRN-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-06-30
+TRN-002,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-06-30
+TRN-002,ECC 2-14 Physical Security,Not compliant,2026-06-30
+TRN-002,ECC 2-15 Web Application Security,Not compliant,2026-06-30
+TRN-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-06-30
+TRN-002,ECC 4-1 Third-Party Cybersecurity,Partially compliant,2026-06-30
+TRN-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-06-30
+TRN-002,ECC 5-1 Industrial Control Systems Protection,Compliant,2026-06-30
+TRN-003,ECC 1-1 Cybersecurity Strategy,Compliant,2026-07-13
+TRN-003,ECC 1-2 Cybersecurity Management,Compliant,2026-07-13
+TRN-003,ECC 1-3 Cybersecurity Policies and Procedures,Compliant,2026-07-13
+TRN-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-07-13
+TRN-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-07-13
+TRN-003,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-07-13
+TRN-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Not compliant,2026-07-13
+TRN-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-07-13
+TRN-003,ECC 1-9 Cybersecurity in Human Resources,Compliant,2026-07-13
+TRN-003,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-07-13
+TRN-003,ECC 2-1 Asset Management,Not compliant,2026-07-13
+TRN-003,ECC 2-2 Identity and Access Management,Compliant,2026-07-13
+TRN-003,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-07-13
+TRN-003,ECC 2-4 Email Protection,Compliant,2026-07-13
+TRN-003,ECC 2-5 Networks Security Management,Compliant,2026-07-13
+TRN-003,ECC 2-6 Mobile Devices Security,Compliant,2026-07-13
+TRN-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-07-13
+TRN-003,ECC 2-8 Cryptography,Partially compliant,2026-07-13
+TRN-003,ECC 2-9 Backup and Recovery Management,Partially compliant,2026-07-13
+TRN-003,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-07-13
+TRN-003,ECC 2-11 Penetration Testing,Compliant,2026-07-13
+TRN-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Partially compliant,2026-07-13
+TRN-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-07-13
+TRN-003,ECC 2-14 Physical Security,Compliant,2026-07-13
+TRN-003,ECC 2-15 Web Application Security,Compliant,2026-07-13
+TRN-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-07-13
+TRN-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-07-13
+TRN-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Compliant,2026-07-13
+TRN-003,ECC 5-1 Industrial Control Systems Protection,Compliant,2026-07-13
+RTL-001,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-07-25
+RTL-001,ECC 1-2 Cybersecurity Management,Not compliant,2026-07-25
+RTL-001,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-07-25
+RTL-001,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-07-25
+RTL-001,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-07-25
+RTL-001,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-07-25
+RTL-001,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Partially compliant,2026-07-25
+RTL-001,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-07-25
+RTL-001,ECC 1-9 Cybersecurity in Human Resources,Not compliant,2026-07-25
+RTL-001,ECC 1-10 Cybersecurity Awareness and Training Program,Compliant,2026-07-25
+RTL-001,ECC 2-1 Asset Management,Partially compliant,2026-07-25
+RTL-001,ECC 2-2 Identity and Access Management,Compliant,2026-07-25
+RTL-001,ECC 2-3 Information System and Processing Facilities Protection,Compliant,2026-07-25
+RTL-001,ECC 2-4 Email Protection,Partially compliant,2026-07-25
+RTL-001,ECC 2-5 Networks Security Management,Compliant,2026-07-25
+RTL-001,ECC 2-6 Mobile Devices Security,Compliant,2026-07-25
+RTL-001,ECC 2-7 Data and Information Protection,Compliant,2026-07-25
+RTL-001,ECC 2-8 Cryptography,Compliant,2026-07-25
+RTL-001,ECC 2-9 Backup and Recovery Management,Compliant,2026-07-25
+RTL-001,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-07-25
+RTL-001,ECC 2-11 Penetration Testing,Partially compliant,2026-07-25
+RTL-001,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-07-25
+RTL-001,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-07-25
+RTL-001,ECC 2-14 Physical Security,Not compliant,2026-07-25
+RTL-001,ECC 2-15 Web Application Security,Compliant,2026-07-25
+RTL-001,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Compliant,2026-07-25
+RTL-001,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-07-25
+RTL-001,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-07-25
+RTL-001,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-07-25
+RTL-002,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-10-28
+RTL-002,ECC 1-2 Cybersecurity Management,Partially compliant,2026-10-28
+RTL-002,ECC 1-3 Cybersecurity Policies and Procedures,Partially compliant,2026-10-28
+RTL-002,ECC 1-4 Cybersecurity Roles and Responsibilities,Not compliant,2026-10-28
+RTL-002,ECC 1-5 Cybersecurity Risk Management,Not compliant,2026-10-28
+RTL-002,ECC 1-6 Cybersecurity in Information Technology Projects,Not compliant,2026-10-28
+RTL-002,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-10-28
+RTL-002,ECC 1-8 Periodical Cybersecurity Review and Audit,Compliant,2026-10-28
+RTL-002,ECC 1-9 Cybersecurity in Human Resources,Not compliant,2026-10-28
+RTL-002,ECC 1-10 Cybersecurity Awareness and Training Program,Not compliant,2026-10-28
+RTL-002,ECC 2-1 Asset Management,Compliant,2026-10-28
+RTL-002,ECC 2-2 Identity and Access Management,Not compliant,2026-10-28
+RTL-002,ECC 2-3 Information System and Processing Facilities Protection,Partially compliant,2026-10-28
+RTL-002,ECC 2-4 Email Protection,Compliant,2026-10-28
+RTL-002,ECC 2-5 Networks Security Management,Not compliant,2026-10-28
+RTL-002,ECC 2-6 Mobile Devices Security,Compliant,2026-10-28
+RTL-002,ECC 2-7 Data and Information Protection,Not compliant,2026-10-28
+RTL-002,ECC 2-8 Cryptography,Not compliant,2026-10-28
+RTL-002,ECC 2-9 Backup and Recovery Management,Not compliant,2026-10-28
+RTL-002,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-10-28
+RTL-002,ECC 2-11 Penetration Testing,Not compliant,2026-10-28
+RTL-002,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Not compliant,2026-10-28
+RTL-002,ECC 2-13 Cybersecurity Incident and Threat Management,Not compliant,2026-10-28
+RTL-002,ECC 2-14 Physical Security,Not compliant,2026-10-28
+RTL-002,ECC 2-15 Web Application Security,Not compliant,2026-10-28
+RTL-002,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Not compliant,2026-10-28
+RTL-002,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-10-28
+RTL-002,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Not compliant,2026-10-28
+RTL-002,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-10-28
+RTL-003,ECC 1-1 Cybersecurity Strategy,Partially compliant,2026-06-22
+RTL-003,ECC 1-2 Cybersecurity Management,Compliant,2026-06-22
+RTL-003,ECC 1-3 Cybersecurity Policies and Procedures,Not compliant,2026-06-22
+RTL-003,ECC 1-4 Cybersecurity Roles and Responsibilities,Compliant,2026-06-22
+RTL-003,ECC 1-5 Cybersecurity Risk Management,Partially compliant,2026-06-22
+RTL-003,ECC 1-6 Cybersecurity in Information Technology Projects,Compliant,2026-06-22
+RTL-003,"ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",Compliant,2026-06-22
+RTL-003,ECC 1-8 Periodical Cybersecurity Review and Audit,Partially compliant,2026-06-22
+RTL-003,ECC 1-9 Cybersecurity in Human Resources,Partially compliant,2026-06-22
+RTL-003,ECC 1-10 Cybersecurity Awareness and Training Program,Partially compliant,2026-06-22
+RTL-003,ECC 2-1 Asset Management,Compliant,2026-06-22
+RTL-003,ECC 2-2 Identity and Access Management,Not compliant,2026-06-22
+RTL-003,ECC 2-3 Information System and Processing Facilities Protection,Not compliant,2026-06-22
+RTL-003,ECC 2-4 Email Protection,Compliant,2026-06-22
+RTL-003,ECC 2-5 Networks Security Management,Partially compliant,2026-06-22
+RTL-003,ECC 2-6 Mobile Devices Security,Partially compliant,2026-06-22
+RTL-003,ECC 2-7 Data and Information Protection,Partially compliant,2026-06-22
+RTL-003,ECC 2-8 Cryptography,Compliant,2026-06-22
+RTL-003,ECC 2-9 Backup and Recovery Management,Not compliant,2026-06-22
+RTL-003,ECC 2-10 Vulnerabilities Management,Partially compliant,2026-06-22
+RTL-003,ECC 2-11 Penetration Testing,Not compliant,2026-06-22
+RTL-003,ECC 2-12 Cybersecurity Event Logs and Monitoring Management,Compliant,2026-06-22
+RTL-003,ECC 2-13 Cybersecurity Incident and Threat Management,Compliant,2026-06-22
+RTL-003,ECC 2-14 Physical Security,Compliant,2026-06-22
+RTL-003,ECC 2-15 Web Application Security,Not compliant,2026-06-22
+RTL-003,ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management,Partially compliant,2026-06-22
+RTL-003,ECC 4-1 Third-Party Cybersecurity,Compliant,2026-06-22
+RTL-003,ECC 4-2 Cloud Computing and Hosting Cybersecurity,Partially compliant,2026-06-22
+RTL-003,ECC 5-1 Industrial Control Systems Protection,Not applicable,2026-06-22

@@ -1,5 +1,5 @@
 {
- "_about": "Catalogs for the vulnerability-finding and threat-intelligence data sources and the training program catalog. Each finding or threat type maps to the SCyWF tasks most needed to address it ('primary', weight 1.0; 'supporting', weight 0.5). Each program lists the SCyWF tasks it teaches; a program's priority for an entity is the share of that entity's task gap it covers. 'category' and 'focus' are descriptive labels only and are not used in scoring.",
+ "_about": "Catalogs for the vulnerability-finding and ECC-compliance data sources and the training program catalog. Each title maps to the SCyWF tasks that, done well, would have prevented it: 'primary' (weight 1.0) prevents it directly, 'supporting' (0.5) helps prevent it. ECC titles follow the NCA ECC-1:2018 subdomain structure. Each program lists the SCyWF tasks it teaches. 'category' and 'focus' are descriptive labels only.",
  "vulnerability_findings": [
   {
    "title": "Missing critical OS security update",
@@ -10,9 +10,13 @@
    ],
    "primary": [
     "T4002",
+    "T4004",
     "T4030"
    ],
-   "supporting": []
+   "supporting": [
+    "T0059",
+    "T4023"
+   ]
   },
   {
    "title": "Outdated web server version",
@@ -23,9 +27,13 @@
    ],
    "primary": [
     "T4002",
-    "T4004"
+    "T4004",
+    "T4030"
    ],
-   "supporting": []
+   "supporting": [
+    "T0059",
+    "T1104"
+   ]
   },
   {
    "title": "End-of-life software detected",
@@ -38,7 +46,10 @@
     "T1104",
     "T0136"
    ],
-   "supporting": []
+   "supporting": [
+    "T0059",
+    "T1531"
+   ]
   },
   {
    "title": "Unpatched VPN / edge appliance",
@@ -49,9 +60,13 @@
    ],
    "primary": [
     "T4002",
+    "T4030",
     "T0147"
    ],
-   "supporting": []
+   "supporting": [
+    "T0059",
+    "T4507"
+   ]
   },
   {
    "title": "SQL injection (CWE-89)",
@@ -61,10 +76,15 @@
     9.8
    ],
    "primary": [
+    "T1023",
+    "T1005",
     "T4517",
-    "T1023"
+    "T0035"
    ],
-   "supporting": []
+   "supporting": [
+    "T1105",
+    "T1031"
+   ]
   },
   {
    "title": "Cross-site scripting (CWE-79)",
@@ -75,9 +95,13 @@
    ],
    "primary": [
     "T1023",
-    "T1005"
+    "T1005",
+    "T4517"
    ],
-   "supporting": []
+   "supporting": [
+    "T1105",
+    "T0035"
+   ]
   },
   {
    "title": "Broken access control in API (CWE-284)",
@@ -88,9 +112,13 @@
    ],
    "primary": [
     "T1043",
-    "T4015"
+    "T4015",
+    "T1116"
    ],
-   "supporting": []
+   "supporting": [
+    "T4517",
+    "T1109"
+   ]
   },
   {
    "title": "Hard-coded credentials in code (CWE-798)",
@@ -101,9 +129,12 @@
    ],
    "primary": [
     "T1031",
-    "T1005"
+    "T1005",
+    "T1052"
    ],
-   "supporting": []
+   "supporting": [
+    "T1105"
+   ]
   },
   {
    "title": "MFA not enforced on admin portal",
@@ -114,9 +145,13 @@
    ],
    "primary": [
     "T4016",
-    "T4019"
+    "T4019",
+    "T4036"
    ],
-   "supporting": []
+   "supporting": [
+    "T4018",
+    "T4017"
+   ]
   },
   {
    "title": "Dormant privileged accounts",
@@ -126,10 +161,13 @@
     7.5
    ],
    "primary": [
+    "T4025",
     "T4026",
-    "T4025"
+    "T4018"
    ],
-   "supporting": []
+   "supporting": [
+    "T0100"
+   ]
   },
   {
    "title": "Default credentials on network device",
@@ -140,9 +178,12 @@
    ],
    "primary": [
     "T4025",
+    "T0507",
     "T2516"
    ],
-   "supporting": []
+   "supporting": [
+    "T4507"
+   ]
   },
   {
    "title": "Publicly accessible cloud storage bucket",
@@ -153,9 +194,13 @@
    ],
    "primary": [
     "T0533",
-    "T0505"
+    "T0542",
+    "T2516"
    ],
-   "supporting": []
+   "supporting": [
+    "T0505",
+    "T0504"
+   ]
   },
   {
    "title": "Over-permissive cloud IAM role",
@@ -166,9 +211,13 @@
    ],
    "primary": [
     "T0533",
-    "T4018"
+    "T4018",
+    "T4035"
    ],
-   "supporting": []
+   "supporting": [
+    "T0542",
+    "T0100"
+   ]
   },
   {
    "title": "RDP/SSH exposed to the internet",
@@ -179,9 +228,13 @@
    ],
    "primary": [
     "T4035",
-    "T3508"
+    "T3508",
+    "T4027"
    ],
-   "supporting": []
+   "supporting": [
+    "T0058",
+    "T4503"
+   ]
   },
   {
    "title": "SMBv1 / legacy protocol enabled",
@@ -192,9 +245,12 @@
    ],
    "primary": [
     "T0507",
+    "T0536",
     "T2516"
    ],
-   "supporting": []
+   "supporting": [
+    "T4507"
+   ]
   },
   {
    "title": "Any-any firewall rule",
@@ -205,9 +261,13 @@
    ],
    "primary": [
     "T4035",
+    "T3508",
     "T0058"
    ],
-   "supporting": []
+   "supporting": [
+    "T2516",
+    "T4503"
+   ]
   },
   {
    "title": "Weak TLS configuration / expired certificate",
@@ -218,9 +278,12 @@
    ],
    "primary": [
     "T0091",
-    "T4034"
+    "T4034",
+    "T2516"
    ],
-   "supporting": []
+   "supporting": [
+    "T4507"
+   ]
   },
   {
    "title": "Unencrypted sensitive data at rest",
@@ -231,9 +294,12 @@
    ],
    "primary": [
     "T4034",
-    "T3050"
+    "T4011"
    ],
-   "supporting": []
+   "supporting": [
+    "T3050",
+    "T0091"
+   ]
   },
   {
    "title": "Endpoint without EDR agent",
@@ -244,9 +310,12 @@
    ],
    "primary": [
     "T3500",
-    "T0133"
+    "T4011"
    ],
-   "supporting": []
+   "supporting": [
+    "T0057",
+    "T0133"
+   ]
   },
   {
    "title": "Logging disabled on critical server",
@@ -256,10 +325,13 @@
     6.5
    ],
    "primary": [
+    "T0133",
     "T5045",
-    "T0133"
+    "T0507"
    ],
-   "supporting": []
+   "supporting": [
+    "T3500"
+   ]
   },
   {
    "title": "Missing email authentication (SPF/DKIM/DMARC)",
@@ -270,9 +342,12 @@
    ],
    "primary": [
     "T0005",
-    "T0013"
+    "T0507"
    ],
-   "supporting": []
+   "supporting": [
+    "T0013",
+    "T2516"
+   ]
   },
   {
    "title": "Removable media autorun enabled",
@@ -283,9 +358,11 @@
    ],
    "primary": [
     "T4024",
-    "T0005"
+    "T0507"
    ],
-   "supporting": []
+   "supporting": [
+    "T0005"
+   ]
   },
   {
    "title": "PLC/HMI with default password",
@@ -298,7 +375,10 @@
     "T6007",
     "T6008"
    ],
-   "supporting": []
+   "supporting": [
+    "T6019",
+    "T6016"
+   ]
   },
   {
    "title": "Unsegmented IT-OT network path",
@@ -309,9 +389,12 @@
    ],
    "primary": [
     "T6001",
-    "T6003"
+    "T6003",
+    "T0058"
    ],
-   "supporting": []
+   "supporting": [
+    "T6005"
+   ]
   },
   {
    "title": "Outdated HMI/SCADA firmware",
@@ -322,9 +405,12 @@
    ],
    "primary": [
     "T6008",
-    "T6012"
+    "T4002",
+    "T6016"
    ],
-   "supporting": []
+   "supporting": [
+    "T6009"
+   ]
   },
   {
    "title": "Vendor remote access without MFA",
@@ -334,228 +420,14 @@
     8.8
    ],
    "primary": [
-    "T2513",
-    "T4016"
+    "T4016",
+    "T4027",
+    "T2513"
    ],
-   "supporting": []
-  },
-  {
-   "title": "Missing evidence for NCA ECC control",
-   "category": "Governance & Compliance",
-   "cvss": [
-    3.0,
-    6.0
-   ],
-   "primary": [
-    "T2542",
-    "T0060"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "No tested backup restore for critical system",
-   "category": "Incident Response Readiness",
-   "cvss": [
-    5.0,
-    7.5
-   ],
-   "primary": [
-    "T4010",
-    "T1017"
-   ],
-   "supporting": []
-  }
- ],
- "threats": [
-  {
-   "title": "Phishing campaign targeting the sector",
-   "category": "Social Engineering",
-   "level": "High",
-   "primary": [
-    "T2070",
-    "T2076"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Business email compromise campaign",
-   "category": "Social Engineering",
-   "level": "High",
-   "primary": [
-    "T2074",
-    "T1520"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Ransomware group actively targeting the sector",
-   "category": "Malware & Ransomware",
-   "level": "Critical",
-   "primary": [
-    "T4010",
-    "T5504"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Info-stealer malware campaign",
-   "category": "Malware & Ransomware",
-   "level": "Medium",
-   "primary": [
-    "T0157",
-    "T5016"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Mass exploitation of edge-device vulnerability",
-   "category": "Patch & Vulnerability Management",
-   "level": "Critical",
-   "primary": [
-    "T4002",
-    "T4030"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Exploited web application injection campaign",
-   "category": "Application Security",
-   "level": "High",
-   "primary": [
-    "T4517",
-    "T1023"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Leaked credentials on dark-web markets",
-   "category": "Identity & Access",
-   "level": "High",
-   "primary": [
-    "T4019",
-    "T4016"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Cloud misconfiguration exploitation trend",
-   "category": "Cloud Security",
-   "level": "Medium",
-   "primary": [
-    "T0533",
-    "T0542"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Hacktivist DDoS campaign",
-   "category": "Network Security",
-   "level": "High",
-   "primary": [
-    "T0539",
-    "T4009"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Website defacement campaign",
-   "category": "Network Security",
-   "level": "Medium",
-   "primary": [
-    "T5003",
-    "T0054"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Log-tampering and detection-evasion techniques trending",
-   "category": "Detection & Monitoring",
-   "level": "Medium",
-   "primary": [
-    "T5045",
-    "T0133"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "APT espionage activity targeting the sector",
-   "category": "Threat Intelligence",
-   "level": "Critical",
-   "primary": [
-    "T5519",
-    "T5525"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Zero-day in widely used software",
-   "category": "Threat Intelligence",
-   "level": "High",
-   "primary": [
-    "T5505",
-    "T1033"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Data-leak extortion group activity",
-   "category": "Data Protection",
-   "level": "High",
-   "primary": [
-    "T3051",
-    "T2522"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Insider threat advisory for privileged staff",
-   "category": "Data Protection",
-   "level": "Medium",
-   "primary": [
-    "T0055",
-    "T0100"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Supply-chain compromise of a common vendor",
-   "category": "Third-Party & Supply Chain",
-   "level": "High",
-   "primary": [
-    "T2513",
-    "T1545"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Regulatory control update requiring new evidence",
-   "category": "Governance & Compliance",
-   "level": "Low",
-   "primary": [
-    "T2524",
-    "T2542"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "Regional incident prompting IR readiness advisory",
-   "category": "Incident Response Readiness",
-   "level": "Medium",
-   "primary": [
-    "T0106",
-    "T2011"
-   ],
-   "supporting": []
-  },
-  {
-   "title": "ICS-targeting malware advisory",
-   "category": "ICS/OT Security",
-   "level": "Critical",
-   "primary": [
-    "T6015",
-    "T6007"
-   ],
-   "supporting": []
+   "supporting": [
+    "T3042",
+    "T0019"
+   ]
   }
  ],
  "programs": [
@@ -573,21 +445,16 @@
     "T2070",
     "T2071",
     "T2074",
-    "T1520",
-    "T0027",
-    "T0151",
+    "T4016",
     "T2076",
-    "T0144",
-    "T5005",
+    "T2004",
+    "T0011",
     "T0005",
-    "T0013",
-    "T0055",
-    "T3051",
-    "T2522",
-    "T4034",
-    "T0091",
-    "T3050",
-    "T0100"
+    "T0507",
+    "T1516",
+    "T1520",
+    "T2073",
+    "T3500"
    ],
    "focus": [
     "Social Engineering"
@@ -605,19 +472,13 @@
     "PD-P-003"
    ],
    "tasks": [
-    "T4010",
-    "T0106",
+    "T4002",
+    "T3500",
+    "T0058",
     "T1017",
-    "T1112",
-    "T0157",
-    "T0070",
-    "T5016",
     "T4024",
-    "T5026",
-    "T2004",
-    "T0005",
-    "T5504",
-    "T2011"
+    "T0507",
+    "T4011"
    ],
    "focus": [
     "Malware & Ransomware"
@@ -636,26 +497,18 @@
    "tasks": [
     "T4002",
     "T4030",
-    "T4004",
-    "T0059",
     "T4507",
-    "T1127",
+    "T0059",
     "T1104",
-    "T4023",
     "T0136",
-    "T2534",
     "T0507",
     "T0536",
     "T2516",
-    "T0079",
+    "T4004",
     "T0147",
-    "T4035",
-    "T3508",
-    "T0539",
-    "T4009",
-    "T5003",
-    "T0058",
-    "T0054"
+    "T4500",
+    "T4517",
+    "T4505"
    ],
    "focus": [
     "Patch & Vulnerability Management"
@@ -672,24 +525,17 @@
     "CARD-CRD-003"
    ],
    "tasks": [
-    "T4517",
     "T1023",
     "T1005",
+    "T4517",
+    "T1031",
     "T0035",
-    "T1029",
-    "T1105",
     "T1043",
     "T4015",
-    "T1109",
     "T1116",
-    "T1031",
     "T1052",
-    "T1006",
-    "T0533",
-    "T0542",
-    "T0543",
-    "T0505",
-    "T4018"
+    "T1531",
+    "T0039"
    ],
    "focus": [
     "Application Security"
@@ -707,24 +553,16 @@
    "tasks": [
     "T4016",
     "T4019",
-    "T0147",
     "T4027",
-    "T4017",
     "T4025",
     "T2516",
     "T0507",
-    "T4507",
-    "T4018",
     "T4026",
     "T4036",
     "T0100",
     "T4035",
-    "T0142",
-    "T2004",
-    "T0533",
-    "T0542",
-    "T0543",
-    "T0505"
+    "T4018",
+    "T4017"
    ],
    "focus": [
     "Identity & Access"
@@ -743,25 +581,13 @@
    "tasks": [
     "T0533",
     "T0542",
-    "T0505",
-    "T0504",
     "T2516",
-    "T3051",
     "T0543",
     "T0507",
-    "T4005",
     "T4018",
-    "T4517",
-    "T1023",
-    "T1043",
-    "T4015",
-    "T1031",
-    "T1005",
-    "T4016",
-    "T4019",
-    "T4025",
-    "T4026",
-    "T4036"
+    "T4035",
+    "T0503",
+    "T0532"
    ],
    "focus": [
     "Cloud Security"
@@ -781,24 +607,16 @@
     "T4035",
     "T3508",
     "T0058",
-    "T2516",
-    "T4503",
-    "T1119",
-    "T0539",
-    "T4009",
-    "T4031",
-    "T0062",
-    "T0067",
+    "T3500",
     "T1057",
-    "T5003",
-    "T0054",
+    "T0539",
     "T4002",
-    "T0143",
+    "T4517",
+    "T4025",
+    "T4027",
     "T0507",
-    "T0133",
-    "T5045",
-    "T0057",
-    "T3500"
+    "T0536",
+    "T2516"
    ],
    "focus": [
     "Network Security"
@@ -819,25 +637,13 @@
     "T5045",
     "T3500",
     "T0054",
-    "T0009",
-    "T0055",
     "T0057",
-    "T0071",
     "T4503",
+    "T0071",
+    "T4011",
+    "T0507",
     "T0518",
-    "T4010",
-    "T0106",
-    "T4024",
-    "T0005",
-    "T5504",
-    "T0157",
-    "T5016",
-    "T5519",
-    "T5065",
-    "T5505",
-    "T5539",
-    "T5525",
-    "T1033"
+    "T0055"
    ],
    "focus": [
     "Detection & Monitoring"
@@ -854,20 +660,12 @@
     "PD-TM-002"
    ],
    "tasks": [
-    "T5519",
-    "T5065",
-    "T5525",
-    "T5058",
     "T0058",
-    "T5517",
-    "T5505",
-    "T5539",
-    "T1033",
-    "T0101",
+    "T4026",
+    "T5519",
     "T0133",
-    "T5045",
-    "T0057",
-    "T3500"
+    "T5505",
+    "T1033"
    ],
    "focus": [
     "Threat Intelligence"
@@ -884,24 +682,18 @@
     "GRCL-LDP-001"
    ],
    "tasks": [
-    "T0055",
-    "T3051",
     "T0100",
-    "T5005",
-    "T0067",
-    "T5043",
-    "T2522",
+    "T0055",
+    "T4035",
     "T3050",
-    "T3033",
-    "T2067",
+    "T2522",
+    "T3051",
     "T4034",
     "T4011",
     "T0091",
-    "T4015",
-    "T2542",
-    "T2543",
-    "T0060",
-    "T2524"
+    "T2516",
+    "T0011",
+    "T3037"
    ],
    "focus": [
     "Data Protection"
@@ -921,14 +713,9 @@
     "T2513",
     "T1545",
     "T3042",
-    "T1539",
-    "T1511",
     "T0019",
     "T4016",
-    "T2542",
-    "T2543",
-    "T0060",
-    "T2524"
+    "T4027"
    ],
    "focus": [
     "Third-Party & Supply Chain"
@@ -950,12 +737,27 @@
     "T2543",
     "T2525",
     "T0063",
-    "T2523",
-    "T0060",
-    "T2524",
-    "T2513",
-    "T1545",
-    "T4016"
+    "T2003",
+    "T0095",
+    "T1535",
+    "T1524",
+    "T1550",
+    "T2008",
+    "T0011",
+    "T1525",
+    "T2510",
+    "T2059",
+    "T2025",
+    "T0128",
+    "T0105",
+    "T0146",
+    "T3001",
+    "T0161",
+    "T0041",
+    "T2026",
+    "T4025",
+    "T4516",
+    "T4027"
    ],
    "focus": [
     "Governance & Compliance"
@@ -976,19 +778,13 @@
     "T0106",
     "T5504",
     "T2011",
-    "T5057",
-    "T0087",
-    "T0047",
-    "T4010",
     "T1017",
-    "T4024",
-    "T0005",
-    "T0157",
-    "T5016",
-    "T0133",
-    "T5045",
-    "T0057",
-    "T3500"
+    "T1112",
+    "T4010",
+    "T5505",
+    "T0027",
+    "T2060",
+    "T1506"
    ],
    "focus": [
     "Incident Response Readiness"
@@ -1008,25 +804,12 @@
    "tasks": [
     "T6007",
     "T6008",
-    "T6005",
     "T6016",
     "T6001",
     "T6003",
     "T0058",
-    "T6019",
-    "T6015",
-    "T6014",
-    "T6020",
-    "T0157",
-    "T6012",
-    "T4035",
-    "T3508",
-    "T0539",
-    "T4009",
-    "T5003",
-    "T0507",
-    "T2516",
-    "T0054"
+    "T4024",
+    "T4002"
    ],
    "focus": [
     "ICS/OT Security"
@@ -1043,27 +826,392 @@
     "LWD-L-002"
    ],
    "tasks": [
-    "T2542",
-    "T2543",
-    "T0060",
-    "T2524",
-    "T0106",
-    "T5504",
-    "T4010",
-    "T1017",
-    "T2011",
-    "T2070",
-    "T2071",
-    "T2074",
-    "T0005",
-    "T0013",
-    "T2076",
-    "T1520"
+    "T2003",
+    "T0095",
+    "T1535",
+    "T1524",
+    "T2008",
+    "T1522",
+    "T1537",
+    "T1538",
+    "T0128",
+    "T2060"
    ],
    "focus": [
     "Governance & Compliance",
     "Incident Response Readiness",
     "Social Engineering"
+   ]
+  }
+ ],
+ "ecc_controls": [
+  {
+   "title": "ECC 1-1 Cybersecurity Strategy",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T2003",
+    "T0095",
+    "T1535"
+   ],
+   "supporting": [
+    "T1529"
+   ]
+  },
+  {
+   "title": "ECC 1-2 Cybersecurity Management",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T1524",
+    "T1550",
+    "T2008"
+   ],
+   "supporting": [
+    "T1522"
+   ]
+  },
+  {
+   "title": "ECC 1-3 Cybersecurity Policies and Procedures",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T0011",
+    "T1525",
+    "T2510"
+   ],
+   "supporting": [
+    "T0108",
+    "T0085"
+   ]
+  },
+  {
+   "title": "ECC 1-4 Cybersecurity Roles and Responsibilities",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T1550",
+    "T2059",
+    "T2025"
+   ],
+   "supporting": [
+    "T2032"
+   ]
+  },
+  {
+   "title": "ECC 1-5 Cybersecurity Risk Management",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T0128",
+    "T0105",
+    "T0146"
+   ],
+   "supporting": [
+    "T2528",
+    "T0012"
+   ]
+  },
+  {
+   "title": "ECC 1-6 Cybersecurity in Information Technology Projects",
+   "category": "Application Security",
+   "primary": [
+    "T1031",
+    "T1531",
+    "T0039"
+   ],
+   "supporting": [
+    "T2511",
+    "T1040"
+   ]
+  },
+  {
+   "title": "ECC 1-7 Compliance with Cybersecurity Standards, Laws and Regulations",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T2542",
+    "T2543",
+    "T0063",
+    "T3001"
+   ],
+   "supporting": [
+    "T2524",
+    "T2523"
+   ]
+  },
+  {
+   "title": "ECC 1-8 Periodical Cybersecurity Review and Audit",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T2525",
+    "T0161",
+    "T0041"
+   ],
+   "supporting": [
+    "T2515",
+    "T0160"
+   ]
+  },
+  {
+   "title": "ECC 1-9 Cybersecurity in Human Resources",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T2026",
+    "T4025",
+    "T0011"
+   ],
+   "supporting": [
+    "T1520"
+   ]
+  },
+  {
+   "title": "ECC 1-10 Cybersecurity Awareness and Training Program",
+   "category": "Social Engineering",
+   "primary": [
+    "T1516",
+    "T1520",
+    "T2073",
+    "T2004"
+   ],
+   "supporting": [
+    "T2072",
+    "T2070"
+   ]
+  },
+  {
+   "title": "ECC 2-1 Asset Management",
+   "category": "Detection & Monitoring",
+   "primary": [
+    "T0057",
+    "T0518",
+    "T4503"
+   ],
+   "supporting": [
+    "T1531"
+   ]
+  },
+  {
+   "title": "ECC 2-2 Identity and Access Management",
+   "category": "Identity & Access",
+   "primary": [
+    "T4016",
+    "T4017",
+    "T4018",
+    "T4019"
+   ],
+   "supporting": [
+    "T4025",
+    "T0100"
+   ]
+  },
+  {
+   "title": "ECC 2-3 Information System and Processing Facilities Protection",
+   "category": "Malware & Ransomware",
+   "primary": [
+    "T3500",
+    "T4002",
+    "T0507",
+    "T4011"
+   ],
+   "supporting": [
+    "T4024"
+   ]
+  },
+  {
+   "title": "ECC 2-4 Email Protection",
+   "category": "Social Engineering",
+   "primary": [
+    "T0005",
+    "T3500",
+    "T2070"
+   ],
+   "supporting": [
+    "T0507"
+   ]
+  },
+  {
+   "title": "ECC 2-5 Networks Security Management",
+   "category": "Network Security",
+   "primary": [
+    "T4035",
+    "T3508",
+    "T0058"
+   ],
+   "supporting": [
+    "T4503",
+    "T1119"
+   ]
+  },
+  {
+   "title": "ECC 2-6 Mobile Devices Security",
+   "category": "Data Protection",
+   "primary": [
+    "T4011",
+    "T4034",
+    "T0011"
+   ],
+   "supporting": [
+    "T4024"
+   ]
+  },
+  {
+   "title": "ECC 2-7 Data and Information Protection",
+   "category": "Data Protection",
+   "primary": [
+    "T3050",
+    "T3037",
+    "T4034"
+   ],
+   "supporting": [
+    "T3026"
+   ]
+  },
+  {
+   "title": "ECC 2-8 Cryptography",
+   "category": "Data Protection",
+   "primary": [
+    "T4034",
+    "T0091"
+   ],
+   "supporting": [
+    "T0011"
+   ]
+  },
+  {
+   "title": "ECC 2-9 Backup and Recovery Management",
+   "category": "Incident Response Readiness",
+   "primary": [
+    "T1017",
+    "T1112",
+    "T4010"
+   ],
+   "supporting": [
+    "T4031"
+   ]
+  },
+  {
+   "title": "ECC 2-10 Vulnerabilities Management",
+   "category": "Patch & Vulnerability Management",
+   "primary": [
+    "T4507",
+    "T0059",
+    "T4002",
+    "T0136"
+   ],
+   "supporting": [
+    "T4030"
+   ]
+  },
+  {
+   "title": "ECC 2-11 Penetration Testing",
+   "category": "Patch & Vulnerability Management",
+   "primary": [
+    "T4500",
+    "T4517",
+    "T4505"
+   ],
+   "supporting": [
+    "T4508"
+   ]
+  },
+  {
+   "title": "ECC 2-12 Cybersecurity Event Logs and Monitoring Management",
+   "category": "Detection & Monitoring",
+   "primary": [
+    "T0133",
+    "T5045",
+    "T3500",
+    "T0055"
+   ],
+   "supporting": [
+    "T3502"
+   ]
+  },
+  {
+   "title": "ECC 2-13 Cybersecurity Incident and Threat Management",
+   "category": "Incident Response Readiness",
+   "primary": [
+    "T0106",
+    "T5504",
+    "T5505",
+    "T0027"
+   ],
+   "supporting": [
+    "T2522",
+    "T0047"
+   ]
+  },
+  {
+   "title": "ECC 2-14 Physical Security",
+   "category": "Governance & Compliance",
+   "primary": [
+    "T4516",
+    "T4027"
+   ],
+   "supporting": [
+    "T0011"
+   ]
+  },
+  {
+   "title": "ECC 2-15 Web Application Security",
+   "category": "Application Security",
+   "primary": [
+    "T4517",
+    "T1023",
+    "T4015"
+   ],
+   "supporting": [
+    "T1005",
+    "T1105"
+   ]
+  },
+  {
+   "title": "ECC 3-1 Cybersecurity Resilience Aspects of Business Continuity Management",
+   "category": "Incident Response Readiness",
+   "primary": [
+    "T2060",
+    "T1506",
+    "T4010"
+   ],
+   "supporting": [
+    "T0112",
+    "T4031"
+   ]
+  },
+  {
+   "title": "ECC 4-1 Third-Party Cybersecurity",
+   "category": "Third-Party & Supply Chain",
+   "primary": [
+    "T2513",
+    "T1545",
+    "T0019",
+    "T3042"
+   ],
+   "supporting": [
+    "T3057",
+    "T1539"
+   ]
+  },
+  {
+   "title": "ECC 4-2 Cloud Computing and Hosting Cybersecurity",
+   "category": "Cloud Security",
+   "primary": [
+    "T0503",
+    "T0533",
+    "T0532"
+   ],
+   "supporting": [
+    "T0542",
+    "T0505"
+   ]
+  },
+  {
+   "title": "ECC 5-1 Industrial Control Systems Protection",
+   "category": "ICS/OT Security",
+   "primary": [
+    "T6007",
+    "T6008",
+    "T6016",
+    "T6001"
+   ],
+   "supporting": [
+    "T6019",
+    "T6003"
    ]
   }
  ]
