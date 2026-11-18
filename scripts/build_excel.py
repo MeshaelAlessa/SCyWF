@@ -495,7 +495,7 @@ def main():
         ("Overview: pick an entity, a sector or All. Details: every task, program and specialty area ranked. Weights, Task Map, Programs: inputs (yellow tabs).", f_base),
         ("Incidents, Vulnerabilities, Compliance, Entities: data. SCyWF Tasks: framework reference.", f_base), ("", None),
         ("Adding data: paste rows under the existing ones on a data sheet and copy the grey columns down. Every title must be on the Task Map.", f_base),
-        ("Source: SCyWF 1.5 : 2026 (NCA), tasks and job roles extracted by OCR. ECC titles follow the NCA ECC-1:2018 subdomains. "
+        ("Source: SCyWF 1.5 : 2026 (NCA), tasks and job roles extracted by OCR. ECC titles are the 28 subdomains of NCA ECC-2:2024. "
          "Task mapping, weights and programs are proposals for review. Entities and records are fictional.", f_note),
     ]
     for i, (txt, fnt) in enumerate(lines):

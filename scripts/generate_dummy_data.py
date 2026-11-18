@@ -165,16 +165,13 @@ def main():
                 "finding_id": "", "entity_code": e["entity_code"], "finding_title": f["title"],
                 "severity": severity, "detected_date": d.isoformat(),
             })
-        # ECC compliance assessment: one result per ECC subdomain; ICS (5-1) applies only to OT-heavy sectors
+        # ECC-2:2024 compliance assessment: one result per subdomain (28)
         mix = {"Initial": [40, 40, 20], "Developing": [25, 40, 35], "Defined": [15, 30, 55], "Managed": [5, 20, 75]}[e["maturity_level"]]
         d = start + timedelta(days=crng.randint(400, span))
         for ctl in catalog["ecc_controls"]:
-            if ctl["category"] == "ICS/OT Security" and e["sector"] not in ("Energy", "Water & Utilities", "Transport"):
-                status = "Not applicable"
-            else:
-                weak = profile.get(ctl["category"], 1.0) > 1.5  # sector weak spots are more often non-compliant
-                status = weighted_choice(crng, ["Not compliant", "Partially compliant", "Compliant"],
-                                         [mix[0] * (1.6 if weak else 1), mix[1], mix[2]])
+            weak = profile.get(ctl["category"], 1.0) > 1.5  # sector weak spots are more often non-compliant
+            status = weighted_choice(crng, ["Not compliant", "Partially compliant", "Compliant"],
+                                     [mix[0] * (1.6 if weak else 1), mix[1], mix[2]])
             ecc_rows.append({"entity_code": e["entity_code"], "ecc_control": ctl["title"],
                              "compliance_status": status, "assessment_date": d.isoformat()})
     vuln_rows.sort(key=lambda r: (r["detected_date"], r["entity_code"]))

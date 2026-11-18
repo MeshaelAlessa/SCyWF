@@ -1,5 +1,5 @@
 {
- "_about": "Catalogs for the vulnerability-finding and ECC-compliance data sources and the training program catalog. Each title maps to the SCyWF tasks that, done well, would have prevented it: 'primary' (weight 1.0) prevents it directly, 'supporting' (0.5) helps prevent it. ECC titles follow the NCA ECC-1:2018 subdomain structure. Each program lists the SCyWF tasks it teaches. 'category' and 'focus' are descriptive labels only.",
+ "_about": "Catalogs for the vulnerability-finding and ECC-compliance data sources and the training program catalog. Each title maps to the SCyWF tasks that, done well, would have prevented it: 'primary' (weight 1.0) prevents it directly, 'supporting' (0.5) helps prevent it. ECC titles follow the NCA ECC-2:2024 subdomains (28). Each program lists the SCyWF tasks it teaches. 'category' and 'focus' are descriptive labels only.",
  "vulnerability_findings": [
   {
    "title": "Missing critical OS security update",
@@ -908,7 +908,7 @@
    ]
   },
   {
-   "title": "ECC 1-6 Cybersecurity in Information Technology Projects",
+   "title": "ECC 1-6 Cybersecurity in Information and Technology Project Management",
    "category": "Application Security",
    "primary": [
     "T1031",
@@ -1198,20 +1198,6 @@
    "supporting": [
     "T0542",
     "T0505"
-   ]
-  },
-  {
-   "title": "ECC 5-1 Industrial Control Systems Protection",
-   "category": "ICS/OT Security",
-   "primary": [
-    "T6007",
-    "T6008",
-    "T6016",
-    "T6001"
-   ],
-   "supporting": [
-    "T6019",
-    "T6003"
    ]
   }
  ]
